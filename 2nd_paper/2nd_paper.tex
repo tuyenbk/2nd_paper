@@ -1,0 +1,264 @@
+\documentclass[Journal, InsideFigs]{ascelike}
+
+%\usepackage{endfloat}
+
+%include package for inserting picture
+\usepackage{graphicx}%insert image
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+\graphicspath{{images/}}%folder contains images
+%include package for inserting multiple pictures
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usepackage{array}%for table with fixed width
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+% 
+\title{Automated generation of highway model view using NLP}
+%
+\author{
+Tuyen Le
+\thanks{
+Ph.D. Student, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA50011. E-mail: ttle@iastate.edu.},
+\and
+David Jeong%
+\thanks{Associate Professor, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA 50011. E-mail: djeong@iastate.edu.}
+ }
+ 
+%aa
+\maketitle
+%
+\begin{abstract} %150-175 words (as required by ASCE)
+Open data standards (e.g. LandXML, TransXML) have been widely recognized as the solution to the interoperability issue in exchanging digital data in the transportation sector. Since these schemas structure rich sets of data containers covering a wide range of fields and phases, model view definitions (MVD) which define subsets of schema in accordance with the exchange requirements for specific scenarios are required. The process of MVD development is time consuming as the developer has to manually search for the entities and attributes names that semantically match to the data exchange requirements. This paper presents a framework that can automatize the process of mapping data labels based on their semantic similarity. The framework employs an unsupervised machine learning to learn the semantic relatedness between technical concepts from an unlabeled highway related corpora as the input data. The input corpus includes 10 million words mainly collected from roadway design guidelines across U.S. States, NewZealand and Australia. The model will be tested and evaluated by comparing the mapping results performed by computer and experts.   
+ 
+\end{abstract}
+%
+\KeyWords{Ontology, NLP, model view, interoperability, data exchange, highway}
+%
+%\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%good terms and phrases:
+
+%adj: nonhierarchical, superior, well-defined; foreseeable; rigid, flexible, empirical 
+
+%sentence strucutre:  this is evidenced by the accelerating emergence of ...; 
+
+%noun: challenges, barrier, hinders, obstacles, impediment; that approximate concepts; extraction=deduction=acquisition; broad spectrum; overtake these technical and economic challenges; bottleneck; data crreation and utilization; in the midst of planning; interpretation; 
+
+%verb: emcombass; tackle, foster, amplified; simplified; detect; aggregate; 
+
+%sentence template: tailored with respect to their context; includes three phases, namely AA, BB and CC; at such places as parks, fairgounds or town spuares; case-specific developments; area of interests; incrementally built; inexpensive and easy-to-use testing device; time and cost-efficient way; research community; one of..since then is the; RDF structure..to make assertion about a resource; syntax-centered NLP;  such as A, B, etc.; ..is in it's reliance upon the presence..which is..; with the objectives of disambiguation; has triggered a mounting awareness; to be the main impediment to the progess; ..start point for deducing other truth; lastly; there is a large body of research on; see e.g. [2], [14] and [32]; the former, the latter; rigorously formalized; backbone strucutre of st; was opted to; Sections 4.5 and 4.6; (e.g., Neo4J, OrientDB, Titan); forthcoming year; well-designed process; is subject to do st; in turn means that; discussion by academics and professionals; some insights on planning, management, and control; strategic framework; in-depth project performance; in lieu of; 
+
+%term': empirical work; linguistic unit/term; 
+
+%axiomatic richness, formality of representation,  
+
+%the following expression denotes, is presented/defined as follows, this/below example shows, the snippet below presents, the following is the short description of the rule, an OWL ontology describing an ifcwindow class, these concepts and relationships can be encoded in the following RDF/XML fragment, is written in Turtle syntax/format:
+%The tool is meant to assess, 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Introduction}%900 words
+
+%research background
+%Topic introduction, territory: centrality--> genearal background information 
+Neutral data standards have been widely accepted as the solution to the interoperability issue in the construction industry. Several open standards have been proposed, ranging from solely relying on syntactics using Express Modeling Language such as Industry Foundation Classes (IFC) \cite{buildingsmart} or LandXML \cite{landxmlorg} to semantics-rich ontologies such as e-COGNOS \cite{Lima05}. These standardized data models consist of rich sets of data elements covering various business processes and disciplines. However, since a specific data exchange scenario needs only a subset of data, hence neutral data standards alone are insufficient to facilitate seamless digital data exchange among project stakeholders \cite{Froese03,east12}. As querying data on those data schemas which are large and complicated the end user is required to have considerable programming skills and properly understand the structure and the meaning of each entity or attribute included in the source data schem. Data driven decision making based on a wrong extracted dataset would likey lead to a wrong decision. Therefore, there is a need for the formal definitions of schema subsets dermining the right data for specific transactions. The availability of these model views will underpin the extraction of data from complicated sets of data generated from the AEC industry. 
+\par
+%Identify the niche: overall to one aspect to be addressed--> limitation in current state -->highlight the problem, raise general questions, propose general hypotheses --> emphasize the need (justify the need to address)
+To address the above demand, a considerable amount of research efforts has been made in both the building and transportation sectorss with the same ambition to define subsets of data for various business processes. One of these efforts is the Construction to Operation Building Information Exchange (Cobie) project \cite{east07} which is now becomes a part of a variety of national standards and guidlines for projects using Building Information Modeling (BIM), for instance UK COBie 2.4 \cite{nisbet12}, National BIM Standard-United States Version 3 (NBIMS-US) \cite{nibs15}, GSA-BIM Guide \cite{gsa11}. This research identified IFC data elements that are generated in the design and construction phases required to be transferred to the asset management phase. The civil sector also is going on this trend with several model views of the Landxml shema has been being defined. The examples of these include the InfraModel project carried by the Technical Research Center of Finland aims to specify subsets of LandXML schema for several transportation projects and this specification has become the Finish national application specification \cite{inframodel14}. Even though a considerable number of research have been made, but these are still limited to a large demand from the industry. This is because the current method for developing model view definition is based on a manual basic which is time consuming \cite{venugopal12,eastman12,hu14}. The business processes are dynamic and tend to change over time. To adapt to the changes from industry practices, these model view are required to be tailored. Therefore, there is a need to change the current practice of model view definition from the ad-hoc approach to a more rigorous methodology \cite{venugopal12}.  %developing, chaning, maintenance, updating
+
+%another niche 1: In order to eliminate the human force-relyance MDV procedure, the automated method and tool are demanded. Those programe needs to automatically match user data needs to the integerated data space. This can properly done without mismatching if computer can understand the meaning of user requirements instead of keyword based matching. technical term in domain specific documents implicitly refer to something that only expert in that field can correctly understand. For example, the term roadway type, in general context it can be be a classfication system of roadway in terms of material, function, location, etc. But in the highway context, it refer to roadway functional classification. Another example about the use of different terms for the same thing is that the vertical alignment which is the long section and is the longitudinal centerline of road way have variety of terminology including ``profile'', ``crest'', ``grade-line''.
+%another niche 2. different DOTs may have their own vocabulary system that usually attached as glossary in their documents. differnt terms may be used to descripe about the same thing (many differnt way to describe the same thing). In this case, computer is unable to to exact to map term between data sender and data receiver during the data exchange process if the algorithm is only relying on the data label/name.  Due to this reason the current practices of MDV generation are still a manual process.
+
+%research hypothesis: "Natural Language Processing Techniques can be applied to facilitate the automation of generating model view from the merged AEC highway data model."
+%Research questions: The main objective of this research is to address the following global question. \\
+%"How model view for a specific business scenario can be automatically generated from a highway data model using NLP techniques?" \\
+%To answer the above question, following subquestions must be addressed.
+% How the data requirements for a specific scenario are extracted from text documents?
+%How the extracted data requirements can be semantically matched to the entities in the source data model?
+%How the proposed methodology for automated generation of model view is %validated?
+
+%
+%Research objectives
+%Objectives (research goals, questions/hypotheses, methodology, and main results) --> claiming the value of the research --> outline the structure of the paper
+%objective 1: develop a distributional term space model
+%objective 2: propose a context based searching algorithm
+To address the above issue, this paper aims to propose a novel method that allows for automated generation of model views from a highway data schema. The proposed framework are consisted of the following two key modules. The first module employs Natural Language Processing (NLP) techniques to read domain-specific guidelines and extract data requirements. In the second module, a matching algorithm was deployed to match the extracted data requirement entities to the AEC (architect, engineering and construction) data schema that describing the data generated in the up stream phases. The core component of the matching algorithm is the machine learning based disambiguator which was trained to automatically understand senses of technical terms and match terms based on their semantics instead of their pure labels. The training data set is a highway text corpus which was collected from a number of documents from multiple sources such as Wikipedia, textbooks, federal and state highway engineering manuals, research reports for across project phases including design, construction and asset management. The java package of the developed algorithm is stored at https://github.com/tuyenbk/mvdgenerator.
+%
+\section{Literature review} \label{sec:litrev} %2000 words
+%section introduction
+%In order to achieve the research objectives. A hybrid approach which combines a series of techniques related to text analysis, ontology learning and ontology matching was employed. Each technique is meant to support each phase of the proposed methodology. The details of research methodology will be presented in the section \ref{sec:proposed_method} below. This section presents a brief introduction to the techniques deployed in the research framework, including: (1) natural language processing techniques, (2) ontology learning and (3) ontology matching. This section then presents the state-of-the-art regarding the use of NLP in the construction industry.
+
+\subsection{Natural Language Processing}
+
+%what is natuaral lauange processing and methods
+NLP is a collection of techniques that can analyze and extract information from natural language like text and speech. The major applications of NLP include translation, information extraction, opinion mining \cite{Cambria14}. These applications are supported by a combination of several techniques such as Named Entity Recognition (NER), Part-of-Speech (POS) tagging \cite{Toutanova03,Cunningham02}, tokenization (or word segmentation) \cite{Webster92,Zhao11}, relation extraction, sentence parsing, word sense disambiguation \cite{Lesk86,Yarowsky95,Navigli09}, etc. NLP methods can be calssified into two main groups: (1) rule-based and (2) machine-learning (ML) based methods. Since the early group, rule-based NLP, was based solely on hand-coded rules, these systems are not able to cover the complicated set of human grammatical system \cite{Marcus95} and, therefore, do not perform well. The current trend in NLP research is the shift from rule based analysis to statistical ML based methods \cite{Cambria14}. ML models are able to learn patterns from training examples to predict the output, hence they are independent to languages, linguistic grammars and consequently reduce human resources cost \cite{costa-jussa12}. 
+
+%ontology matching
+
+%In current practices, data input to support a certain data analytics process usually come from multiple resources. These data are stored in different formats and are based upon different vocabularies systems. These inconsistency restricts the ability of data integration and likely leads to semantic ambiguation. In the ontology based data integration and exchange mechanism, ontology serves as a domain data schema. To allow for data exchange or integration, target and source ontology are required to  be matched to each other. Matching is the process of find corresponding relationships ( e.g. sameAS, isA, etc. ) among semantic entities (concept, words, sentences, instances, etc.) between these ontologies \cite{harispe15}. These relations are found thanks to the semantic measures which determine the degree of relatedness between concepts \cite{harispe15}. 
+
+%WSD methods, semantic measuring
+Word Sense Disambiguation (WSD) is one of the main NLP related research topics. WSD aims to measure the similarity/relatedness between semantic units (words, sentence, concepts, etc.) \cite{harispe15}. Semantic measurements can be classified into two groups that are corpus based and context based approaches (distributional measures and knowledge based measures) \cite{Harispe13}. The corpus based approach relies on the predefined lexicons which provide structured vocabularies. One of the popular measurements of similarity between two concepts is measure the distance between concepts in the lexical hierarchy. The shortest path between concepts presents the relatedness between them. The second approach is based on the context of two concepts. This approach eliminates the reliance on the availability of lexicon which may mot available. In this approach, two concepts are considered to be similar if they have the same context (surrounding concepts) in a corpus of text.
+
+%Vector space models vs wordnet
+
+
+%Ontology learning
+%Ontology has been widely accepted by the data exchange community as a solution to the interoperability problem \cite{Wong12}. The process of developing ontologies is called Ontology Learning (OL.) Ontology is a shared knowledge model that provides the formal and machine readable prescription of a domain. Hence it is the critical component for any semantic analytics processes. However, the process of development of ontology is still based upon a manual basic which is time consuming \cite{Wong12}. The current methods include the use of a software interface to manually transfer knowledge to machine readable format and support reasoning process. (Some cost evidence is needed)
+
+%In attempt to address the bottleneck of ontology availability, a significant amount of research efforts has been conducted aming to automize the process of ontology development. Sine most the world knowledge are presented in text documents \cite{Wong12}, a large part of them available online, efforts have been undertaken to automatically formulate knowledge from text sources to a machine-readable manner. These research have employed NLP techniques to analyze text and  extract concepts, relations, axioms to construct ontology. 
+
+
+\subsection{IFD-A standard on BIM data mapping}
+%semantic ambiguous issue in data interoperabiligy problem
+Word sense ambiguity is seen as one of the major interoperabiligy issues in data integration or exchange between isolated sources. This section present current efforts in handling the issue of ambiguation in data exchange between domains, languages by buildingSMART.
+\par
+%IFC and IFD
+IFD Library (International Framework for Dictionaries library) is one of the component of the pillar which is visioned by buildingSMART as the solution to the interoperability issue in the construction industry. IFD (ISO 12006-3) is developed by the IFD Library Group which is a part of buildingSMART International, including buildingSMART Norway, Construction Specifications Canada (CSC), U.S. Construction Specification Institute (CSI), and STABU Foundation.  IFD is an EXPRESS based model that supports the creation of multilingual dictionaries or ontologies and offers a standardized method for semantics mapping among concepts in IFC models (Bjørkhaug and Bell n.d.). The IFD mapping is based on semantics rather than word similarity. IFD assigns each concept/vocabulary in the dictionary/library a Global Unique Identifier (GUI) or Universal Unique Identifier (UUID) and this identical value is used through the communication process instead of the IFC entity name (Bjørkhaug and Bell n.d.). buildingSMART Data Dictionary is an example of dictionary developed based upon ISO 12006-3. The dictionary includes building vocabularies supplement for the development of IFC and data exchange process. IFD is designed to make two biligual words are semanticall mapped. concepts are distinguised by a unique id. two words/synonyms (in bilingual lanauges) will be assigned the same id value. the exchange are based on the machting of id which represent concepts instead of words. 
+
+%Wordnet based mapping   
+%
+%\subsection{Other NLP applications}
+%overivew 
+%The potentials of NLP to a variety of businesses across many disciplines have been well reported. NLP techniques have been widely accepted and applied. Biomedical is the pioneer sector which have an extraordinary number of practical and academic research using NLP, for instance (some citations). 
+
+%applications in the construction industry
+%Meanwhile, the application of NLP in the construction industry is still in the early stage.
+%automatic model checking, data schema expanding, data query
+%Several research have been conducted using NLP for automated compliance checking \cite{Zhang14,Zhang15a,Zhang15b},
+\subsection{Other academic research on semantic mapping}
+In the construction industry, research efforts are currently focusing on standardising the data structure/format, there are few research have been done to deal with the issue of sense ambiguity. \cite{Zhang15c} proposed an algorithm call ZESeM for determining the semantic similarity between two concepts. The algorithm includes two sequential steps that are a term-based matching and  a semantic relation based matching. One problem with this algorithm is the lack of the integration of syntax and context features, hence ambiguation still remains in the case in which the same wordform is used for different senses. The algorithm accepts results from the the label based matching step. But those matching may have different semantics. Another semantic mapping framework \cite{Lin15} which was based on IFD to mapp user's requirements to the IFC shema for data extraction. These previous research were both based the hand-made electronic vocabularies. ZESeM relyied on Wordnet, and Lin' model employs vocabulary set for building industry IFD. Wordnet is generic lexicon, it lacks of technical terms for the construction industry. IFD is more building specific industry but it still just cover a small domain in the industry. Since manually constructed e-dictionary is time consuming and therefore still very limited to large demand and dinamic world. There are still many domain/areas are not covered in these dictionaries. 
+%The application of NLP for the development of model view is not yet exploited. As the model view development is critical to allow for a seamless data exchange, a research is needed to employ NLP for automated generation of model views. 
+%the mapping method in previous research
+
+%should be inlcuded a reseaerch conducted by Nepal. this research relys on the feature onotlogy which was created amnually by collecing terms through a extensive review and extracting those term. 
+
+%
+\section{Overall Architecture} \label{sec:proposed_method} %4000 words
+%
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.67\textwidth]{framework3}
+\caption{Overall architecture for automated generation of MDV}
+\label{fig:framework}
+\end{figure}
+%
+Figure \ref{fig:framework} presents the proposed framework for automated generation of model views. The framework is consisted of two components that are: (1) a highway term space model, and (2) a semantic searching algorithm. The first module aims to extract highway related technical concepts from the highway corpora and transform concepts into vectors representing their meanings by employing a neural network (NN) model and a set of NLP techniques. Using this concept vector space, synonyms or associated concepts can be determined based on the distance or angle between vectors. The purpose of the second module is to semantically search for Landxml entities and attributes based on the natural language data requirement inputs. In order to achieve this objective, NLP techniques firstly are applied on the natural language data requirements to extract keywords that representing what types of data needed to be transferred to the data receiver. A proposed algorithm then is utilized to disambiguate the meaning of extracted required data keywords based on the term space model and search for equivalent entities or attributes included in the Landxml data schema. The following sections respectively presents the process of building the highway term space model and the searching algorithm along with details on which methods/tools utilized 
+%
+\section{Highway term space model} \label{sec:vector-space}
+%
+%introduction to the distributional vector model, fundamental theory,  the overall process to translate technical terms into vectors representations. the role of vector space allow measure the similarity between 
+The ultimate goal of this module is to building a model that can support the disambiguation task. For disambiguation, there are several methods including thesaurus based, ontology based and distributional method. The first two methods required a full lexicon or ontology including concepts description for all aspects/disciplines in the highway industry. These methods would be ideal for the disambiguation task if domain related thesauruses are available. However, since building up those dictionaries required a huge amount of empirical work, they are still limited. Wordnet \cite{Miller95} which is one of the largest lexicons available containing 117,000 synsets, but it is generic and is not suitable for the highway domain. For this reason, this research employs the distribution method which is based on an unsupervised machine learning method to train unlabeled data and learn the meaning of words by analyzing the context of words.
+\par
+Highway vector space model (H-VSM) is one of the key results of this research. The skip-gram model, proposed by \citeN{Mikolov13a}, which is a neural network (NN) model was employed to develop the H-VSM. The NN model was designed to predict the context words of a given word included in the input corpora. The sub-sections below present the detailed procedure followed to collect input data which is the highway domain corpora and utilize the skip-gram model to convert highway technical concepts to vectors.
+%
+\subsection{Data collection}
+%how to collect data, how to clean data to get them readay for training model
+Highway corpus was collected from a number of documents from multiple sources including textbooks, and highway engineering manuals from federal Department of Transportation and from 18 state DOTs. The focus of highway corpora in this this research were on three  project phases including design, construction and asset management. Since technical guidance documents in the engineering field contains a variety of text formats such as text, tables, equations. The order of words in tables and equations are not structured in the sentence format, their words are not suitable for the training process. Hence, these tables were removed from the text corpora. The result of the data collection was a highway corpora consisting of 10 millions words. This data set was utilized to extract highway related technical terms which were then trained and converted into vectors. 
+\subsection{Concept extraction}
+%introduction to concept extraction
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.45\textwidth]{NP_detecting}
+\caption{Linguistic processing procedure to detect technical terms}
+\label{fig:np_detect}
+\end{figure}
+%brief introduction about data requirements, and the purposes of this module
+
+The first step in building the H-VSM is the identifying of highway related technical concepts. In order to achieve this task, a set of natural language processing techniques including tokenization, part of speech tagging were utilized to identify the POS tag for each word in the highway corpora. The OpenNLP library was used to perform this task. The linguistic process, as illustrated in the Figure \ref{fig:np_detect}, includes the following steps:
+
+\subsubsection{Word Tokenization} 
+In this step, text was broken down into individual units (called tokens). 
+\subsubsection{POS tagging} 
+The purpose of this step is to determine the part of speech tag for each token. 
+\subsubsection{Noun phrase detection}
+For this task, any phrases having either the following patterns (A|N)1*N1 Prep(of) (A|N)2*N2 or (A|N)1*N1(A|N)2N2 are categorized as noun phrases and are good candidates for technical terms. In the patterns above, A is adjective and N is noun. 
+\subsubsection{Termhood measurement and concept extraction}
+The C-Value algorithm, proposed by \cite{Frantzi20} was employed to extract technical concepts. The idea of the C-value method is to firstly extract noun phrases which are composed of adjective and nouns, and then measure the how frequent they occur in the corpus. Equation below presents the C-value measurement of termhood.
+
+\begin{equation}
+    C-value(a)=
+    \begin{cases}
+      log_2|a|.f(a), & \text{if a is not nested} \\
+      log_2|a|(f(a)-\frac{1}{P(T_a)}\sum_{b\in T_a} f(b)), & \text{otherwise}
+    \end{cases}
+  \end{equation}
+  
+where:
+\begin{description}
+\item[a] is a candidate noun phrase
+\item[f] is the frequency of a in the corpus
+\item[Ta] is the set of extracted noun phrases that contains a
+\item[P(Ta)] is the number of these candidate terms.
+\end{description}
+\subsection{Data training}
+%word2vec, brief introduction about word2vec
+%skip-gram model
+%how to modify the method of selecting conext words
+%java program
+\subsubsection{Preparing training data set}
+This research employed the skip-gram neural network training model which was developed by \cite{Mikolov13a} to train the highway corpus.  The distributional hypothesis is the fundamental theory of this method. The distributional hypothesis says that two words have the same meanings if they occur in the same contexts \cite{harispe15}. For exampe, ``apple'' is more similar to ``banana''  than coffee since ``apple'' and ``banana'' are both co-occur with the word ``eat'', while ``coffee'' more frequently co-occur with the word ``drink''. Figure \ref{fig:skip-gram} presents the architecture of the skip-gram model. The model includes 3 layers including input, hidden and output layer. The input data is the target word and the output data are the context words surrounding the target word. Each word in the vocabulary set (with the size V) is encoded into one-hot vector in which only the value at the word index is equal to one and other positions are zero. In order to train the model, the java library word2vec, developed by Google was used. The parameters of the model, as presented in Table \ref{table:nn-parameters}, were selected based on the suggestions in the literature.
+
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.45\textwidth]{skip-gram-model}
+\caption{Skip-gram model}
+\label{fig:skip-gram}
+\end{figure}
+
+\begin{table} [b]
+\caption{Skip-gram model parameters}
+\label{table:nn-parameters}
+\centering
+\small
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{l l}
+\hline
+\textbf{Parameter} & \textbf{Value}\\
+
+\hline
+Hidden size		&	300\\
+Window size	&	15\\
+
+\hline
+\end{tabular}
+\normalsize
+\end{table}
+
+
+
+\section{Context based searching algorithm} \label{sec:searching}
+This sections is for presenting the proposed algorithm for semantically search for equivalent entities/attributes in Landxml schema. This section is more considered as the research result than the research method.  
+%\subsection{Term disambiguation}
+
+%\subsection{Semantics based searching algorithm}
+
+%\begin{figure}[t]
+%\centering
+%\includegraphics[width=0.45\textwidth]{entity_search_algorithm}
+%\caption{Entity searching algorithm}
+%\label{fig:search_algorithm}
+%\end{figure}
+
+\section{Evaluation and illustrative application} \label{sec:val}
+An experiment was conducted to validate the model view generation machine. In this experiment, a graduate student were asked to read a randomly selected document which contains data requirements for a specific data transaction. The duty of the student is to manually identify the subset of data in the AEC merged ontology that would fulfill the data requirements. Meanwhile, the machine was applied to automatically generate the subset of data from the same document as the student used. The result from the two methods were used to calculate the precision, recall, and F ratio to evaluate the accuracy of the generation machine. 
+
+
+%\section{Conclusions} \label{sec:conclns} %500words
+%This method is broad and can be applied to other business processes such as green building checking, environment checking, etc. The method is expected to significantly improve the existing ad-hoc method of model view definition development and in return leads the the removal of this bottle neck which is restricting the seamless data integration and exchange across phases of a highway construction project 
+
+%bibliography
+\bibliography{2nd_paper}
+%
+%
+\end{document}
+
