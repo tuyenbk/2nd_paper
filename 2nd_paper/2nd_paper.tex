@@ -5,10 +5,11 @@
 %include package for inserting picture
 \usepackage{graphicx}%insert image
 \DeclareGraphicsExtensions{.pdf,.png,.jpg}
-\graphicspath{{images/}}%folder contains images
-%include package for inserting multiple pictures
-\usepackage{caption}
-\usepackage{subcaption}
+\graphicspath{{figures/}}%folder contains images
+
+\usepackage{caption}%packages for inserting multiple pictures
+\usepackage{subcaption}%packages for inserting multiple pictures
+
 \usepackage[T1]{fontenc}
 \usepackage{array}%for table with fixed width
 \newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
@@ -19,35 +20,35 @@
 
 \begin{document}
 
-% 
-\title{Automated generation of highway model view using NLP}
+% TITLE AND AUTHORS
+\title{A keyword-driven method of automated model view generation for civil infrastructure projects}
+
 %
 \author{
 Tuyen Le
 \thanks{
-Ph.D. Student, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA50011. E-mail: ttle@iastate.edu.},
+Ph.D. Student, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA 50011, United States. E-mail: ttle@iastate.edu.},
 \and
-David Jeong%
-\thanks{Associate Professor, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA 50011. E-mail: djeong@iastate.edu.}
+H. David Jeong
+\thanks{Associate Professor, Department of Civil, Construction and Environmental Engineering, Iowa State University. Ames, IA 50011, United States. E-mail: djeong@iastate.edu.}
  }
- 
-%aa
+%MAKE TITTLE
 \maketitle
 %
 \begin{center}
 (To be submitted to the Journal of Computing in Civil Engineering) 
 \end{center}
-%
+%ABSTRACT
 \begin{abstract} %150-175 words (as required by ASCE)
-Open data standards (e.g. LandXML, TransXML) have been widely recognized as the solution to the interoperability issue in exchanging digital data in the transportation sector. Since these schema structure rich sets of data containers covering a wide range of fields and phases, model view definitions (MVDs) which define subsets of schema in accordance with the exchange requirements for specific scenarios are required. The process of MVD development is time consuming as the developer has to manually search for the entities and attributes names that semantically match to the data exchange requirements. This paper presents a framework that can automatize the process of mapping data labels based on their semantic similarity. The framework employs an unsupervised machine learning to learn the semantic relatedness between technical concepts from an unlabeled highway related corpora as the input data. The input corpus includes 10 million words mainly collected from roadway design guidelines across U.S. States, New Zealand and Australia. The model will be tested and evaluated by comparing the mapping results performed by computer and experts.   
- 
+Open data standards (e.g. LandXML, TransXML) have been widely recognized as the solution to the interoperability issue in exchanging digital data in the transportation sector. Since these schema structure rich sets of data containers covering a wide range of fields and phases, model view definitions (MVDs) which define subsets of schema in accordance with exchange requirements for specific scenarios are required. The traditional method  of generating MVDs is time consuming as the developer has to manually search for the entities and attributes names that semantically match to the data exchange requirements. This paper presents an automated framework that match users' keywords to the semantics-equivalent data labels (entities, attributes) in the open data schema. The framework employs an unsupervised machine learning to learn the semantic relatedness between technical concepts from an unlabeled highway related corpora as the input data. The input corpus includes 10 million words mainly collected from roadway design guidelines across U.S. States, New Zealand and Australia. The model was tested and evaluated by comparing the mapping results performed by computer and experts.   
 \end{abstract}
-%
-\KeyWords{Ontology, NLP, model view, interoperability, data exchange, highway}
+%KEYWORDS
+\KeyWords{Civil project, Model view definition, NLP, Landxml, data exchange, Vector space model}
 %
 %\newpage
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%********************************************************
 %good terms and phrases:
 
 %adj: nonhierarchical, superior, well-defined; foreseeable; rigid, flexible, empirical 
@@ -66,34 +67,26 @@ Open data standards (e.g. LandXML, TransXML) have been widely recognized as the 
 
 %the following expression denotes, is presented/defined as follows, this/below example shows, the snippet below presents, the following is the short description of the rule, an OWL ontology describing an ifcwindow class, these concepts and relationships can be encoded in the following RDF/XML fragment, is written in Turtle syntax/format:
 %The tool is meant to assess, 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%********************************************************
 
+%BODY
 \section{Introduction}%900 words
-
 %research background, structured data vs unstructure data: easily to for searching, to be searched
 %Topic introduction, territory: centrality--> genearal background information 
 Neutral data standards have been widely accepted as the solution to the interoperability issue in the construction industry. Several open standards have been proposed, ranging from solely relying on syntactics using Express Modeling Language such as Industry Foundation Classes (IFC) \cite{buildingsmart} or LandXML \cite{landxmlorg} to semantics-rich ontologies such as e-COGNOS \cite{Lima05}. These standardized data models consist of rich sets of data elements covering various business processes and disciplines. However, since a specific data exchange scenario needs only a subset of data, hence neutral data standards alone are insufficient to facilitate seamless digital data exchange among project stakeholders \cite{Froese03,east12}. As querying data on those data schema which are large and complicated the end user is required to have considerable programming skills and properly understand the structure and the meaning of each entity or attribute included in the source data schema. Data driven decision making based on a wrong extracted dataset would likely lead to a wrong decision. Therefore, there is a need for the formal definitions of schema subsets determining the right data for specific transactions. The availability of these model views will underpin the extraction of data from complicated sets of data generated from the AEC industry. 
 \par
 %Identify the niche: overall to one aspect to be addressed--> limitation in current state -->highlight the problem, raise general questions, propose general hypotheses --> emphasize the need (justify the need to address)
-To address the above demand, a considerable amount of research efforts has been made in both the building and transportation sectors with the same ambition to define subsets of data for various business processes. One of these efforts is the Construction to Operation Building Information Exchange (Cobie) project \cite{east07} which is now becomes a part of a variety of national standards and guidelines for projects using Building Information Modeling (BIM), for instance UK COBie 2.4 \cite{nisbet12}, National BIM Standard-United States Version 3 (NBIMS-US) \cite{nibs15}, GSA-BIM Guide \cite{gsa11}. This research identified IFC data elements that are generated in the design and construction phases required to be transferred to the asset management phase. The civil sector also is going on this trend with several model views of the Landxml schema has been being defined. The examples of these include the InfraModel project carried by the Technical Research Center of Finland aims to specify subsets of LandXML schema for several transportation projects and this specification has become the Finish national application specification \cite{inframodel14}. Even though a considerable number of research have been made, but these are still limited to a large demand from the industry. This is because the current method for developing model view definition is based on a manual basic which is time consuming \cite{venugopal12,eastman12,hu14}. The business processes are dynamic and tend to change over time. To adapt to the changes from industry practices, these model view are required to be tailored. Therefore, there is a need to change the current practice of model view definition from the ad-hoc approach to a more rigorous methodology \cite{venugopal12}.  %developing, chaning, maintenance, updating
-
-%another niche 1: In order to eliminate the human force-reliance MDV procedure, the automated method and tool are demanded. Those programe needs to automatically match user data needs to the integerated data space. This can properly done without mismatching if computer can understand the meaning of user requirements instead of keyword based matching. technical term in domain specific documents implicitly refer to something that only expert in that field can correctly understand. For example, the term roadway type, in general context it can be be a classfication system of roadway in terms of material, function, location, etc. But in the highway context, it refer to roadway functional classification. Another example about the use of different terms for the same thing is that the vertical alignment which is the long section and is the longitudinal centerline of road way have variety of terminology including ``profile'', ``crest'', ``grade-line''.
-%another niche 2. different DOTs may have their own vocabulary system that usually attached as glossary in their documents. differnt terms may be used to descripe about the same thing (many differnt way to describe the same thing). In this case, computer is unable to to exact to map term between data sender and data receiver during the data exchange process if the algorithm is only relying on the data label/name.  Due to this reason the current practices of MDV generation are still a manual process.
-
-%research hypothesis: "Natural Language Processing Techniques can be applied to facilitate the automation of generating model view from the merged AEC highway data model."
-%Research questions: The main objective of this research is to address the following global question. \\
-%"How model view for a specific business scenario can be automatically generated from a highway data model using NLP techniques?" \\
-%To answer the above question, following subquestions must be addressed.
-% How the data requirements for a specific scenario are extracted from text documents?
-%How the extracted data requirements can be semantically matched to the entities in the source data model?
-%How the proposed methodology for automated generation of model view is %validated?
-
-%
-%Research objectives
+%niche #1: state of practices-a reliance on human-crafted work
+The MVD development is a process of matching required data items for a specific domain to the data names in the neutral data schema. A considerable amount of research efforts has been made in both the building and transportation sectors with the same ambition to define subsets of data for various business processes. One of these efforts is the Construction to Operation Building Information Exchange (Cobie) project \cite{east07} which is now becomes a part of a variety of national standards and guidelines for projects using Building Information Modeling (BIM), for instance UK COBie 2.4 \cite{nisbet12}, National BIM Standard-United States Version 3 (NBIMS-US) \cite{nibs15}, GSA-BIM Guide \cite{gsa11}. This research identified IFC data elements that are generated in the design and construction phases required to be transferred to the asset management phase. The civil sector also is going on this trend with several model views of the Landxml schema has been being defined. The examples of these include the InfraModel project carried by the Technical Research Center of Finland aims to specify subsets of LandXML schema for several transportation projects and this specification has become the Finish national application specification \cite{inframodel14}. Even though a considerable number of research have been made, but these are still limited to a large demand from the industry. This is because the current method for developing model view definition is based on a manual basic which is time consuming \cite{venugopal12,eastman12,hu14}. The business processes are dynamic and tend to change over time. To adapt to the changes from industry practices, these model view are required to be tailored. Therefore, there is a need to change the current practice of model view definition from the ad-hoc approach to a more rigorous methodology \cite{venugopal12}. 
+\par
+%niche #2: challenge to the automated process
+In order to eliminate the human force-reliance MDV procedure, the automated method and tool are demanded. Those program needs to automatically match user data needs to the data labels in the the integrated data space. Using keywords to extract data from a database is more favorable to the end user thanks to the ease of use. This can properly done without mismatching if computer can understand the meaning of user requirements instead of string sequence based matching. Technical keywords/terms in domain specific documents implicitly refer to something that only expert in that field can correctly understand. For example, the term roadway type, in general context it can be a classification system of roadway in terms of material, function, location, etc. But in the highway context, it refers to roadway functional classification. Another example about the use of different terms for the same thing is that the vertical alignment which is the long section and is the longitudinal centerline of road way have variety of terminology including ``profile'', ``crest'', ``grade-line''. Different DOTs may have their own vocabulary system that usually attached as glossary in their documents. different terms may be used to describe about the same thing (many different way to describe the same thing). In this case, computer is unable to to exact to map term between data sender and data receiver during the data exchange process if the algorithm is only relying on the data label/name.  Due to this reason the current practices of MDV generation are still a manual process.
+\par
+% potential tools and method to address the above issue
+Recent advances in computer science with considerable improvements have enabled computer to understand human-readable format. This is thanks to the achievement in semantic measure related research which provide infrastructure for computer to present technical keywords in numeric format which can be understood by computer. A large number of methods have been proposed ranging from statistical method to machine learning such as. Distributional model is one of the most common and has been widely used. These achieve high accuracy. The availability of these offer potentials tools for the construction industry to enhance the manual work matching technical keywords in a specific domain to the open data schema. 
+\par
 %Objectives (research goals, questions/hypotheses, methodology, and main results) --> claiming the value of the research --> outline the structure of the paper
-%objective 1: develop a distributional term space model
-%objective 2: propose a context based searching algorithm
-To address the above issue, this paper aims to propose a novel method that allows for automated generation of model views from a highway data schema. The proposed framework are consisted of the following two key modules. The first module employs Natural Language Processing (NLP) techniques to read domain-specific guidelines and extract data requirements. In the second module, a matching algorithm was deployed to match the extracted data requirement entities to the AEC (architect, engineering and construction) data schema that describing the data generated in the up stream phases. The core component of the matching algorithm is the machine learning based disambiguator which was trained to automatically understand senses of technical terms and match terms based on their semantics instead of their pure labels. The training data set is a highway text corpus which was collected from a number of documents from multiple sources such as Wikipedia, textbooks, federal and state highway engineering manuals, research reports for across project phases including design, construction and asset management. The java package of the developed algorithm is stored at https://github.com/tuyenbk/mvdgenerator.
+This research aims to test the hypothesis that the utilization of NLP and distributional method would enable the automated generation of model view for the civil sector. This paper presents a novel approach to MVD generation by developing an automated framework that can generate subsets of the standard data schema based on users' keywords. Specifically, the proposed framework are consisted of the following two modules (1) distributional term space model, and (2) data matching algorithm. The former module employs an un-supervised machine learning model to train the semantic similarity between technical terms. The training datasets was generated by utilizing NLP techniques to process a set of technical documents (manuals, specifications, guidelines) which was collected from a number of documents from multiple sources such as Wikipedia, textbooks, federal and state highway engineering manuals, research reports for across project phases including design, construction and asset management. In the later module, a matching algorithm was deployed to match users' keywords to the data labels (including entity and attribute names) in the data schema. The core component of the matching algorithm is the machine learning based disambiguator which was trained to automatically understand senses of technical terms and match terms based on their semantics instead of their pure labels. The framework was complied into a Java package which is available at https://github.com/tuyenbk/mvdgenerator.
 %
 \section{Literature review} \label{sec:litrev} %2000 words
 %section introduction
@@ -104,6 +97,7 @@ To address the above issue, this paper aims to propose a novel method that allow
 %what is natuaral lauange processing and methods
 NLP is a collection of techniques that can analyze and extract information from natural language like text and speech. The major applications of NLP include translation, information extraction, opinion mining \cite{Cambria14}. These applications are supported by a combination of several techniques such as Named Entity Recognition (NER), Part-of-Speech (POS) tagging \cite{Toutanova03,Cunningham02}, tokenization (or word segmentation) \cite{Webster92,Zhao11}, relation extraction, sentence parsing, word sense disambiguation \cite{Lesk86,Yarowsky95,Navigli09}, etc. NLP methods can be classified into two main groups: (1) rule-based and (2) machine-learning (ML) based methods. Since the early group, rule-based NLP, was based solely on hand-coded rules, these systems are not able to cover the complicated set of human grammatical system \cite{Marcus95} and, therefore, do not perform well. The current trend in NLP research is the shift from rule based analysis to statistical ML based methods \cite{Cambria14}. ML models are able to learn patterns from training examples to predict the output, hence they are independent to languages, linguistic grammars and consequently reduce human resources cost \cite{costa-jussa12}. 
 
+\subsection{Semantic measure}
 %ontology matching
 
 %In current practices, data input to support a certain data analytics process usually come from multiple resources. These data are stored in different formats and are based upon different vocabularies systems. These inconsistency restricts the ability of data integration and likely leads to semantic ambiguities. In the ontology based data integration and exchange mechanism, ontology serves as a domain data schema. To allow for data exchange or integration, target and source ontology are required to  be matched to each other. Matching is the process of find corresponding relationships (e.g. sameAS, isA, etc.) among semantic entities (concept, words, sentences, instances, etc.) between these ontologies \cite{harispe15}. These relations are found thanks to the semantic measures which determine the degree of relatedness between concepts \cite{harispe15}. 
@@ -327,7 +321,7 @@ The framework has been evaluated by testing on a randomly selected set of input 
 This method is broad and can be applied to other business processes such as green building checking, environment checking, etc. The method is expected to significantly improve the existing ad-hoc method of model view definition development and in return leads the the removal of this bottle neck which is restricting the seamless data integration and exchange across phases of a highway construction project. 
 
 %bibliography
-\bibliography{2nd_paper}
+\bibliography{bibliography}
 %
 %
 \end{document}
