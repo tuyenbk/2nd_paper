@@ -72,10 +72,33 @@ inframodel.fi (2014).
 \newblock ``Inframodel, $<$http://www.inframodel.fi/en/$>$.
 \newblock Accessed: 2015-10-11.
 
+\bibitem[\protect\citeauthoryear{}{Jeong et~al.\@}{2014}]{Jeong14}
+Jeong, W., Kim, J.~B., Clayton, M.~J., Haberl, J.~S., and Yan, W. (2014).
+\newblock ``Translating building information modeling to building energy
+  modeling using model view definition.''\ {\em Scientific World Journal},
+  2014\ Cited By :1 Export Date: 16 February 2016.
+
+\bibitem[\protect\citeauthoryear{}{Jiang et~al.\@}{2015}]{Jiang15}
+Jiang, Y., Yu, N., Ming, J., Lee, S., DeGraw, J., Yen, J., Messner, J., and Wu,
+  D. (2015).
+\newblock ``Automatic building information model query generation.
+
+\bibitem[\protect\citeauthoryear{}{Katranuschkov
+  et~al.\@}{2010}]{katranuschkov10}
+Katranuschkov, P., Weise, M., Windisch, R., Fuchs, S., and Scherer, R.~J.
+  (2010).
+\newblock ``Bim-based generation of multi-model views.''\ {\em CIB W78}.
+
 \bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxmlorg}
 landxml.org (2015).
 \newblock ``About landxml.org, $<$http://www.landxml.org/About.aspx$>$.
 \newblock Accessed: 2015-10-11.
+
+\bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2016}]{lee16}
+Lee, Y.~C., Eastman, C.~M., Solihin, W., and See, R. (2016).
+\newblock ``Modularized rule-based validation of a bim model pertaining to
+  model views.''\ {\em Automation in Construction}, 63, 1--11\ Export Date: 16
+  February 2016.
 
 \bibitem[\protect\citeauthoryear{}{Lesk}{1986}]{Lesk86}
 Lesk, M. (1986).
@@ -139,8 +162,14 @@ Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
 \newblock ``Gsa building information modeling guide series: 08 – gsa bim
   guide for facility management.''\ {\em Report no.}
 
-\bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012}]{venugopal12}
-Venugopal, M., Eastman, C.~M., Sacks, R., and Teizer, J. (2012).
+\bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012a}]{venugopal12a}
+Venugopal, M., Eastman, C., and Sacks, R. (2012a).
+\newblock ``Configurable model exchanges for the precast/pre-stressed concrete
+  industry using semantic exchange modules (sem).''\ {\em International
+  Conference on Computing in Civil Engineering},  269--276.
+
+\bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012b}]{venugopal12}
+Venugopal, M., Eastman, C.~M., Sacks, R., and Teizer, J. (2012b).
 \newblock ``Semantics of model views for information exchanges using the
   industry foundation class schema.''\ {\em Advanced Engineering Informatics},
   26(2), 411--428.
@@ -151,12 +180,33 @@ Webster, J.~J. and Kit, C. (1992).
   the 14th conference on Computational linguistics-Volume 4}, Association for
   Computational Linguistics,  1106--1110.
 
+\bibitem[\protect\citeauthoryear{}{Windisch et~al.\@}{2012}]{windisch12}
+Windisch, R., Katranuschkov, P., and Scherer, R.~J. (2012).
+\newblock ``A generic filter framework for consistent generation of bim-based
+  model views.''\ {\em European Group for Intelligent Computing in Engineering,
+  EG-ICE 2012 - International Workshop: Intelligent Computing in Engineering}.
+\newblock Export Date: 16 February 2016.
+
+\bibitem[\protect\citeauthoryear{}{Won et~al.\@}{2013}]{won13}
+Won, J., Lee, G., and Cho, C. (2013).
+\newblock ``No-schema algorithm for extracting a partial model from an ifc
+  instance model.''\ {\em Journal of Computing in Civil Engineering}, 27(6),
+  585--592.
+
 \bibitem[\protect\citeauthoryear{}{Yarowsky}{1995}]{Yarowsky95}
 Yarowsky, D. (1995).
 \newblock ``Unsupervised word sense disambiguation rivaling supervised
   methods.''\ {\em Proceedings of the 33rd annual meeting on Association for
   Computational Linguistics}, Association for Computational Linguistics,
   189--196.
+
+\bibitem[\protect\citeauthoryear{}{Zhang et~al.\@}{2013}]{zhang13}
+Zhang, C., Beetz, J., and De~Vries, B. (2013).
+\newblock ``Towards model view definition on semantic level: A state of the art
+  review.''\ {\em European Group for Intelligent Computing in Engineering,
+  EG-ICE 2013 - 20th International Workshop: Intelligent Computing in
+  Engineering}.
+\newblock Export Date: 16 February 2016.
 
 \bibitem[\protect\citeauthoryear{}{Zhang and El-Gohary}{2015}]{Zhang15c}
 Zhang, J. and El-Gohary, N. (2015).
