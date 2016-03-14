@@ -1,25 +1,35 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: 2nd_paper.aux
 The style file: ascelike.bst
-Case mismatch error between cite keys jiang15 and Jiang15
+Case mismatch error between cite keys Jiang15 and jiang15
 ---line 30 of file 2nd_paper.aux
- : \citation{jiang15
- :                  }
-I'm skipping whatever remains of this command
-Case mismatch error between cite keys jiang15 and Jiang15
----line 40 of file 2nd_paper.aux
- : \citation{jiang15
+ : \citation{Jiang15
  :                  }
 I'm skipping whatever remains of this command
 Database file #1: bibliography.bib
+Warning--I didn't find a database entry for "borrmann09"
+Warning--I didn't find a database entry for "lee14"
+Warning--I didn't find a database entry for "daum14"
+Warning--I didn't find a database entry for "langenhan13"
+Warning--I didn't find a database entry for "khalili13"
+Warning--I didn't find a database entry for "min14"
+Warning--I didn't find a database entry for "zhang12"
+Warning--I didn't find a database entry for "nepal12"
+Warning--I didn't find a database entry for "le16"
+Warning--I didn't find a database entry for "wulfing14"
+Warning--I didn't find a database entry for "gao15"
+Warning--I didn't find a database entry for "eastman09"
+Warning--I didn't find a database entry for "venugopal12b"
+Warning--I didn't find a database entry for "berard12"
 Warning--empty journal in buildingsmart
 Warning--empty journal in eastman12
 Warning--empty school in hu14
 `address' is a missing field, not a string, for entry hu14
 while executing---line 1635 of file ascelike.bst
 Warning--empty journal in inframodel14
-Warning--empty journal in Jiang15
+Warning--empty journal in jiang15
 Warning--empty journal in landxmlorg
 Warning--empty institution in nibs15
+Warning--empty journal in see12
 Warning--empty institution in gsa11
 Warning--empty journal in Zhang15c
-(There were 3 error messages)
+(There were 2 error messages)

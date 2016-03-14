@@ -91,7 +91,14 @@ This research aims to test the hypothesis that the utilization of NLP and distri
 \section{Literature review} \label{sec:litrev} %2000 words
 %section introduction
 %In order to achieve the research objectives. A hybrid approach which combines a series of techniques related to text analysis, ontology learning and ontology matching was employed. Each technique is meant to support each phase of the proposed methodology. The details of research methodology will be presented in the section \ref{sec:proposed_method} below. This section presents a brief introduction to the techniques deployed in the research framework, including: (1) natural language processing techniques, (2) ontology learning and (3) ontology matching. This section then presents the state-of-the-art regarding the use of NLP in the construction industry.
-
+\subsection{Digital data query method}
+Conventional method are to develop a language for querying information from dataset stored in neutral data format. these research aims to provide a query language specific for the querying data BIM data. \cite{borrmann09} presented a review of existing query approach ranging from SQL-based, Relational-based, Object orientation based, xml-based . Object-relational database approach to query IFC model \cite{lee14} that outperformed tradition relational databases servers. Spatial query language , semantic and spatial conditions used for bim query \cite{borrmann09}.  graph showing adjacent and accessiblity relations between spaces, that can be used to build a look-up mechanism in BIM instance query and developed a BIM query language called QL4BIM Spatio-semantic query language \cite{daum14} space related information; graph-based retrieval of BIM \cite{langenhan13}, search strategy; graph-based for topological querying BIM elements \cite{khalili13}.
+\par 
++efforts have been made to simplify which allow user easier way to interact with complicated sets of digital information. the above research aims to enhance data search strategy and machine-redable language which still requires user to acknowledge new data schema and query language. these aims to explicit relations between entities which are implictly represented in the neutral data schema. this allow reduce burden on user in acknowledging the data schema. ontology-driven construction information retrieval \cite{min14} for tunnel projects; ontology partial BIM model extraction \cite{zhang12} for generic method for building projects; speicific for construction information, ontology-based extraction of construction information \cite{nepal12}. this approach allow for reasoning integration. query over linked life cycle data spaces \cite{le16}.
+\par
+a further step to enhance the process of data extraction is to provide tools that requirements less effort in studying data structure and provide visual  way for the end user to extract data. no-schema algorithm for extracting IFC instances without using ifc schema or model view definition \cite{won13}. visual  BIM query \cite{wulfing14}, visual bim query language, predefined library, basically a visualization of query code. query data with mvd as input data, \cite{jiang15}. online BIM resources retrieval system \cite{gao15}. 
+\par
+in summary, lack of human-computer interaction that enable computer understand and interpret the end user interest. 
 
 \subsection{Model view definition development process}
 
@@ -114,10 +121,14 @@ validation of model view
 semantics and modularized effort. however, 
 
 
-
 data query without use of ifc schema or mvd \cite{won13}.
 
 generating mvd using natural lanauge speicific as input provide ease of use to end user \cite{jiang15} which remove burden on use to programing requirements ans consequently prevent fully benefit from BIM. 
+
+BIM in civil sector. use case approach \cite{eastman09,see12}. identify purpose and content, workflows for exchange data exchange scenario. expert group/industry specialists develop IDM and MVD for their use cases. mvd is carried out by IT experts to formalize in to the computerized language. mvds will be provided to sofware vendors for. several mvd have released by buildingsmart including facility management \cite{eastman12}, structural, precast/pre-stressed concrete \cite{venugopal12b}
+
+downstream phase information to upstream phases such as cost, construction methods, products to reduce design errors \cite{berard12}. this information delivery manual involve a group of contractor (estimaton, procurement, project management and design managment), bim consultant, building production manufactures (elevators, insulation, windows, doors), univeristy researchers,  provide what information design needs the upstream actor needs. 
+
 
 \subsection{Natural Language Processing}
 %what is natuaral lauange processing

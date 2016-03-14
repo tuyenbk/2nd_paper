@@ -78,7 +78,7 @@ Jeong, W., Kim, J.~B., Clayton, M.~J., Haberl, J.~S., and Yan, W. (2014).
   modeling using model view definition.''\ {\em Scientific World Journal},
   2014\ Cited By :1 Export Date: 16 February 2016.
 
-\bibitem[\protect\citeauthoryear{}{Jiang et~al.\@}{2015}]{Jiang15}
+\bibitem[\protect\citeauthoryear{}{Jiang et~al.\@}{2015}]{jiang15}
 Jiang, Y., Yu, N., Ming, J., Lee, S., DeGraw, J., Yen, J., Messner, J., and Wu,
   D. (2015).
 \newblock ``Automatic building information model query generation.
@@ -148,6 +148,10 @@ Navigli, R. (2009).
 Nisbet, N. (2012).
 \newblock ``Cobie uk: Required information for facility operation.''\ {\em
   Report no.}, AEC3 UK Ltd.
+
+\bibitem[\protect\citeauthoryear{}{See et~al.\@}{2012}]{see12}
+See, R., Karlshoej, J., and Davis, D. (2012).
+\newblock ``An integrated process for delivering ifc based data exchange.
 
 \bibitem[\protect\citeauthoryear{}{Toutanova et~al.\@}{2003}]{Toutanova03}
 Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).

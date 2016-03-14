@@ -1,10 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  24 FEB 2016 00:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  14 MAR 2016 18:29
 entering extended mode
-**"C:/Users/cceegrad/Google Drive/05. Work/ISU/03.PhD/05.Papers/2nd_paper/2nd_p
-aper/2nd_paper.tex"
-
-("C:/Users/cceegrad/Google Drive/05. Work/ISU/03.PhD/05.Papers/2nd_paper/2nd_pa
-per/2nd_paper.tex"
+**2nd_paper.tex
+(2nd_paper.tex
 LaTeX2e <2015/01/01> patch level 2
 Babel <3.9m> and hyphenation patterns for 69 languages loaded.
 (ascelike.cls
@@ -239,76 +236,119 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
 {C:/Users/cceegrad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] 
-[4] [5]
+[4]
 
-LaTeX Warning: Citation `jiang15' on page 6 undefined on input line 119.
+LaTeX Warning: Citation `borrmann09' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `lee14' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `borrmann09' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `daum14' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `langenhan13' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `khalili13' on page 5 undefined on input line 95.
+
+
+LaTeX Warning: Citation `min14' on page 5 undefined on input line 97.
+
+
+LaTeX Warning: Citation `zhang12' on page 5 undefined on input line 97.
+
+
+LaTeX Warning: Citation `nepal12' on page 5 undefined on input line 97.
+
+
+LaTeX Warning: Citation `le16' on page 5 undefined on input line 97.
+
+
+LaTeX Warning: Citation `wulfing14' on page 5 undefined on input line 99.
+
+
+LaTeX Warning: Citation `gao15' on page 5 undefined on input line 99.
+
+[5]
+
+LaTeX Warning: Citation `Jiang15' on page 6 undefined on input line 105.
 
 [6]
 
-LaTeX Warning: Citation `jiang15' on page 7 undefined on input line 139.
+LaTeX Warning: Citation `eastman09' on page 7 undefined on input line 128.
 
-[7] [8] <figures/framework3.jpg, id=35, 2293.81969pt x 1717.16531pt>
+
+LaTeX Warning: Citation `venugopal12b' on page 7 undefined on input line 128.
+
+
+LaTeX Warning: Citation `berard12' on page 7 undefined on input line 130.
+
+[7] [8] [9] <figures/framework3.jpg, id=38, 2293.81969pt x 1717.16531pt>
 File: figures/framework3.jpg Graphic file (type jpg)
 
 <use figures/framework3.jpg>
-Package pdftex.def Info: figures/framework3.jpg used on input line 170.
+Package pdftex.def Info: figures/framework3.jpg used on input line 181.
 (pdftex.def)             Requested size: 314.73497pt x 235.60657pt.
- [9 <./figures/framework3.jpg>] [10]
-<figures/NP_detecting.png, id=42, 948.54375pt x 782.17218pt>
+ [10] [11 <./figures/framework3.jpg>]
+<figures/NP_detecting.png, id=45, 948.54375pt x 782.17218pt>
 File: figures/NP_detecting.png Graphic file (type png)
 
 <use figures/NP_detecting.png>
-Package pdftex.def Info: figures/NP_detecting.png used on input line 194.
+Package pdftex.def Info: figures/NP_detecting.png used on input line 205.
 (pdftex.def)             Requested size: 211.3883pt x 174.31024pt.
- [11 <./figures/NP_detecting.png>]
-<figures/skip-gram-model.jpg, id=48, 804.00375pt x 756.57657pt>
+ [12] [13 <./figures/NP_detecting.png>]
+<figures/skip-gram-model.jpg, id=64, 804.00375pt x 756.57657pt>
 File: figures/skip-gram-model.jpg Graphic file (type jpg)
 
 <use figures/skip-gram-model.jpg>
-Package pdftex.def Info: figures/skip-gram-model.jpg used on input line 229.
+Package pdftex.def Info: figures/skip-gram-model.jpg used on input line 240.
 (pdftex.def)             Requested size: 211.3883pt x 198.91025pt.
- [12] [13 <./figures/skip-gram-model.jpg>]
-<figures/entity_search_algorithm.jpg, id=67, 844.65562pt x 1285.05093pt>
+ [14 <./figures/skip-gram-model.jpg>]
+<figures/entity_search_algorithm.jpg, id=68, 844.65562pt x 1285.05093pt>
 File: figures/entity_search_algorithm.jpg Graphic file (type jpg)
 
 <use figures/entity_search_algorithm.jpg>
 Package pdftex.def Info: figures/entity_search_algorithm.jpg used on input line
- 271.
+ 282.
 (pdftex.def)             Requested size: 211.3883pt x 321.59529pt.
- [14 <./figures/entity_search_algorithm.jpg>] [15] [16] (2nd_paper.bbl [17] [18
-] [19]) [20] (2nd_paper.aux) ) 
+ [15] [16 <./figures/entity_search_algorithm.jpg>] (2nd_paper.bbl [17] [18] [19
+] [20] [21]) [22] (2nd_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3569 strings out of 493673
- 50584 string characters out of 3143140
- 114076 words of memory out of 3000000
- 6889 multiletter control sequences out of 15000+200000
+ 3583 strings out of 493673
+ 50481 string characters out of 3143140
+ 113107 words of memory out of 3000000
+ 6904 multiletter control sequences out of 15000+200000
  19337 words of font info for 46 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,11n,38p,1984b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\cceegrad\AppData\Local\Mi
-KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\cceegrad\App
-Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users
-\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
-pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
-600\ecrm1000.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
-nappen\ec\dpi600\ecrm0700.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\cceegrad\AppData\Local\MiK
-TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\cceegrad\AppD
-ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\
-cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0600.p
-k> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
-00\ecbx1440.pk><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cm
-ex10.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi12.p
-fb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/
-Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
- Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
-MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2
-.9.0/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9.0/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 2nd_paper.pdf (20 pages, 2026733 bytes).
+ 36i,11n,38p,1901b,311s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9
+\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\cceegrad\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\cceegra
+d\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\
+Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx
+1200.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
+c\dpi600\ecrm1000.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
+ur\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\
+fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\cceegrad\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\cceegrad
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk> <C:\U
+sers\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecss0
+600.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbx1440.pk><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/
+cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmm
+i12.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program F
+iles/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiK
+TeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
+9.0/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 2nd_paper.pdf (22 pages, 2031676 bytes).
 PDF statistics:
- 519 PDF objects out of 1000 (max. 8388607)
+ 528 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
