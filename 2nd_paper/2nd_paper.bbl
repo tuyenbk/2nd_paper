@@ -15,28 +15,33 @@ Apache.org (2016).
 \newblock ``Machine learning library (mllib),
   $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$\ (March).
 
-\bibitem[\protect\citeauthoryear{}{Borrmann and Rank}{2009}]{borrmann09}
-Borrmann, A. and Rank, E. (2009).
-\newblock ``Query support for bims using semantic and spatial conditions.''\
-  {\em Handbook of Research on Building Information Modeling and Construction
-  Informatics: Concepts and Technologies: Concepts and Technologies},  405.
-
 \bibitem[\protect\citeauthoryear{}{buildingSMART}{2015}]{buildingsmartIFC}
 buildingSMART (2015).
 \newblock ``Ifc overview summary, $<$http://www.buildingsmart-tech.org/$>$.
 \newblock Accessed: 2015-10-11.
 
-\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016}]{buildingsmartData}
-buildingSMART (2016).
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016a}]{buildingsmartData}
+buildingSMART (2016a).
 \newblock ``Data dictionary,
   $<$http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/$>$.
 \newblock Accessed: March 15, 2016.
+
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016b}]{buildingSmart}
+buildingSMART (2016b).
+\newblock ``Model view definition summary,
+  $<$http://www.buildingsmart-tech.org/specifications/ifc-view-definition$>$.
+\newblock {(accessed April 12, 2016)}.
 
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
 \newblock ``Jumping nlp curves: a review of natural language processing
   research [review article].''\ {\em Computational Intelligence Magazine,
   IEEE}, 9(2), 48--57.
+
+\bibitem[\protect\citeauthoryear{}{Chen and Manning}{2014}]{chen14}
+Chen, D. and Manning, C.~D. (2014).
+\newblock ``A fast and accurate dependency parser using neural networks.''\
+  {\em EMNLP},  740--750.
 
 \bibitem[\protect\citeauthoryear{}{Costa-Jussa et~al.\@}{2012}]{costa-jussa12}
 Costa-Jussa, M.~R., Farrús, M., Mariño, J.~B., and Fonollosa, J.~A. (2012).
@@ -50,23 +55,6 @@ Cunningham, H., Maynard, D., Bontcheva, K., and Tablan, V. (2002).
   applications.''\ {\em Proceedings of the 40th annual meeting on association
   for computational linguistics}, Association for Computational Linguistics,
   168--175.
-
-\bibitem[\protect\citeauthoryear{}{Daum et~al.\@}{2014}]{daum14}
-Daum, S., Borrmann, A., Langenhan, C., and Petzold, F. (2014).
-\newblock ``Automated generation of building fingerprints using a
-  spatio-semantic query language for building information models.''\ {\em eWork
-  and eBusiness in Architecture, Engineering and Construction: ECPPM 2014},
-  ~87.
-
-\bibitem[\protect\citeauthoryear{}{East}{2007}]{east07}
-East, E.~W. (2007).
-\newblock ``Construction operations building information exchange (cobie).''\
-  {\em Report no.}, DTIC Document.
-
-\bibitem[\protect\citeauthoryear{}{East et~al.\@}{2012}]{east12}
-East, E.~W., Nisbet, N., and Liebich, T. (2012).
-\newblock ``Facility management handover model view.''\ {\em Journal of
-  computing in civil engineering}, 27(1), 61--67.
 
 \bibitem[\protect\citeauthoryear{}{Eastman}{2012}]{eastman12}
 Eastman, C. (2012).
@@ -83,10 +71,12 @@ Frantzi, K., Ananiadou, S., and Mima, H. (2000).
 \newblock ``Automatic recognition of multi-word terms: the c-value/nc-value
   method.''\ {\em International Journal on Digital Libraries}, 3(2), 115--130.
 
-\bibitem[\protect\citeauthoryear{}{Froese}{2003}]{Froese03}
-Froese, T. (2003).
-\newblock ``Future directions for ifc-based interoperability.''\ {\em ITcon},
-  8, 231--246.
+\bibitem[\protect\citeauthoryear{}{Gallaher et~al.\@}{2004}]{Gallaher04}
+Gallaher, M.~P., O'Connor, A.~C., Dettbarn, J.~L., and Gilday, L.~T. (2004).
+\newblock {\em Cost analysis of inadequate interoperability in the U.S. capital
+  facilities industry}.
+\newblock U.S. Department of Commerce Technology Administration, National
+  Institute of Standards and Technology, Gaithersburg, MD.
 
 \bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2013}]{harispe13}
 Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
@@ -94,12 +84,7 @@ Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
   or instances from text and knowledge base analysis.''\ {\em arXiv preprint
   arXiv:1310.1285}.
 
-\bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2015}]{harispe15}
-Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2015).
-\newblock ``Semantic similarity from natural language and ontology analysis.''\
-  {\em Synthesis Lectures on Human Language Technologies}, 8(1), 1--254.
-
-\bibitem[\protect\citeauthoryear{}{Harris}{1954}]{harris54}
+\bibitem[\protect\citeauthoryear{}{Harris}{1954}]{Harris54}
 Harris, Z.~S. (1954).
 \newblock ``Distributional structure.''\ {\em Word}.
 
@@ -113,13 +98,6 @@ Hsu, J.-y. (2013).
 \newblock ``Content-based text mining technique for retrieval of cad
   documents.''\ {\em Automation in Construction}, 31, 65--74.
 
-\bibitem[\protect\citeauthoryear{}{Hu}{2014}]{hu14}
-Hu, H. (2014).
-\newblock ``Development of interoperable data protocol for integrated bridge
-  project delivery.''\ Ph.d., Ph.d.
-\newblock Copyright - Copyright ProQuest, UMI Dissertations Publishing 2014
-  Last updated - 2015-03-18 First page - n/a.
-
 \bibitem[\protect\citeauthoryear{}{Jiang and Conrath}{1997}]{jiang97}
 Jiang, J.~J. and Conrath, D.~W. (1997).
 \newblock ``Semantic similarity based on corpus statistics and lexical
@@ -131,31 +109,15 @@ Justeson, J.~S. and Katz, S.~M. (1995).
   for identification in text.''\ {\em Natural Language Engineering}, 1(01),
   9--27.
 
-\bibitem[\protect\citeauthoryear{}{Khalili and Chua}{2013}]{khalili13}
-Khalili, A. and Chua, D. (2013).
-\newblock ``Ifc-based graph data model for topological queries on building
-  elements.''\ {\em Journal of Computing in Civil Engineering}, 0(0), 04014046.
-
 \bibitem[\protect\citeauthoryear{}{Kolb}{2008}]{kolb08}
 Kolb, P. (2008).
 \newblock ``Disco: A multilingual database of distributionally similar
   words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
 
-\bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxmlorg}
+\bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxml15}
 landxml.org (2015).
 \newblock ``About landxml.org, $<$http://www.landxml.org/About.aspx$>$.
 \newblock Accessed: 2015-10-11.
-
-\bibitem[\protect\citeauthoryear{}{Langenhan et~al.\@}{2013}]{langenhan13}
-Langenhan, C., Weber, M., Liwicki, M., Petzold, F., and Dengel, A. (2013).
-\newblock ``Graph-based retrieval of building information models for supporting
-  the early design stages.''\ {\em Advanced Engineering Informatics}, 27(4),
-  413--426.
-
-\bibitem[\protect\citeauthoryear{}{Le and Jeong}{2016}]{le16}
-Le, T. and Jeong, H.~D. (2016).
-\newblock ``Interlinking life-cycle data spaces to support decision making in
-  highway asset management.''\ {\em Automation in Construction}, 64, 54--64.
 
 \bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2013}]{lee13}
 Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
@@ -168,11 +130,6 @@ Lesk, M. (1986).
 \newblock ``Automatic sense disambiguation using machine readable dictionaries:
   how to tell a pine cone from an ice cream cone.''\ {\em Proceedings of the
   5th annual international conference on Systems documentation}, ACM,  24--26.
-
-\bibitem[\protect\citeauthoryear{}{Lima et~al.\@}{2005}]{Lima05}
-Lima, C., El-Diraby, T., and Stephens, J. (2005).
-\newblock ``Ontology-based optimization of knowledge management in
-  e-construction.''\ {\em Journal of IT in Construction}, 10, 305--327.
 
 \bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
 Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
@@ -192,7 +149,8 @@ Lossio-Ventura, J.~A., Jonquet, C., Roche, M., and Teisseire, M. (2013).
 \bibitem[\protect\citeauthoryear{}{Lv and El-Gohary}{2015}]{lv15}
 Lv, X. and El-Gohary, N.~M. (2015).
 \newblock ``Semantic annotation for context-aware information retrieval for
-  supporting the environmental review of transportation projects.
+  supporting the environmental review of transportation projects.''\ {\em
+  Computing in Civil Engineering 2015}, ASCE,  165--172.
 
 \bibitem[\protect\citeauthoryear{}{MacQueen}{1967}]{macqueen67}
 MacQueen, J. (1967).
@@ -217,18 +175,6 @@ Miller, G.~A. (1995).
 \newblock ``Wordnet: a lexical database for english.''\ {\em Communications of
   the ACM}, 38(11), 39--41.
 
-\bibitem[\protect\citeauthoryear{}{Min and Zhewen}{14}]{min14}
-Min, H. and Zhewen, H. (14).
-\newblock ``Ontology-driven tunnel construction information retrieval and
-  extraction.''\ {\em Control and Decision Conference (2014 CCDC), The 26th
-  Chinese}, IEEE,  4741--4746.
-
-\bibitem[\protect\citeauthoryear{}{{National Institue of Building Sciences
-  (NIBS)}}{2015}]{nibs15}
-{National Institue of Building Sciences (NIBS)} (2015).
-\newblock ``National bim standard – united states version 3.''\ {\em Report
-  no.}
-
 \bibitem[\protect\citeauthoryear{}{Navigli}{2009}]{Navigli09}
 Navigli, R. (2009).
 \newblock ``Word sense disambiguation: A survey.''\ {\em ACM Computing Surveys
@@ -240,16 +186,12 @@ Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
   domain-specific texts.''\ {\em Third International Conference on Language
   Resources and Evaluation (LREC2002)},  2155--2162.
 
-\bibitem[\protect\citeauthoryear{}{Nepal et~al.\@}{2012}]{nepal12}
-Nepal, M.~P., Staub-French, S., Pottinger, R., and Zhang, J. (2012).
-\newblock ``Ontology-based feature modeling for construction information
-  extraction from a building information model.''\ {\em Journal of Computing in
-  Civil Engineering}, 27(5), 555--569.
-
-\bibitem[\protect\citeauthoryear{}{Nisbet}{2012}]{nisbet12}
-Nisbet, N. (2012).
-\newblock ``Cobie uk: Required information for facility operation.''\ {\em
-  Report no.}, AEC3 UK Ltd.
+\bibitem[\protect\citeauthoryear{}{Pennington
+  et~al.\@}{2014}]{pennington2014glove}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
+\newblock ``Glove: Global vectors for word representation.''\ {\em Empirical
+  Methods in Natural Language Processing (EMNLP)},  1532--1543,
+  $<$http://www.aclweb.org/anthology/D14-1162$>$.
 
 \bibitem[\protect\citeauthoryear{}{Porter}{1980}]{porter80}
 Porter, M.~F. (1980).
@@ -267,25 +209,10 @@ Sclano, F. and Velardi, P. (2007).
   of emergent web communities}.
 \newblock Springer,  287--290.
 
-\bibitem[\protect\citeauthoryear{}{Shekarpour et~al.\@}{2011}]{shekarpour11}
-Shekarpour, S., Auer, S., Ngomo, A.-C.~N., Gerber, D., Hellmann, S., and
-  Stadler, C. (2011).
-\newblock ``Keyword-driven sparql query generation leveraging background
-  knowledge.''\ {\em Web Intelligence and Intelligent Agent Technology
-  (WI-IAT), 2011 IEEE/WIC/ACM International Conference on}, Vol.~1, IEEE,
-  203--210.
-
 \bibitem[\protect\citeauthoryear{}{Sparck~Jones}{1972}]{sparck72}
 Sparck~Jones, K. (1972).
 \newblock ``A statistical interpretation of term specificity and its
   application in retrieval.''\ {\em Journal of documentation}, 28(1), 11--21.
-
-\bibitem[\protect\citeauthoryear{}{{Technical Research Center of
-  Finland}}{2016}]{vtt16}
-{Technical Research Center of Finland} (2016).
-\newblock ``Finnish inframodel application documentation for landxml v1.2 -
-  version 4:2016, $<$http://cic.vtt.fi/inframodel/$>$.
-\newblock Accessed: April 09, 2016.
 
 \bibitem[\protect\citeauthoryear{}{Toutanova et~al.\@}{2003}]{Toutanova03}
 Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
@@ -298,12 +225,6 @@ Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
 Turney, P.~D. and Pantel, P. (2010).
 \newblock ``From frequency to meaning: Vector space models of semantics.''\
   {\em Journal of artificial intelligence research}, 37(1), 141--188.
-
-\bibitem[\protect\citeauthoryear{}{{U.S. General Services Administration
-  (GSA)}}{2011}]{gsa11}
-{U.S. General Services Administration (GSA)} (2011).
-\newblock ``Gsa building information modeling guide series: 08 – gsa bim
-  guide for facility management.''\ {\em Report no.}
 
 \bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012}]{venugopal12}
 Venugopal, M., Eastman, C.~M., Sacks, R., and Teizer, J. (2012).
@@ -324,20 +245,8 @@ Wetherill, M., Rezgui, Y., Lima, C., and Zarli, A. (2002).
 
 \bibitem[\protect\citeauthoryear{}{Wikipedia}{2016}]{wikipedia16}
 Wikipedia (2016).
-\newblock ``Glossary of road transportation terms,
-  $<$https://en.wikipedia.org/wiki/Glossary_of_road_transport_terms$>$.
+\newblock ``Glossary of road transportation terms.
 \newblock Accessed: April 11, 2016.
-
-\bibitem[\protect\citeauthoryear{}{Wülfing et~al.\@}{2014}]{wulfing14}
-Wülfing, A., Windisch, R., and Scherer, R. (2014).
-\newblock ``A visual bim query language.''\ {\em eWork and eBusiness in
-  Architecture, Engineering and Construction: ECPPM 2014},  157.
-
-\bibitem[\protect\citeauthoryear{}{Won et~al.\@}{2013}]{won13}
-Won, J., Lee, G., and Cho, C. (2013).
-\newblock ``No-schema algorithm for extracting a partial model from an ifc
-  instance model.''\ {\em Journal of Computing in Civil Engineering}, 27(6),
-  585--592.
 
 \bibitem[\protect\citeauthoryear{}{Yalcinkaya and Singh}{2015}]{yalcinkaya15}
 Yalcinkaya, M. and Singh, V. (2015).
@@ -354,12 +263,8 @@ Yarowsky, D. (1995).
 
 \bibitem[\protect\citeauthoryear{}{Zhang and El-Gohary}{2015}]{Zhang15c}
 Zhang, J. and El-Gohary, N. (2015).
-\newblock ``A semantic similarity-based method for semi-automated ifc exension.
-
-\bibitem[\protect\citeauthoryear{}{Zhang and Issa}{2012}]{zhang12}
-Zhang, L. and Issa, R.~R. (2012).
-\newblock ``Ontology-based partial building information model extraction.''\
-  {\em Journal of Computing in Civil Engineering}, 27(6), 576--584.
+\newblock ``A semantic similarity-based method for semi-automated ifc
+  exension.''\ {\em 5th International/11th Construction Specialty Conference}.
 
 \bibitem[\protect\citeauthoryear{}{Zhang et~al.\@}{2008}]{zhang08}
 Zhang, Z., Iria, J., Brewster, C., and Ciravegna, F. (2008).
