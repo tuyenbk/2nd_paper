@@ -1,0 +1,40 @@
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{Figure1_overview_methodology}
+\caption{Overview of the proposed methodology}
+\label{fig:framework}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.45\textwidth]{Figure2_term_extraction}
+\caption{Linguistic processing procedure to detect technical terms}
+\label{fig:np_detect}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.5\textwidth]{Figure3_term_precision}
+\caption{Precision of term extraction}
+\label{fig:term_precision}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.45\textwidth]{Figure4_skip-gram-model}
+\caption{Skip-gram model}
+\label{fig:skip-gram}
+\end{figure}
+\efloatseparator
+ 
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.95\textwidth]{Figure5_hvsm_space}
+\caption{Highway term space model (H-VSM)}
+\label{fig:hvsm}
+\end{figure}
+\efloatseparator
+ 

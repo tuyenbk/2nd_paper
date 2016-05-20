@@ -15,6 +15,11 @@ Apache.org (2016).
 \newblock ``Machine learning library (mllib),
   $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$\ (March).
 
+\bibitem[\protect\citeauthoryear{}{Bodenreider}{2004}]{bodenreider04umls}
+Bodenreider, O. (2004).
+\newblock ``The unified medical language system (umls): integrating biomedical
+  terminology.''\ {\em Nucleic acids research}, 32(suppl 1), D267--D270.
+
 \bibitem[\protect\citeauthoryear{}{buildingSMART}{2015}]{buildingsmartIFC}
 buildingSMART (2015).
 \newblock ``Ifc overview summary, $<$http://www.buildingsmart-tech.org/$>$.
@@ -78,6 +83,11 @@ Gallaher, M.~P., O'Connor, A.~C., Dettbarn, J.~L., and Gilday, L.~T. (2004).
 \newblock U.S. Department of Commerce Technology Administration, National
   Institute of Standards and Technology, Gaithersburg, MD.
 
+\bibitem[\protect\citeauthoryear{}{{Google Inc.}}{2016}]{google2016}
+{Google Inc.} (2016).
+\newblock ``word2vec, $<$https://code.google.com/archive/p/word2vec/$>$.
+\newblock {(accessed May 12, 2016)}.
+
 \bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2013}]{harispe13}
 Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
 \newblock ``Semantic measures for the comparison of units of language, concepts
@@ -93,12 +103,18 @@ Hezik, M. (2008).
 \newblock ``Ifd library background and history.''\ {\em The IFD
   Library/IDM/IFC/MVD Workshop}.
 
+\bibitem[\protect\citeauthoryear{}{Hirst and St-Onge}{1998}]{hirst1998lexical}
+Hirst, G. and St-Onge, D. (1998).
+\newblock ``Lexical chains as representations of context for the detection and
+  correction of malapropisms.''\ {\em WordNet: An electronic lexical database},
+  305, 305--332.
+
 \bibitem[\protect\citeauthoryear{}{Hsu}{2013}]{hsu13}
 Hsu, J.-y. (2013).
 \newblock ``Content-based text mining technique for retrieval of cad
   documents.''\ {\em Automation in Construction}, 31, 65--74.
 
-\bibitem[\protect\citeauthoryear{}{Jiang and Conrath}{1997}]{jiang97}
+\bibitem[\protect\citeauthoryear{}{Jiang and Conrath}{1997}]{jiang1997semantic}
 Jiang, J.~J. and Conrath, D.~W. (1997).
 \newblock ``Semantic similarity based on corpus statistics and lexical
   taxonomy.''\ {\em arXiv preprint cmp-lg/9709008}.
@@ -109,15 +125,34 @@ Justeson, J.~S. and Katz, S.~M. (1995).
   for identification in text.''\ {\em Natural Language Engineering}, 1(01),
   9--27.
 
+\bibitem[\protect\citeauthoryear{}{Karimi et~al.\@}{2003}]{karimi2003semantic}
+Karimi, H.~A., Akinci, B., Boukamp, F., and Peachavanish, R. (2003).
+\newblock ``Semantic interoperability in infrastructure systems.''\ {\em
+  Information Technology},  42--42.
+
 \bibitem[\protect\citeauthoryear{}{Kolb}{2008}]{kolb08}
 Kolb, P. (2008).
 \newblock ``Disco: A multilingual database of distributionally similar
   words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
 
+\bibitem[\protect\citeauthoryear{}{Landauer and
+  Dumais}{1997}]{landauer1997solution}
+Landauer, T.~K. and Dumais, S.~T. (1997).
+\newblock ``A solution to plato's problem: The latent semantic analysis theory
+  of acquisition, induction, and representation of knowledge..''\ {\em
+  Psychological review}, 104(2), 211.
+
 \bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxml15}
 landxml.org (2015).
 \newblock ``About landxml.org, $<$http://www.landxml.org/About.aspx$>$.
 \newblock Accessed: 2015-10-11.
+
+\bibitem[\protect\citeauthoryear{}{Leacock and
+  Chodorow}{1998}]{leacock1998similarity}
+Leacock, C. and Chodorow, M. (1998).
+\newblock ``Combining local context and wordnet similarity for word sense
+  identification.''\ {\em WordNet: An electronic lexical database}, 49(2),
+  265--283.
 
 \bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2013}]{lee13}
 Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
@@ -130,6 +165,13 @@ Lesk, M. (1986).
 \newblock ``Automatic sense disambiguation using machine readable dictionaries:
   how to tell a pine cone from an ice cream cone.''\ {\em Proceedings of the
   5th annual international conference on Systems documentation}, ACM,  24--26.
+
+\bibitem[\protect\citeauthoryear{}{Lin}{1998}]{lin98similarity}
+Lin, D. (1998).
+\newblock ``Automatic retrieval and clustering of similar words.''\ {\em
+  Proceedings of the 36th Annual Meeting of the Association for Computational
+  Linguistics and 17th International Conference on Computational
+  Linguistics-Volume 2}, Association for Computational Linguistics,  768--774.
 
 \bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
 Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
@@ -197,6 +239,16 @@ Pennington, J., Socher, R., and Manning, C.~D. (2014).
 Porter, M.~F. (1980).
 \newblock ``An algorithm for suffix stripping.''\ {\em Program}, 14(3),
   130--137.
+
+\bibitem[\protect\citeauthoryear{}{Radim}{2014}]{rehurek14}
+Radim, R. (2014).
+\newblock ``Word2vec tutorial,
+  $<$http://rare-technologies.com/word2vec-tutorial/$>$.
+
+\bibitem[\protect\citeauthoryear{}{Resnik}{1995}]{resnik1995similarity}
+Resnik, P. (1995).
+\newblock ``Using information content to evaluate semantic similarity in a
+  taxonomy.''\ {\em arXiv preprint cmp-lg/9511007}.
 
 \bibitem[\protect\citeauthoryear{}{Salton and Buckley}{1988}]{salton88}
 Salton, G. and Buckley, C. (1988).
