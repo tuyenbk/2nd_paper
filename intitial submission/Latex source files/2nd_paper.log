@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  20 MAY 2016 15:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  22 MAY 2016 10:41
 entering extended mode
 **2nd_paper.tex
 (2nd_paper.tex
@@ -554,19 +554,19 @@ Overfull \hbox (30.72615pt too wide) in paragraph at lines 29--33
  []
 
 [21] [22]
-Underfull \hbox (badness 1648) in paragraph at lines 183--190
+Underfull \hbox (badness 1648) in paragraph at lines 178--185
 []\T1/cmr/m/n/12 Lossio-Ventura, J. A., Jon-quet, C., Roche, M., and Teis-seire
 , M. (2013). ``Com-
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 183--190
+Underfull \hbox (badness 1242) in paragraph at lines 178--185
 \T1/cmr/m/n/12 bin-ing c-value and key-word ex-trac-tion meth-ods for biomed-i-
 cal terms ex-trac-tion.''
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 183--190
+Underfull \hbox (badness 1142) in paragraph at lines 178--185
 \T1/cmr/m/it/12 LBM'2013: 5th In-ter-na-tional Sym-po-sium on Lan-guages in Bi-
 ol-ogy and Medicine\T1/cmr/m/n/12 ,
  []
@@ -635,10 +635,10 @@ Package pdftex.def Info: figures/Figure5_hvsm_space.pdf used on input line 35.
  [40 <./figures/Figure5_hvsm_space.pdf>])
 (2nd_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4937 strings out of 493673
- 70207 string characters out of 3143140
- 136021 words of memory out of 3000000
- 8198 multiletter control sequences out of 15000+200000
+ 4936 strings out of 493673
+ 70199 string characters out of 3143140
+ 136004 words of memory out of 3000000
+ 8197 multiletter control sequences out of 15000+200000
  22074 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,11n,38p,2121b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -665,9 +665,9 @@ b><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
 rogram Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
 iles/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
 iKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 2nd_paper.pdf (40 pages, 412744 bytes).
+Output written on 2nd_paper.pdf (40 pages, 411927 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
+ 763 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

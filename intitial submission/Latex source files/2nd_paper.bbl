@@ -1,0 +1,326 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{}{Abuzir and Abuzir}{2002}]{abuzir02}
+Abuzir, Y. and Abuzir, M.~O. (2002).
+\newblock ``Constructing the civil engineering thesaurus (cet) using the
+  theswb.''\ {\em Computing in Civil Engineering}.
+
+\bibitem[\protect\citeauthoryear{}{Ananiadou et~al.\@}{2000}]{ananiadou20}
+Ananiadou, S., Albert, S., and Schuhmann, D. (2000).
+\newblock ``Evaluation of automatic term recognition of nuclear receptors from
+  medline.''\ {\em Genome Informatics}, 11, 450--451.
+
+\bibitem[\protect\citeauthoryear{}{Apache.org}{2016}]{apache16}
+Apache.org (2016).
+\newblock ``Machine learning library (mllib),
+  $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$\ (March).
+
+\bibitem[\protect\citeauthoryear{}{Bodenreider}{2004}]{bodenreider04umls}
+Bodenreider, O. (2004).
+\newblock ``The unified medical language system (umls): integrating biomedical
+  terminology.''\ {\em Nucleic acids research}, 32(suppl 1), D267--D270.
+
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2015}]{buildingsmartIFC}
+buildingSMART (2015).
+\newblock ``Ifc overview summary, $<$http://www.buildingsmart-tech.org/$>$.
+\newblock Accessed: 2015-10-11.
+
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016a}]{buildingsmartData}
+buildingSMART (2016a).
+\newblock ``Data dictionary,
+  $<$http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/$>$.
+\newblock Accessed: March 15, 2016.
+
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016b}]{buildingSmart}
+buildingSMART (2016b).
+\newblock ``Model view definition summary,
+  $<$http://www.buildingsmart-tech.org/specifications/ifc-view-definition$>$.
+\newblock {(accessed April 12, 2016)}.
+
+\bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
+Cambria, E. and White, B. (2014).
+\newblock ``Jumping nlp curves: a review of natural language processing
+  research [review article].''\ {\em Computational Intelligence Magazine,
+  IEEE}, 9(2), 48--57.
+
+\bibitem[\protect\citeauthoryear{}{Chen and Manning}{2014}]{chen14}
+Chen, D. and Manning, C.~D. (2014).
+\newblock ``A fast and accurate dependency parser using neural networks.''\
+  {\em EMNLP},  740--750.
+
+\bibitem[\protect\citeauthoryear{}{Costa-Jussa et~al.\@}{2012}]{costa-jussa12}
+Costa-Jussa, M.~R., Farrús, M., Mariño, J.~B., and Fonollosa, J.~A. (2012).
+\newblock ``Study and comparison of rule-based and statistical catalan-spanish
+  machine translation systems.''\ {\em Computing and Informatics}, 31(2),
+  245--270.
+
+\bibitem[\protect\citeauthoryear{}{Cunningham et~al.\@}{2002}]{Cunningham02}
+Cunningham, H., Maynard, D., Bontcheva, K., and Tablan, V. (2002).
+\newblock ``Gate: an architecture for development of robust hlt
+  applications.''\ {\em Proceedings of the 40th annual meeting on association
+  for computational linguistics}, Association for Computational Linguistics,
+  168--175.
+
+\bibitem[\protect\citeauthoryear{}{Eastman}{2012}]{eastman12}
+Eastman, C. (2012).
+\newblock ``The future of ifc: Rationale and design of a sem ifc layer.
+\newblock Presentaion at the IDDS workshop.
+
+\bibitem[\protect\citeauthoryear{}{Erk}{2012}]{erk12}
+Erk, K. (2012).
+\newblock ``Vector space models of word meaning and phrase meaning: A
+  survey.''\ {\em Language and Linguistics Compass}, 6(10), 635--653.
+
+\bibitem[\protect\citeauthoryear{}{Frantzi et~al.\@}{2000}]{frantzi20}
+Frantzi, K., Ananiadou, S., and Mima, H. (2000).
+\newblock ``Automatic recognition of multi-word terms: the c-value/nc-value
+  method.''\ {\em International Journal on Digital Libraries}, 3(2), 115--130.
+
+\bibitem[\protect\citeauthoryear{}{Gallaher et~al.\@}{2004}]{Gallaher04}
+Gallaher, M.~P., O'Connor, A.~C., Dettbarn, J.~L., and Gilday, L.~T. (2004).
+\newblock {\em Cost analysis of inadequate interoperability in the U.S. capital
+  facilities industry}.
+\newblock U.S. Department of Commerce Technology Administration, National
+  Institute of Standards and Technology, Gaithersburg, MD.
+
+\bibitem[\protect\citeauthoryear{}{{Google Inc.}}{2016}]{google2016}
+{Google Inc.} (2016).
+\newblock ``word2vec, $<$https://code.google.com/archive/p/word2vec/$>$.
+\newblock {(accessed May 12, 2016)}.
+
+\bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2013}]{harispe13}
+Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
+\newblock ``Semantic measures for the comparison of units of language, concepts
+  or instances from text and knowledge base analysis.''\ {\em arXiv preprint
+  arXiv:1310.1285}.
+
+\bibitem[\protect\citeauthoryear{}{Harris}{1954}]{Harris54}
+Harris, Z.~S. (1954).
+\newblock ``Distributional structure.''\ {\em Word}.
+
+\bibitem[\protect\citeauthoryear{}{Hezik}{2008}]{hezik08}
+Hezik, M. (2008).
+\newblock ``Ifd library background and history.''\ {\em The IFD
+  Library/IDM/IFC/MVD Workshop}.
+
+\bibitem[\protect\citeauthoryear{}{Hirst and St-Onge}{1998}]{hirst1998lexical}
+Hirst, G. and St-Onge, D. (1998).
+\newblock ``Lexical chains as representations of context for the detection and
+  correction of malapropisms.''\ {\em WordNet: An electronic lexical database},
+  305, 305--332.
+
+\bibitem[\protect\citeauthoryear{}{Hsu}{2013}]{hsu13}
+Hsu, J.-y. (2013).
+\newblock ``Content-based text mining technique for retrieval of cad
+  documents.''\ {\em Automation in Construction}, 31, 65--74.
+
+\bibitem[\protect\citeauthoryear{}{Jiang and Conrath}{1997}]{jiang1997semantic}
+Jiang, J.~J. and Conrath, D.~W. (1997).
+\newblock ``Semantic similarity based on corpus statistics and lexical
+  taxonomy.''\ {\em arXiv preprint cmp-lg/9709008}.
+
+\bibitem[\protect\citeauthoryear{}{Justeson and Katz}{1995}]{justeson95}
+Justeson, J.~S. and Katz, S.~M. (1995).
+\newblock ``Technical terminology: some linguistic properties and an algorithm
+  for identification in text.''\ {\em Natural Language Engineering}, 1(01),
+  9--27.
+
+\bibitem[\protect\citeauthoryear{}{Karimi et~al.\@}{2003}]{karimi2003semantic}
+Karimi, H.~A., Akinci, B., Boukamp, F., and Peachavanish, R. (2003).
+\newblock ``Semantic interoperability in infrastructure systems.''\ {\em
+  Information Technology},  42--42.
+
+\bibitem[\protect\citeauthoryear{}{Landauer and
+  Dumais}{1997}]{landauer1997solution}
+Landauer, T.~K. and Dumais, S.~T. (1997).
+\newblock ``A solution to plato's problem: The latent semantic analysis theory
+  of acquisition, induction, and representation of knowledge..''\ {\em
+  Psychological review}, 104(2), 211.
+
+\bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxml15}
+landxml.org (2015).
+\newblock ``About landxml.org, $<$http://www.landxml.org/About.aspx$>$.
+\newblock Accessed: 2015-10-11.
+
+\bibitem[\protect\citeauthoryear{}{Leacock and
+  Chodorow}{1998}]{leacock1998similarity}
+Leacock, C. and Chodorow, M. (1998).
+\newblock ``Combining local context and wordnet similarity for word sense
+  identification.''\ {\em WordNet: An electronic lexical database}, 49(2),
+  265--283.
+
+\bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2013}]{lee13}
+Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
+\newblock ``Attribute extraction and scoring: A probabilistic approach.''\ {\em
+  Data Engineering (ICDE), 2013 IEEE 29th International Conference on}, IEEE,
+  194--205.
+
+\bibitem[\protect\citeauthoryear{}{Lesk}{1986}]{Lesk86}
+Lesk, M. (1986).
+\newblock ``Automatic sense disambiguation using machine readable dictionaries:
+  how to tell a pine cone from an ice cream cone.''\ {\em Proceedings of the
+  5th annual international conference on Systems documentation}, ACM,  24--26.
+
+\bibitem[\protect\citeauthoryear{}{Lin}{1998}]{lin98similarity}
+Lin, D. (1998).
+\newblock ``Automatic retrieval and clustering of similar words.''\ {\em
+  Proceedings of the 36th Annual Meeting of the Association for Computational
+  Linguistics and 17th International Conference on Computational
+  Linguistics-Volume 2}, Association for Computational Linguistics,  768--774.
+
+\bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
+Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
+\newblock ``A natural-language-based approach to intelligent data retrieval and
+  representation for cloud bim.''\ {\em Computer-Aided Civil and Infrastructure
+  Engineering}.
+
+\bibitem[\protect\citeauthoryear{}{Lossio-Ventura et~al.\@}{2013}]{lossio13}
+Lossio-Ventura, J.~A., Jonquet, C., Roche, M., and Teisseire, M. (2013).
+\newblock ``Combining c-value and keyword extraction methods for biomedical
+  terms extraction.''\ {\em LBM'2013: 5th International Symposium on Languages
+  in Biology and Medicine},  http://lbm2013.biopathway.org/.
+\newblock Computer Science [cs]/Bioinformatics [q-bio.QM] Life Sciences
+  [q-bio]/Quantitative Methods [q-bio.QM] Computer Science [cs]/Document and
+  Text ProcessingConference papers.
+
+\bibitem[\protect\citeauthoryear{}{Lv and El-Gohary}{2015}]{lv15}
+Lv, X. and El-Gohary, N.~M. (2015).
+\newblock ``Semantic annotation for context-aware information retrieval for
+  supporting the environmental review of transportation projects.''\ {\em
+  Computing in Civil Engineering 2015}, ASCE,  165--172.
+
+\bibitem[\protect\citeauthoryear{}{MacQueen}{1967}]{macqueen67}
+MacQueen, J. (1967).
+\newblock ``Some methods for classification and analysis of multivariate
+  observations.''\ {\em Proceedings of the fifth Berkeley symposium on
+  mathematical statistics and probability}, Vol.~1, Oakland, CA, USA.,
+  281--297.
+
+\bibitem[\protect\citeauthoryear{}{Marcus}{1995}]{Marcus95}
+Marcus, M. (1995).
+\newblock ``New trends in natural language processing: statistical natural
+  language processing.''\ {\em Proceedings of the National Academy of
+  Sciences}, 92(22), 10052--10059.
+
+\bibitem[\protect\citeauthoryear{}{Mikolov et~al.\@}{2013}]{mikolov13a}
+Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
+\newblock ``Efficient estimation of word representations in vector space.''\
+  {\em arXiv preprint arXiv:1301.3781}.
+
+\bibitem[\protect\citeauthoryear{}{Miller}{1995}]{miller95}
+Miller, G.~A. (1995).
+\newblock ``Wordnet: a lexical database for english.''\ {\em Communications of
+  the ACM}, 38(11), 39--41.
+
+\bibitem[\protect\citeauthoryear{}{Navigli}{2009}]{Navigli09}
+Navigli, R. (2009).
+\newblock ``Word sense disambiguation: A survey.''\ {\em ACM Computing Surveys
+  (CSUR)}, 41(2), 10.
+
+\bibitem[\protect\citeauthoryear{}{Nenadić et~al.\@}{2002}]{nenadic02}
+Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
+\newblock ``Automatic acronym acquisition and term variation management within
+  domain-specific texts.''\ {\em Third International Conference on Language
+  Resources and Evaluation (LREC2002)},  2155--2162.
+
+\bibitem[\protect\citeauthoryear{}{Pennington
+  et~al.\@}{2014}]{pennington2014glove}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
+\newblock ``Glove: Global vectors for word representation.''\ {\em Empirical
+  Methods in Natural Language Processing (EMNLP)},  1532--1543,
+  $<$http://www.aclweb.org/anthology/D14-1162$>$.
+
+\bibitem[\protect\citeauthoryear{}{Porter}{1980}]{porter80}
+Porter, M.~F. (1980).
+\newblock ``An algorithm for suffix stripping.''\ {\em Program}, 14(3),
+  130--137.
+
+\bibitem[\protect\citeauthoryear{}{Radim}{2014}]{rehurek14}
+Radim, R. (2014).
+\newblock ``Word2vec tutorial,
+  $<$http://rare-technologies.com/word2vec-tutorial/$>$.
+
+\bibitem[\protect\citeauthoryear{}{Resnik}{1995}]{resnik1995similarity}
+Resnik, P. (1995).
+\newblock ``Using information content to evaluate semantic similarity in a
+  taxonomy.''\ {\em arXiv preprint cmp-lg/9511007}.
+
+\bibitem[\protect\citeauthoryear{}{Salton and Buckley}{1988}]{salton88}
+Salton, G. and Buckley, C. (1988).
+\newblock ``Term-weighting approaches in automatic text retrieval.''\ {\em
+  Information processing \& management}, 24(5), 513--523.
+
+\bibitem[\protect\citeauthoryear{}{Sclano and Velardi}{2007}]{sclano07}
+Sclano, F. and Velardi, P. (2007).
+\newblock {\em Termextractor: a web application to learn the shared terminology
+  of emergent web communities}.
+\newblock Springer,  287--290.
+
+\bibitem[\protect\citeauthoryear{}{Sparck~Jones}{1972}]{sparck72}
+Sparck~Jones, K. (1972).
+\newblock ``A statistical interpretation of term specificity and its
+  application in retrieval.''\ {\em Journal of documentation}, 28(1), 11--21.
+
+\bibitem[\protect\citeauthoryear{}{Toutanova et~al.\@}{2003}]{Toutanova03}
+Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
+\newblock ``Feature-rich part-of-speech tagging with a cyclic dependency
+  network.''\ {\em Proceedings of the 2003 Conference of the North American
+  Chapter of the Association for Computational Linguistics on Human Language
+  Technology-Volume 1}, Association for Computational Linguistics,  173--180.
+
+\bibitem[\protect\citeauthoryear{}{Turney and Pantel}{2010}]{turney10}
+Turney, P.~D. and Pantel, P. (2010).
+\newblock ``From frequency to meaning: Vector space models of semantics.''\
+  {\em Journal of artificial intelligence research}, 37(1), 141--188.
+
+\bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012}]{venugopal12}
+Venugopal, M., Eastman, C.~M., Sacks, R., and Teizer, J. (2012).
+\newblock ``Semantics of model views for information exchanges using the
+  industry foundation class schema.''\ {\em Advanced Engineering Informatics},
+  26(2), 411--428.
+
+\bibitem[\protect\citeauthoryear{}{Webster and Kit}{1992}]{Webster92}
+Webster, J.~J. and Kit, C. (1992).
+\newblock ``Tokenization as the initial phase in nlp.''\ {\em Proceedings of
+  the 14th conference on Computational linguistics-Volume 4}, Association for
+  Computational Linguistics,  1106--1110.
+
+\bibitem[\protect\citeauthoryear{}{Wetherill et~al.\@}{2002}]{wetherill02}
+Wetherill, M., Rezgui, Y., Lima, C., and Zarli, A. (2002).
+\newblock ``Knowledge management for the construction industry: the e-cognos
+  project.
+
+\bibitem[\protect\citeauthoryear{}{Wikipedia}{2016}]{wikipedia16}
+Wikipedia (2016).
+\newblock ``Glossary of road transportation terms.
+\newblock Accessed: April 11, 2016.
+
+\bibitem[\protect\citeauthoryear{}{Yalcinkaya and Singh}{2015}]{yalcinkaya15}
+Yalcinkaya, M. and Singh, V. (2015).
+\newblock ``Patterns and trends in building information modeling (bim)
+  research: A latent semantic analysis.''\ {\em Automation in Construction},
+  59, 68--80.
+
+\bibitem[\protect\citeauthoryear{}{Yarowsky}{1995}]{Yarowsky95}
+Yarowsky, D. (1995).
+\newblock ``Unsupervised word sense disambiguation rivaling supervised
+  methods.''\ {\em Proceedings of the 33rd annual meeting on Association for
+  Computational Linguistics}, Association for Computational Linguistics,
+  189--196.
+
+\bibitem[\protect\citeauthoryear{}{Zhang and El-Gohary}{2015}]{Zhang15c}
+Zhang, J. and El-Gohary, N. (2015).
+\newblock ``A semantic similarity-based method for semi-automated ifc
+  exension.''\ {\em 5th International/11th Construction Specialty Conference}.
+
+\bibitem[\protect\citeauthoryear{}{Zhang et~al.\@}{2008}]{zhang08}
+Zhang, Z., Iria, J., Brewster, C., and Ciravegna, F. (2008).
+\newblock ``A comparative evaluation of term recognition algorithms.''\ {\em
+  LREC}.
+
+\bibitem[\protect\citeauthoryear{}{Zhao and Kit}{2011}]{Zhao11}
+Zhao, H. and Kit, C. (2011).
+\newblock ``Integrating unsupervised and supervised word segmentation: The role
+  of goodness measures.''\ {\em Information Sciences}, 181(1), 163--183.
+
+\end{thebibliography}
