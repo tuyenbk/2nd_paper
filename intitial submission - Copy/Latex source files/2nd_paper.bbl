@@ -25,11 +25,17 @@ buildingSMART (2015).
 \newblock ``Ifc overview summary, $<$http://www.buildingsmart-tech.org/$>$.
 \newblock Accessed: 2015-10-11.
 
-\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016}]{buildingsmartData}
-buildingSMART (2016).
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016a}]{buildingsmartData}
+buildingSMART (2016a).
 \newblock ``Data dictionary,
   $<$http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/$>$.
 \newblock Accessed: March 15, 2016.
+
+\bibitem[\protect\citeauthoryear{}{buildingSMART}{2016b}]{buildingSmart}
+buildingSMART (2016b).
+\newblock ``Model view definition summary,
+  $<$http://www.buildingsmart-tech.org/specifications/ifc-view-definition$>$.
+\newblock {(accessed April 12, 2016)}.
 
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
@@ -54,6 +60,11 @@ Cunningham, H., Maynard, D., Bontcheva, K., and Tablan, V. (2002).
   applications.''\ {\em Proceedings of the 40th annual meeting on association
   for computational linguistics}, Association for Computational Linguistics,
   168--175.
+
+\bibitem[\protect\citeauthoryear{}{Eastman}{2012}]{eastman12}
+Eastman, C. (2012).
+\newblock ``The future of ifc: Rationale and design of a sem ifc layer.
+\newblock Presentaion at the IDDS workshop.
 
 \bibitem[\protect\citeauthoryear{}{Erk}{2012}]{erk12}
 Erk, K. (2012).
@@ -92,11 +103,6 @@ Hezik, M. (2008).
 \newblock ``Ifd library background and history.''\ {\em The IFD
   Library/IDM/IFC/MVD Workshop}.
 
-\bibitem[\protect\citeauthoryear{}{Hill et~al.\@}{2015}]{hill15}
-Hill, F., Reichart, R., and Korhonen, A. (2015).
-\newblock ``Simlex-999: Evaluating semantic models with (genuine) similarity
-  estimation.''\ {\em Computational Linguistics}, 41(4), 665--695.
-
 \bibitem[\protect\citeauthoryear{}{Hirst and St-Onge}{1998}]{hirst1998lexical}
 Hirst, G. and St-Onge, D. (1998).
 \newblock ``Lexical chains as representations of context for the detection and
@@ -123,11 +129,6 @@ Justeson, J.~S. and Katz, S.~M. (1995).
 Karimi, H.~A., Akinci, B., Boukamp, F., and Peachavanish, R. (2003).
 \newblock ``Semantic interoperability in infrastructure systems.''\ {\em
   Information Technology},  42--42.
-
-\bibitem[\protect\citeauthoryear{}{Kolb}{2008}]{kolb08}
-Kolb, P. (2008).
-\newblock ``Disco: A multilingual database of distributionally similar
-  words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
 
 \bibitem[\protect\citeauthoryear{}{Landauer and
   Dumais}{1997}]{landauer1997solution}
@@ -271,6 +272,12 @@ Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
 Turney, P.~D. and Pantel, P. (2010).
 \newblock ``From frequency to meaning: Vector space models of semantics.''\
   {\em Journal of artificial intelligence research}, 37(1), 141--188.
+
+\bibitem[\protect\citeauthoryear{}{Venugopal et~al.\@}{2012}]{venugopal12}
+Venugopal, M., Eastman, C.~M., Sacks, R., and Teizer, J. (2012).
+\newblock ``Semantics of model views for information exchanges using the
+  industry foundation class schema.''\ {\em Advanced Engineering Informatics},
+  26(2), 411--428.
 
 \bibitem[\protect\citeauthoryear{}{Webster and Kit}{1992}]{Webster92}
 Webster, J.~J. and Kit, C. (1992).

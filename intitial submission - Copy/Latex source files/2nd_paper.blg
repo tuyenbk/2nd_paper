@@ -4,9 +4,11 @@ Database file #1: mybib.bib
 Warning--empty journal in apache16
 Warning--empty journal in buildingsmartIFC
 Warning--empty journal in buildingsmartData
+Warning--empty journal in buildingSmart
+Warning--empty journal in eastman12
 Warning--empty journal in google2016
 Warning--empty journal in landxml15
 Warning--empty journal in rehurek14
 Warning--empty journal in wetherill02
 Warning--empty journal in wikipedia16
-(There were 8 warnings)
+(There were 10 warnings)

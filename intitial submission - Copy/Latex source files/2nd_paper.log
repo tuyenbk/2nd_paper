@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  2 AUG 2016 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  22 MAY 2016 10:41
 entering extended mode
 **2nd_paper.tex
 (2nd_paper.tex
@@ -520,7 +520,7 @@ LaTeX Info: Redefining \\ on input line 3056.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 45.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 43.
  ("C:\Program Files\MiKTeX 2.9.0\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
@@ -528,59 +528,58 @@ File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 {C:/Users/cceegrad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] 
 [4] [5] [6]
 [7] [8] (2nd_paper.fff) [9] [10] (2nd_paper.ttt)
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 213.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 207.
 
 
 ("C:\Program Files\MiKTeX 2.9.0\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 213.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 207.
  [11] [12] [13]
 [14] [15]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16] [17] [18] [19] (2nd_paper.bbl [20]
+[16] [17] [18] [19] (2nd_paper.bbl
 Overfull \hbox (30.92737pt too wide) in paragraph at lines 14--17
 []\T1/cmr/m/n/12 Apache.org (2016). ``Ma-chine learn-ing li-brary (ml-lib), $\O
 ML/cmm/m/it/12 <$\T1/cmr/m/n/12 https://spark.apache.org/docs/1.1.0/mllib-
  []
 
-
-Overfull \hbox (24.85258pt too wide) in paragraph at lines 29--33
-[]\T1/cmr/m/n/12 buildingSMART (2016). ``Data dic-tio-nary, $\OML/cmm/m/it/12 <
-$\T1/cmr/m/n/12 http://www.buildingsmart.org/standards/standards-
+[20]
+Overfull \hbox (30.72615pt too wide) in paragraph at lines 29--33
+[]\T1/cmr/m/n/12 buildingSMART (2016a). ``Data dic-tio-nary, $\OML/cmm/m/it/12 
+<$\T1/cmr/m/n/12 http://www.buildingsmart.org/standards/standards-
  []
 
 [21] [22]
-Underfull \hbox (badness 1648) in paragraph at lines 177--184
+Underfull \hbox (badness 1648) in paragraph at lines 178--185
 []\T1/cmr/m/n/12 Lossio-Ventura, J. A., Jon-quet, C., Roche, M., and Teis-seire
 , M. (2013). ``Com-
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 177--184
+Underfull \hbox (badness 1242) in paragraph at lines 178--185
 \T1/cmr/m/n/12 bin-ing c-value and key-word ex-trac-tion meth-ods for biomed-i-
 cal terms ex-trac-tion.''
  []
 
 
-Underfull \hbox (badness 1142) in paragraph at lines 177--184
+Underfull \hbox (badness 1142) in paragraph at lines 178--185
 \T1/cmr/m/it/12 LBM'2013: 5th In-ter-na-tional Sym-po-sium on Lan-guages in Bi-
 ol-ogy and Medicine\T1/cmr/m/n/12 ,
  []
 
-[23] [24] [25]) AED endfloat: Processing end Figures and Tables [26]
-(2nd_paper.lot)
+[23] [24]) AED endfloat: Processing end Figures and Tables [25] (2nd_paper.lot)
 \tf@lot=\write5
- [27
+[26
 
 
-] (2nd_paper.ttt [28] [29] [30] [31] [32] [33] [34] [35])
-(2nd_paper.lof)
+] (2nd_paper.ttt [27] [28] [29] [30] [31] [32] [33] [34]) (2nd_paper.lof)
 \tf@lof=\write6
- [36
+
+[35
 
 
 
@@ -592,54 +591,54 @@ ol-ogy and Medicine\T1/cmr/m/n/12 ,
 
 
 ] (2nd_paper.fff
-<figures/Figure1_overview_methodology.pdf, id=136, 561.73714pt x 220.09528pt>
+<figures/Figure1_overview_methodology.pdf, id=133, 561.73714pt x 220.09528pt>
 File: figures/Figure1_overview_methodology.pdf Graphic file (type pdf)
 
 <use figures/Figure1_overview_methodology.pdf>
 Package pdftex.def Info: figures/Figure1_overview_methodology.pdf used on input
  line 3.
 (pdftex.def)             Requested size: 446.2658pt x 174.85736pt.
- [37 <./figures/Figure1_overview_methodology.pdf>]
-<figures/Figure2_term_extraction.pdf, id=184, 566.72194pt x 459.94838pt>
+ [36 <./figures/Figure1_overview_methodology.pdf>]
+<figures/Figure2_term_extraction.pdf, id=180, 566.72194pt x 459.94838pt>
 File: figures/Figure2_term_extraction.pdf Graphic file (type pdf)
 
 <use figures/Figure2_term_extraction.pdf>
 Package pdftex.def Info: figures/Figure2_term_extraction.pdf used on input line
  11.
 (pdftex.def)             Requested size: 211.3883pt x 171.56082pt.
- [38 <./figures/Figure2_term_extraction.pdf>]
-<figures/Figure3_term_precision.pdf, id=197, 500.63853pt x 358.72499pt>
+ [37 <./figures/Figure2_term_extraction.pdf>]
+<figures/Figure3_term_precision.pdf, id=194, 500.63853pt x 358.72499pt>
 File: figures/Figure3_term_precision.pdf Graphic file (type pdf)
 
 <use figures/Figure3_term_precision.pdf>
 Package pdftex.def Info: figures/Figure3_term_precision.pdf used on input line 
 19.
 (pdftex.def)             Requested size: 234.87749pt x 168.29971pt.
- [39 <./figures/Figure3_term_precision.pdf>] <figures/Figure4_skip-gram-model.p
-df, id=206, 535.45743pt x 308.79164pt>
+ [38 <./figures/Figure3_term_precision.pdf>] <figures/Figure4_skip-gram-model.p
+df, id=203, 535.45743pt x 308.79164pt>
 File: figures/Figure4_skip-gram-model.pdf Graphic file (type pdf)
 
 <use figures/Figure4_skip-gram-model.pdf>
 Package pdftex.def Info: figures/Figure4_skip-gram-model.pdf used on input line
  27.
 (pdftex.def)             Requested size: 211.3883pt x 121.90303pt.
- [40 <./figures/Figure4_skip-gram-model.pdf>]
+ [39 <./figures/Figure4_skip-gram-model.pdf>]
 
 pdfTeX warning: pdflatex.exe (file ./figures/Figure5_hvsm_space.pdf): PDF inclu
 sion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/Figure5_hvsm_space.pdf, id=228, 694.595pt x 472.76625pt>
+<figures/Figure5_hvsm_space.pdf, id=225, 694.595pt x 472.76625pt>
 File: figures/Figure5_hvsm_space.pdf Graphic file (type pdf)
 
 <use figures/Figure5_hvsm_space.pdf>
 Package pdftex.def Info: figures/Figure5_hvsm_space.pdf used on input line 35.
 (pdftex.def)             Requested size: 446.2658pt x 303.75243pt.
- [41 <./figures/Figure5_hvsm_space.pdf>])
+ [40 <./figures/Figure5_hvsm_space.pdf>])
 (2nd_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4935 strings out of 493673
- 70176 string characters out of 3143140
- 136968 words of memory out of 3000000
- 8196 multiletter control sequences out of 15000+200000
+ 4936 strings out of 493673
+ 70199 string characters out of 3143140
+ 136004 words of memory out of 3000000
+ 8197 multiletter control sequences out of 15000+200000
  22074 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  36i,11n,38p,2121b,402s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -666,9 +665,9 @@ b><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
 rogram Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
 iles/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
 iKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on 2nd_paper.pdf (41 pages, 413811 bytes).
+Output written on 2nd_paper.pdf (40 pages, 411927 bytes).
 PDF statistics:
- 768 PDF objects out of 1000 (max. 8388607)
+ 763 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
