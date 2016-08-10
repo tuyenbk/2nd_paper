@@ -15,16 +15,6 @@ Apache.org (2016).
 \newblock ``Machine learning library (mllib),
   $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$\ (March).
 
-\bibitem[\protect\citeauthoryear{}{Bodenreider}{2004}]{bodenreider04umls}
-Bodenreider, O. (2004).
-\newblock ``The unified medical language system (umls): integrating biomedical
-  terminology.''\ {\em Nucleic acids research}, 32(suppl 1), D267--D270.
-
-\bibitem[\protect\citeauthoryear{}{buildingSMART}{2015}]{buildingsmartIFC}
-buildingSMART (2015).
-\newblock ``Ifc overview summary, $<$http://www.buildingsmart-tech.org/$>$.
-\newblock Accessed: 2015-10-11.
-
 \bibitem[\protect\citeauthoryear{}{buildingSMART}{2016}]{buildingsmartData}
 buildingSMART (2016).
 \newblock ``Data dictionary,
@@ -55,6 +45,12 @@ Cunningham, H., Maynard, D., Bontcheva, K., and Tablan, V. (2002).
   for computational linguistics}, Association for Computational Linguistics,
   168--175.
 
+\bibitem[\protect\citeauthoryear{}{El-Diraby and Kashif}{2005}]{el-diraby05}
+El-Diraby, T. and Kashif, K. (2005).
+\newblock ``Distributed ontology architecture for knowledge management in
+  highway construction.''\ {\em Journal of Construction Engineering and
+  Management}, 131(5), 591--603.
+
 \bibitem[\protect\citeauthoryear{}{Erk}{2012}]{erk12}
 Erk, K. (2012).
 \newblock ``Vector space models of word meaning and phrase meaning: A
@@ -77,12 +73,6 @@ Gallaher, M.~P., O'Connor, A.~C., Dettbarn, J.~L., and Gilday, L.~T. (2004).
 \newblock ``word2vec, $<$https://code.google.com/archive/p/word2vec/$>$.
 \newblock {(accessed May 12, 2016)}.
 
-\bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2013}]{harispe13}
-Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
-\newblock ``Semantic measures for the comparison of units of language, concepts
-  or instances from text and knowledge base analysis.''\ {\em arXiv preprint
-  arXiv:1310.1285}.
-
 \bibitem[\protect\citeauthoryear{}{Harris}{1954}]{Harris54}
 Harris, Z.~S. (1954).
 \newblock ``Distributional structure.''\ {\em Word}.
@@ -96,12 +86,6 @@ Hezik, M. (2008).
 Hill, F., Reichart, R., and Korhonen, A. (2015).
 \newblock ``Simlex-999: Evaluating semantic models with (genuine) similarity
   estimation.''\ {\em Computational Linguistics}, 41(4), 665--695.
-
-\bibitem[\protect\citeauthoryear{}{Hirst and St-Onge}{1998}]{hirst1998lexical}
-Hirst, G. and St-Onge, D. (1998).
-\newblock ``Lexical chains as representations of context for the detection and
-  correction of malapropisms.''\ {\em WordNet: An electronic lexical database},
-  305, 305--332.
 
 \bibitem[\protect\citeauthoryear{}{Hsu}{2013}]{hsu13}
 Hsu, J.-y. (2013).
@@ -124,29 +108,12 @@ Karimi, H.~A., Akinci, B., Boukamp, F., and Peachavanish, R. (2003).
 \newblock ``Semantic interoperability in infrastructure systems.''\ {\em
   Information Technology},  42--42.
 
-\bibitem[\protect\citeauthoryear{}{Kolb}{2008}]{kolb08}
-Kolb, P. (2008).
-\newblock ``Disco: A multilingual database of distributionally similar
-  words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
-
 \bibitem[\protect\citeauthoryear{}{Landauer and
   Dumais}{1997}]{landauer1997solution}
 Landauer, T.~K. and Dumais, S.~T. (1997).
 \newblock ``A solution to plato's problem: The latent semantic analysis theory
   of acquisition, induction, and representation of knowledge..''\ {\em
   Psychological review}, 104(2), 211.
-
-\bibitem[\protect\citeauthoryear{}{landxml.org}{2015}]{landxml15}
-landxml.org (2015).
-\newblock ``About landxml.org, $<$http://www.landxml.org/About.aspx$>$.
-\newblock Accessed: 2015-10-11.
-
-\bibitem[\protect\citeauthoryear{}{Leacock and
-  Chodorow}{1998}]{leacock1998similarity}
-Leacock, C. and Chodorow, M. (1998).
-\newblock ``Combining local context and wordnet similarity for word sense
-  identification.''\ {\em WordNet: An electronic lexical database}, 49(2),
-  265--283.
 
 \bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2013}]{lee13}
 Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
@@ -160,12 +127,11 @@ Lesk, M. (1986).
   how to tell a pine cone from an ice cream cone.''\ {\em Proceedings of the
   5th annual international conference on Systems documentation}, ACM,  24--26.
 
-\bibitem[\protect\citeauthoryear{}{Lin}{1998}]{lin98similarity}
-Lin, D. (1998).
-\newblock ``Automatic retrieval and clustering of similar words.''\ {\em
-  Proceedings of the 36th Annual Meeting of the Association for Computational
-  Linguistics and 17th International Conference on Computational
-  Linguistics-Volume 2}, Association for Computational Linguistics,  768--774.
+\bibitem[\protect\citeauthoryear{}{Levy et~al.\@}{2015}]{levy15}
+Levy, O., Goldberg, Y., and Dagan, I. (2015).
+\newblock ``Improving distributional similarity with lessons learned from word
+  embeddings.''\ {\em Transactions of the Association for Computational
+  Linguistics}, 3, 211--225.
 
 \bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
 Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
@@ -222,6 +188,22 @@ Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
   domain-specific texts.''\ {\em Third International Conference on Language
   Resources and Evaluation (LREC2002)},  2155--2162.
 
+\bibitem[\protect\citeauthoryear{}{Noy}{2004}]{noy04}
+Noy, N.~F. (2004).
+\newblock ``Semantic integration: a survey of ontology-based approaches.''\
+  {\em ACM Sigmod Record}, 33(4), 65--70.
+
+\bibitem[\protect\citeauthoryear{}{Osman and Ei-Diraby}{2006}]{osman06}
+Osman, H. and Ei-Diraby, T. (2006).
+\newblock ``Ontological modeling of infrastructure products and related
+  concepts.''\ {\em Transportation Research Record: Journal of the
+  Transportation Research Board}, 1984(-1), 159--167.
+
+\bibitem[\protect\citeauthoryear{}{Ouksel and Sheth}{1999}]{ouksel99}
+Ouksel, A.~M. and Sheth, A. (1999).
+\newblock ``Semantic interoperability in global information systems.''\ {\em
+  ACM Sigmod Record}, 28(1), 5--12.
+
 \bibitem[\protect\citeauthoryear{}{Pennington
   et~al.\@}{2014}]{pennington2014glove}
 Pennington, J., Socher, R., and Manning, C.~D. (2014).
@@ -239,11 +221,6 @@ Radim, R. (2014).
 \newblock ``Word2vec tutorial,
   $<$http://rare-technologies.com/word2vec-tutorial/$>$.
 
-\bibitem[\protect\citeauthoryear{}{Resnik}{1995}]{resnik1995similarity}
-Resnik, P. (1995).
-\newblock ``Using information content to evaluate semantic similarity in a
-  taxonomy.''\ {\em arXiv preprint cmp-lg/9511007}.
-
 \bibitem[\protect\citeauthoryear{}{Salton and Buckley}{1988}]{salton88}
 Salton, G. and Buckley, C. (1988).
 \newblock ``Term-weighting approaches in automatic text retrieval.''\ {\em
@@ -254,6 +231,12 @@ Sclano, F. and Velardi, P. (2007).
 \newblock {\em Termextractor: a web application to learn the shared terminology
   of emergent web communities}.
 \newblock Springer,  287--290.
+
+\bibitem[\protect\citeauthoryear{}{Seedah et~al.\@}{2015}]{seedah15}
+Seedah, D.~P., Choubassi, C., and Leite, F. (2015).
+\newblock ``Ontology for querying heterogeneous data sources in freight
+  transportation.''\ {\em Journal of Computing in Civil Engineering},
+  04015069.
 
 \bibitem[\protect\citeauthoryear{}{Sparck~Jones}{1972}]{sparck72}
 Sparck~Jones, K. (1972).
