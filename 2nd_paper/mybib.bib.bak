@@ -116,10 +116,12 @@
   publisher = {Association for Computational Linguistics}
 }
 
-@Book{bs6100-08,
-  title =     {Building and civil engineering vocabulary - Part 4: Transportation},
-  publisher = {British Standards Institution},
-  year =      {2008}
+@Standard{bs6100-08,
+  title =       {Building and civil engineering vocabulary - Part 4: Transportation},
+  institution = {Bristish Standards Institution},
+  number =      {BS6100-4:2004},
+  year =        {2008},
+  publisher =   {British Standards Institution}
 }
 
 @Misc{buildingSmart,
@@ -850,6 +852,12 @@ Year = {2012}}
   pages =   {1-11},
   note =    {Export Date: 16 February 2016}
 }
+
+@TechReport{lefler14,
+  author = {Lefler, Nancy X},
+  title =  {Roadway Safety Data Interoperability Between Local and State Agencies},
+  year =   {2014}
+}
 @inproceedings{Lesk86,
    author = {Lesk, Michael},
    title = {Automatic sense disambiguation using machine readable dictionaries: how to tell a pine cone from an ice cream cone},
@@ -909,8 +917,6 @@ year={1986},
   title =     {Combining C-value and Keyword Extraction Methods for Biomedical Terms Extraction},
   booktitle = {LBM'2013: 5th International Symposium on Languages in Biology and Medicine},
   year =      {2013},
-  pages =     {http://lbm2013.biopathway.org/},
-  note =      {Computer Science [cs]/Bioinformatics [q-bio.QM] Life Sciences [q-bio]/Quantitative Methods [q-bio.QM] Computer Science [cs]/Document and Text ProcessingConference papers},
   keywords =  {Biomedical Term Extraction C-value Biomedical Terminology}
 }
 
@@ -951,6 +957,17 @@ year={1986},
 	Title = {{RDF} 1.1 primer},
 	Volume = {10},
 	Year = {2014}}
+	
+	@article{marcus93,
+  title={Building a large annotated corpus of English: The Penn Treebank},
+  author={Marcus, Mitchell P and Marcinkiewicz, Mary Ann and Santorini, Beatrice},
+  journal={Computational linguistics},
+  volume={19},
+  number={2},
+  pages={313--330},
+  year={1993},
+  publisher={MIT Press}
+}
 
 @article{Marcus95,
    author = {Marcus, Mitchell},
@@ -1142,6 +1159,15 @@ year={1986},
 	Title = {Automated Pavement Condition Data Collection Quality Control, Quality Assurance, and Reliability},
 	Year = {2010}}
 
+@article{Osman06,
+	Author = {Osman, Hesham and Ei-Diraby, Tamer},
+	Journal = {Transportation Research Record: Journal of the Transportation Research Board},
+	Number = {-1},
+	Pages = {159-167},
+	Title = {Ontological Modeling of Infrastructure Products and Related Concepts},
+	Volume = {1984},
+	Year = {2006}}
+
 @Article{osman06,
   author =  {Osman, Hesham and Ei-Diraby, Tamer},
   title =   {Ontological Modeling of Infrastructure Products and Related Concepts},
@@ -1151,15 +1177,6 @@ year={1986},
   number =  {-1},
   pages =   {159-167}
 }
-
-@article{Osman06,
-	Author = {Osman, Hesham and Ei-Diraby, Tamer},
-	Journal = {Transportation Research Record: Journal of the Transportation Research Board},
-	Number = {-1},
-	Pages = {159-167},
-	Title = {Ontological Modeling of Infrastructure Products and Related Concepts},
-	Volume = {1984},
-	Year = {2006}}
 
 @phdthesis{Osman07,
 	Author = {Osman, Hesham M},

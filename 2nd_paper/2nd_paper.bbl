@@ -164,10 +164,7 @@ Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
 Lossio-Ventura, J.~A., Jonquet, C., Roche, M., and Teisseire, M. (2013).
 \newblock ``Combining c-value and keyword extraction methods for biomedical
   terms extraction.''\ {\em LBM'2013: 5th International Symposium on Languages
-  in Biology and Medicine},  http://lbm2013.biopathway.org/.
-\newblock Computer Science [cs]/Bioinformatics [q-bio.QM] Life Sciences
-  [q-bio]/Quantitative Methods [q-bio.QM] Computer Science [cs]/Document and
-  Text ProcessingConference papers.
+  in Biology and Medicine}.
 
 \bibitem[\protect\citeauthoryear{}{Lv and El-Gohary}{2015}]{lv15}
 Lv, X. and El-Gohary, N.~M. (2015).
@@ -187,6 +184,11 @@ Marcus, M. (1995).
 \newblock ``New trends in natural language processing: statistical natural
   language processing.''\ {\em Proceedings of the National Academy of
   Sciences}, 92(22), 10052--10059.
+
+\bibitem[\protect\citeauthoryear{}{Marcus et~al.\@}{1993}]{marcus93}
+Marcus, M.~P., Marcinkiewicz, M.~A., and Santorini, B. (1993).
+\newblock ``Building a large annotated corpus of english: The penn treebank.''\
+  {\em Computational linguistics}, 19(2), 313--330.
 
 \bibitem[\protect\citeauthoryear{}{Mikolov et~al.\@}{2013}]{mikolov13a}
 Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
