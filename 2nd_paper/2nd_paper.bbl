@@ -1,5 +1,9 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{}{bs6}{2008}]{bs6100-08}
+ (2008).
+\newblock ``Building and civil engineering vocabulary - part 4: Transportation.
+
 \bibitem[\protect\citeauthoryear{}{Abuzir and Abuzir}{2002}]{abuzir02}
 Abuzir, Y. and Abuzir, M.~O. (2002).
 \newblock ``Constructing the civil engineering thesaurus (cet) using the
@@ -51,6 +55,12 @@ El-Diraby, T. and Kashif, K. (2005).
   highway construction.''\ {\em Journal of Construction Engineering and
   Management}, 131(5), 591--603.
 
+\bibitem[\protect\citeauthoryear{}{El-Diraby et~al.\@}{2005}]{el-diraby05b}
+El-Diraby, T., Lima, C., and Feis, B. (2005).
+\newblock ``Domain taxonomy for construction concepts: Toward a formal ontology
+  for construction knowledge.''\ {\em Journal of Computing in Civil
+  Engineering}, 19(4), 394--406.
+
 \bibitem[\protect\citeauthoryear{}{Erk}{2012}]{erk12}
 Erk, K. (2012).
 \newblock ``Vector space models of word meaning and phrase meaning: A
@@ -86,6 +96,12 @@ Hezik, M. (2008).
 Hill, F., Reichart, R., and Korhonen, A. (2015).
 \newblock ``Simlex-999: Evaluating semantic models with (genuine) similarity
   estimation.''\ {\em Computational Linguistics}, 41(4), 665--695.
+
+\bibitem[\protect\citeauthoryear{}{Hsieh et~al.\@}{2011}]{hsieh11}
+Hsieh, S.-H., Lin, H.-T., Chi, N.-W., Chou, K.-W., and Lin, K.-Y. (2011).
+\newblock ``Enabling the development of base domain ontology through extraction
+  of knowledge from engineering domain handbooks.''\ {\em Advanced Engineering
+  Informatics}, 25(2), 288--296.
 
 \bibitem[\protect\citeauthoryear{}{Hsu}{2013}]{hsu13}
 Hsu, J.-y. (2013).
@@ -132,6 +148,11 @@ Levy, O., Goldberg, Y., and Dagan, I. (2015).
 \newblock ``Improving distributional similarity with lessons learned from word
   embeddings.''\ {\em Transactions of the Association for Computational
   Linguistics}, 3, 211--225.
+
+\bibitem[\protect\citeauthoryear{}{Lima et~al.\@}{2005}]{lima05}
+Lima, C., El-Diraby, T., and Stephens, J. (2005).
+\newblock ``Ontology-based optimization of knowledge management in
+  e-construction.''\ {\em Journal of IT in Construction}, 10, 305--327.
 
 \bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
 Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
@@ -188,6 +209,12 @@ Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
   domain-specific texts.''\ {\em Third International Conference on Language
   Resources and Evaluation (LREC2002)},  2155--2162.
 
+\bibitem[\protect\citeauthoryear{}{Niu and Issa}{2015}]{niu15}
+Niu, J. and Issa, R. R.~A. (2015).
+\newblock ``Developing taxonomy for the domain ontology of construction
+  contractual semantics: A case study on the aia a201 document.''\ {\em
+  Advanced Engineering Informatics}, 29(3), 472--482.
+
 \bibitem[\protect\citeauthoryear{}{Noy}{2004}]{noy04}
 Noy, N.~F. (2004).
 \newblock ``Semantic integration: a survey of ontology-based approaches.''\
@@ -220,6 +247,12 @@ Porter, M.~F. (1980).
 Radim, R. (2014).
 \newblock ``Word2vec tutorial,
   $<$http://rare-technologies.com/word2vec-tutorial/$>$.
+
+\bibitem[\protect\citeauthoryear{}{Rezgui}{2007}]{rezgui07}
+Rezgui, Y. (2007).
+\newblock ``Text-based domain ontology building using tf-idf and metric
+  clusters techniques.''\ {\em The Knowledge Engineering Review}, 22(04),
+  379--403.
 
 \bibitem[\protect\citeauthoryear{}{Salton and Buckley}{1988}]{salton88}
 Salton, G. and Buckley, C. (1988).
