@@ -3,12 +3,12 @@ The style file: ascelike.bst
 Database file #1: mybib.bib
 Warning--entry type for "bs6100-08" isn't style-file defined
 --line 119 of file mybib.bib
-Repeated entry---line 312 of file mybib.bib
+Repeated entry---line 323 of file mybib.bib
  : @article{el-diraby05
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1166 of file mybib.bib
- : @article{Osman06
+Repeated entry---line 1191 of file mybib.bib
+ : @article{osman06
  :                 ,
 I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in bs6100-08
@@ -16,6 +16,7 @@ Warning--empty journal in bs6100-08
 Warning--empty journal in apache16
 Warning--empty journal in buildingsmartData
 Warning--empty journal in google2016
+Warning--empty institution in lefler14
 Warning--empty journal in rehurek14
 Warning--empty journal in wetherill02
 Warning--empty journal in wikipedia16

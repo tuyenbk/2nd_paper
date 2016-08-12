@@ -157,6 +157,17 @@
    year = {2005}
 }
 
+@Article{buitelaar08,
+  author =   {Buitelaar, Paul and Cimiano, Philipp and Frank, Anette and Hartung, Matthias and Racioppa, Stefania},
+  title =    {Ontology-based information extraction and integration from heterogeneous data sources},
+  journal =  {International Journal of Human-Computer Studies},
+  year =     {2008},
+  volume =   {66},
+  number =   {11},
+  pages =    {759-788},
+  keywords = {Ontology-based natural language processing Information extraction Knowledge integration Question answering}
+}
+
 @book{Butler08,
 	Author = {Butler, J. Allison},
 	Publisher = {ESRI Press, Redlands, California},
@@ -190,6 +201,16 @@
   number =   {4},
   pages =    {381-394},
   keywords = {Construction safety Information retrieval Job Hazard Analysis Knowledge management Ontology Text classification}
+}
+
+@Article{church90,
+  author =  {Church, Kenneth Ward and Hanks, Patrick},
+  title =   {Word association norms, mutual information, and lexicography},
+  journal = {Computational linguistics},
+  year =    {1990},
+  volume =  {16},
+  number =  {1},
+  pages =   {22-29}
 }
 
 @book{Cimiano06,
@@ -297,16 +318,6 @@ year={2002},
 	Title = {The future of IFC: Rationale and design of a SEM IFC layer},
 Year = {2012}}
 
-@Article{el-diraby05,
-  author =  {El-Diraby, T. and Kashif, K.},
-  title =   {Distributed Ontology Architecture for Knowledge Management in Highway Construction},
-  journal = {Journal of Construction Engineering and Management},
-  year =    {2005},
-  volume =  {131},
-  number =  {5},
-  pages =   {591-603}
-}
-
 @article{El-diraby05,
 	Author = {El-Diraby, T. and Kashif, K.},
 	Doi = {10.1061/(ASCE)0733-9364(2005)131:5(591)},
@@ -318,6 +329,16 @@ Year = {2012}}
 	Volume = {131},
 	Year = {2005},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1061/(ASCE)0733-9364(2005)131:5(591)}}
+
+@Article{el-diraby05,
+  author =  {El-Diraby, T. and Kashif, K.},
+  title =   {Distributed Ontology Architecture for Knowledge Management in Highway Construction},
+  journal = {Journal of Construction Engineering and Management},
+  year =    {2005},
+  volume =  {131},
+  number =  {5},
+  pages =   {591-603}
+}
 
 @Article{el-diraby05b,
   author =  {El-Diraby, T. and Lima, C. and Feis, B.},
@@ -1020,6 +1041,15 @@ year={1986},
   publisher = {IEEE}
 }
 
+@Article{mounce10,
+  author =  {Mounce, SR and Brewster, Christopher and Ashley, RM and Hurley, Louise},
+  title =   {Knowledge management for more sustainable water systems},
+  journal = {Journal of information technology in construction},
+  year =    {2010},
+  volume =  {15},
+  pages =   {140-148}
+}
+
 @Article{nakagawa03,
   author =  {Nakagawa, Hiroshi and Mori, Tatsunori},
   title =   {Automatic term recognition based on statistics of compound nouns and their components},
@@ -1364,6 +1394,17 @@ year={1986},
   journal = {Journal of Computing in Civil Engineering},
   year =    {2015},
   pages =   {04015069}
+}
+
+@Article{seng09,
+  author =   {Seng, Jia-Lang and Kong, I. L.},
+  title =    {A schema and ontology-aided intelligent information integration},
+  journal =  {Expert Systems with Applications},
+  year =     {2009},
+  volume =   {36},
+  number =   {7},
+  pages =    {10538-10550},
+  keywords = {Intelligent information integration XML Ontology Syntactic and semantic interoperability}
 }
 
 @inproceedings{Shekarpour11,
@@ -1773,3 +1814,6 @@ year={1992}
 	Title = {TransXML: XML schemas for exchange of transportation data},
 	Volume = {576},
 	Year = {2007}}
+
+@Article{,
+}

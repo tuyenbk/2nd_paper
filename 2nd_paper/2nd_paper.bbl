@@ -25,6 +25,12 @@ buildingSMART (2016).
   $<$http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/$>$.
 \newblock Accessed: March 15, 2016.
 
+\bibitem[\protect\citeauthoryear{}{Buitelaar et~al.\@}{2008}]{buitelaar08}
+Buitelaar, P., Cimiano, P., Frank, A., Hartung, M., and Racioppa, S. (2008).
+\newblock ``Ontology-based information extraction and integration from
+  heterogeneous data sources.''\ {\em International Journal of Human-Computer
+  Studies}, 66(11), 759--788.
+
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
 \newblock ``Jumping nlp curves: a review of natural language processing
@@ -83,6 +89,12 @@ Gallaher, M.~P., O'Connor, A.~C., Dettbarn, J.~L., and Gilday, L.~T. (2004).
 \newblock ``word2vec, $<$https://code.google.com/archive/p/word2vec/$>$.
 \newblock {(accessed May 12, 2016)}.
 
+\bibitem[\protect\citeauthoryear{}{Harispe et~al.\@}{2013}]{harispe13}
+Harispe, S., Ranwez, S., Janaqi, S., and Montmain, J. (2013).
+\newblock ``Semantic measures for the comparison of units of language, concepts
+  or instances from text and knowledge base analysis.''\ {\em arXiv preprint
+  arXiv:1310.1285}.
+
 \bibitem[\protect\citeauthoryear{}{Harris}{1954}]{Harris54}
 Harris, Z.~S. (1954).
 \newblock ``Distributional structure.''\ {\em Word}.
@@ -124,6 +136,11 @@ Karimi, H.~A., Akinci, B., Boukamp, F., and Peachavanish, R. (2003).
 \newblock ``Semantic interoperability in infrastructure systems.''\ {\em
   Information Technology},  42--42.
 
+\bibitem[\protect\citeauthoryear{}{Kolb}{2008}]{kolb08}
+Kolb, P. (2008).
+\newblock ``Disco: A multilingual database of distributionally similar
+  words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
+
 \bibitem[\protect\citeauthoryear{}{Landauer and
   Dumais}{1997}]{landauer1997solution}
 Landauer, T.~K. and Dumais, S.~T. (1997).
@@ -136,6 +153,11 @@ Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
 \newblock ``Attribute extraction and scoring: A probabilistic approach.''\ {\em
   Data Engineering (ICDE), 2013 IEEE 29th International Conference on}, IEEE,
   194--205.
+
+\bibitem[\protect\citeauthoryear{}{Lefler}{2014}]{lefler14}
+Lefler, N.~X. (2014).
+\newblock ``Roadway safety data interoperability between local and state
+  agencies.''\ {\em Report no.}
 
 \bibitem[\protect\citeauthoryear{}{Lesk}{1986}]{Lesk86}
 Lesk, M. (1986).
@@ -199,6 +221,11 @@ Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
 Miller, G.~A. (1995).
 \newblock ``Wordnet: a lexical database for english.''\ {\em Communications of
   the ACM}, 38(11), 39--41.
+
+\bibitem[\protect\citeauthoryear{}{Mounce et~al.\@}{2010}]{mounce10}
+Mounce, S., Brewster, C., Ashley, R., and Hurley, L. (2010).
+\newblock ``Knowledge management for more sustainable water systems.''\ {\em
+  Journal of information technology in construction}, 15, 140--148.
 
 \bibitem[\protect\citeauthoryear{}{Navigli}{2009}]{Navigli09}
 Navigli, R. (2009).
@@ -272,6 +299,11 @@ Seedah, D.~P., Choubassi, C., and Leite, F. (2015).
 \newblock ``Ontology for querying heterogeneous data sources in freight
   transportation.''\ {\em Journal of Computing in Civil Engineering},
   04015069.
+
+\bibitem[\protect\citeauthoryear{}{Seng and Kong}{2009}]{seng09}
+Seng, J.-L. and Kong, I.~L. (2009).
+\newblock ``A schema and ontology-aided intelligent information integration.''\
+  {\em Expert Systems with Applications}, 36(7), 10538--10550.
 
 \bibitem[\protect\citeauthoryear{}{Sparck~Jones}{1972}]{sparck72}
 Sparck~Jones, K. (1972).
