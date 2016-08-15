@@ -31,6 +31,11 @@ Buitelaar, P., Cimiano, P., Frank, A., Hartung, M., and Racioppa, S. (2008).
   heterogeneous data sources.''\ {\em International Journal of Human-Computer
   Studies}, 66(11), 759--788.
 
+\bibitem[\protect\citeauthoryear{}{Cai et~al.\@}{2015}]{cai2015}
+Cai, H., Yuan, C., McClure, T.~B., and Dunston, P.~S. (2015).
+\newblock ``A synthesis study on collecting, managing, and sharing road
+  construction asset data.
+
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
 \newblock ``Jumping nlp curves: a review of natural language processing
@@ -41,6 +46,11 @@ Cambria, E. and White, B. (2014).
 Chen, D. and Manning, C.~D. (2014).
 \newblock ``A fast and accurate dependency parser using neural networks.''\
   {\em EMNLP},  740--750.
+
+\bibitem[\protect\citeauthoryear{}{Church and Hanks}{1990}]{church90}
+Church, K.~W. and Hanks, P. (1990).
+\newblock ``Word association norms, mutual information, and lexicography.''\
+  {\em Computational linguistics}, 16(1), 22--29.
 
 \bibitem[\protect\citeauthoryear{}{Costa-Jussa et~al.\@}{2012}]{costa-jussa12}
 Costa-Jussa, M.~R., Farrús, M., Mariño, J.~B., and Fonollosa, J.~A. (2012).
@@ -294,11 +304,17 @@ Sclano, F. and Velardi, P. (2007).
   of emergent web communities}.
 \newblock Springer,  287--290.
 
-\bibitem[\protect\citeauthoryear{}{Seedah et~al.\@}{2015}]{seedah15}
-Seedah, D.~P., Choubassi, C., and Leite, F. (2015).
+\bibitem[\protect\citeauthoryear{}{Seedah et~al.\@}{2015a}]{seedah15}
+Seedah, D.~P., Choubassi, C., and Leite, F. (2015a).
 \newblock ``Ontology for querying heterogeneous data sources in freight
   transportation.''\ {\em Journal of Computing in Civil Engineering},
   04015069.
+
+\bibitem[\protect\citeauthoryear{}{Seedah et~al.\@}{2015b}]{seedah15b}
+Seedah, D.~P., Sankaran, B., and O?Brien, W.~J. (2015b).
+\newblock ``Approach to classifying freight data elements across multiple data
+  sources.''\ {\em Transportation Research Record: Journal of the
+  Transportation Research Board}, (2529), 56--65.
 
 \bibitem[\protect\citeauthoryear{}{Seng and Kong}{2009}]{seng09}
 Seng, J.-L. and Kong, I.~L. (2009).
@@ -321,6 +337,13 @@ Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).
 Turney, P.~D. and Pantel, P. (2010).
 \newblock ``From frequency to meaning: Vector space models of semantics.''\
   {\em Journal of artificial intelligence research}, 37(1), 141--188.
+
+\bibitem[\protect\citeauthoryear{}{Walton et~al.\@}{2015}]{walton15}
+Walton, C.~M., Seedah, D.~P., Choubassi, C., Wu, H., Ehlert, A., Harrison, R.,
+  Loftus-Otway, L., Harvey, J., Meyer, J., Calhoun, J., et~al.\@ (2015).
+\newblock {\em Implementing the freight transportation data architecture: Data
+  element dictionary}.
+\newblock Number Project NCFRP-47.
 
 \bibitem[\protect\citeauthoryear{}{Webster and Kit}{1992}]{Webster92}
 Webster, J.~J. and Kit, C. (1992).
