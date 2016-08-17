@@ -21,8 +21,8 @@ Apache.org (2016).
 
 \bibitem[\protect\citeauthoryear{}{buildingSMART}{2016}]{buildingsmartData}
 buildingSMART (2016).
-\newblock ``Data dictionary,
-  $<$http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/$>$.
+\newblock ``buildingsmart data dictionary,
+  $<$http://bsdd.buildingsmart.org/$>$.
 \newblock Accessed: March 15, 2016.
 
 \bibitem[\protect\citeauthoryear{}{Buitelaar et~al.\@}{2008}]{buitelaar08}
@@ -30,11 +30,6 @@ Buitelaar, P., Cimiano, P., Frank, A., Hartung, M., and Racioppa, S. (2008).
 \newblock ``Ontology-based information extraction and integration from
   heterogeneous data sources.''\ {\em International Journal of Human-Computer
   Studies}, 66(11), 759--788.
-
-\bibitem[\protect\citeauthoryear{}{Cai et~al.\@}{2015}]{cai2015}
-Cai, H., Yuan, C., McClure, T.~B., and Dunston, P.~S. (2015).
-\newblock ``A synthesis study on collecting, managing, and sharing road
-  construction asset data.
 
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
@@ -151,13 +146,6 @@ Kolb, P. (2008).
 \newblock ``Disco: A multilingual database of distributionally similar
   words.''\ {\em Proceedings of KONVENS-2008, Berlin}.
 
-\bibitem[\protect\citeauthoryear{}{Landauer and
-  Dumais}{1997}]{landauer1997solution}
-Landauer, T.~K. and Dumais, S.~T. (1997).
-\newblock ``A solution to plato's problem: The latent semantic analysis theory
-  of acquisition, induction, and representation of knowledge..''\ {\em
-  Psychological review}, 104(2), 211.
-
 \bibitem[\protect\citeauthoryear{}{Lee et~al.\@}{2013}]{lee13}
 Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
 \newblock ``Attribute extraction and scoring: A probabilistic approach.''\ {\em
@@ -180,17 +168,6 @@ Levy, O., Goldberg, Y., and Dagan, I. (2015).
 \newblock ``Improving distributional similarity with lessons learned from word
   embeddings.''\ {\em Transactions of the Association for Computational
   Linguistics}, 3, 211--225.
-
-\bibitem[\protect\citeauthoryear{}{Lima et~al.\@}{2005}]{lima05}
-Lima, C., El-Diraby, T., and Stephens, J. (2005).
-\newblock ``Ontology-based optimization of knowledge management in
-  e-construction.''\ {\em Journal of IT in Construction}, 10, 305--327.
-
-\bibitem[\protect\citeauthoryear{}{Lin et~al.\@}{2015}]{Lin15}
-Lin, J.-R., Hu, Z.-Z., Zhang, J.-P., and Yu, F.-Q. (2015).
-\newblock ``A natural-language-based approach to intelligent data retrieval and
-  representation for cloud bim.''\ {\em Computer-Aided Civil and Infrastructure
-  Engineering}.
 
 \bibitem[\protect\citeauthoryear{}{Lossio-Ventura et~al.\@}{2013}]{lossio13}
 Lossio-Ventura, J.~A., Jonquet, C., Roche, M., and Teisseire, M. (2013).
@@ -227,11 +204,6 @@ Mikolov, T., Chen, K., Corrado, G., and Dean, J. (2013).
 \newblock ``Efficient estimation of word representations in vector space.''\
   {\em arXiv preprint arXiv:1301.3781}.
 
-\bibitem[\protect\citeauthoryear{}{Miller}{1995}]{miller95}
-Miller, G.~A. (1995).
-\newblock ``Wordnet: a lexical database for english.''\ {\em Communications of
-  the ACM}, 38(11), 39--41.
-
 \bibitem[\protect\citeauthoryear{}{Mounce et~al.\@}{2010}]{mounce10}
 Mounce, S., Brewster, C., Ashley, R., and Hurley, L. (2010).
 \newblock ``Knowledge management for more sustainable water systems.''\ {\em
@@ -247,12 +219,6 @@ Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
 \newblock ``Automatic acronym acquisition and term variation management within
   domain-specific texts.''\ {\em Third International Conference on Language
   Resources and Evaluation (LREC2002)},  2155--2162.
-
-\bibitem[\protect\citeauthoryear{}{Niu and Issa}{2015}]{niu15}
-Niu, J. and Issa, R. R.~A. (2015).
-\newblock ``Developing taxonomy for the domain ontology of construction
-  contractual semantics: A case study on the aia a201 document.''\ {\em
-  Advanced Engineering Informatics}, 29(3), 472--482.
 
 \bibitem[\protect\citeauthoryear{}{Noy}{2004}]{noy04}
 Noy, N.~F. (2004).
@@ -373,11 +339,6 @@ Yarowsky, D. (1995).
   methods.''\ {\em Proceedings of the 33rd annual meeting on Association for
   Computational Linguistics}, Association for Computational Linguistics,
   189--196.
-
-\bibitem[\protect\citeauthoryear{}{Zhang and El-Gohary}{2015}]{Zhang15c}
-Zhang, J. and El-Gohary, N. (2015).
-\newblock ``A semantic similarity-based method for semi-automated ifc
-  exension.''\ {\em 5th International/11th Construction Specialty Conference}.
 
 \bibitem[\protect\citeauthoryear{}{Zhang et~al.\@}{2008}]{zhang08}
 Zhang, Z., Iria, J., Brewster, C., and Ciravegna, F. (2008).

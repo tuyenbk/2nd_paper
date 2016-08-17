@@ -135,10 +135,10 @@
 
 @Misc{buildingsmartData,
   author = {buildingSMART},
-  title =  {Data Dictionary},
+  title =  {buildingSMART Data Dictionary},
   year =   {2016},
   note =   {Accessed: March 15, 2016},
-  url =    {http://www.buildingsmart.org/standards/standards-library-tools-services/data-dictionary/}
+  url =    {http://bsdd.buildingsmart.org/}
 }
 
 @Misc{buildingsmartIFC,
@@ -173,6 +173,13 @@
 	Publisher = {ESRI Press, Redlands, California},
 	Title = {Designing geodatabases for transportation},
 	Year = {2008}}
+
+@article{cai2015,
+  title={A Synthesis Study on Collecting, Managing, and Sharing Road Construction Asset Data},
+  author={Cai, Hubo and Yuan, Chenxi and McClure, Timothy B and Dunston, Phillip S},
+  year={2015},
+  publisher={Joint Transportation Research Program}
+}
 
 @article{Cambria14,
    author = {Cambria, Erik and White, Bruce},
@@ -318,6 +325,16 @@ year={2002},
 	Title = {The future of IFC: Rationale and design of a SEM IFC layer},
 Year = {2012}}
 
+@Article{el-diraby05,
+  author =  {El-Diraby, T. and Kashif, K.},
+  title =   {Distributed Ontology Architecture for Knowledge Management in Highway Construction},
+  journal = {Journal of Construction Engineering and Management},
+  year =    {2005},
+  volume =  {131},
+  number =  {5},
+  pages =   {591-603}
+}
+
 @article{El-diraby05,
 	Author = {El-Diraby, T. and Kashif, K.},
 	Doi = {10.1061/(ASCE)0733-9364(2005)131:5(591)},
@@ -329,16 +346,6 @@ Year = {2012}}
 	Volume = {131},
 	Year = {2005},
 	Bdsk-Url-1 = {http://dx.doi.org/10.1061/(ASCE)0733-9364(2005)131:5(591)}}
-
-@Article{el-diraby05,
-  author =  {El-Diraby, T. and Kashif, K.},
-  title =   {Distributed Ontology Architecture for Knowledge Management in Highway Construction},
-  journal = {Journal of Construction Engineering and Management},
-  year =    {2005},
-  volume =  {131},
-  number =  {5},
-  pages =   {591-603}
-}
 
 @Article{el-diraby05b,
   author =  {El-Diraby, T. and Lima, C. and Feis, B.},
@@ -1189,15 +1196,6 @@ year={1986},
 	Title = {Automated Pavement Condition Data Collection Quality Control, Quality Assurance, and Reliability},
 	Year = {2010}}
 
-@article{Osman06,
-	Author = {Osman, Hesham and Ei-Diraby, Tamer},
-	Journal = {Transportation Research Record: Journal of the Transportation Research Board},
-	Number = {-1},
-	Pages = {159-167},
-	Title = {Ontological Modeling of Infrastructure Products and Related Concepts},
-	Volume = {1984},
-	Year = {2006}}
-
 @Article{osman06,
   author =  {Osman, Hesham and Ei-Diraby, Tamer},
   title =   {Ontological Modeling of Infrastructure Products and Related Concepts},
@@ -1207,6 +1205,15 @@ year={1986},
   number =  {-1},
   pages =   {159-167}
 }
+
+@article{Osman06,
+	Author = {Osman, Hesham and Ei-Diraby, Tamer},
+	Journal = {Transportation Research Record: Journal of the Transportation Research Board},
+	Number = {-1},
+	Pages = {159-167},
+	Title = {Ontological Modeling of Infrastructure Products and Related Concepts},
+	Volume = {1984},
+	Year = {2006}}
 
 @phdthesis{Osman07,
 	Author = {Osman, Hesham M},
@@ -1396,6 +1403,15 @@ year={1986},
   pages =   {04015069}
 }
 
+@article{seedah15b,
+   author = {Seedah, Dan PK and Sankaran, Bharathwaj and O?Brien, William J},
+   title = {Approach to Classifying Freight Data Elements Across Multiple Data Sources},
+   journal = {Transportation Research Record: Journal of the Transportation Research Board},
+   number = {2529},
+   pages = {56-65},
+   year = {2015}
+}
+
 @Article{seng09,
   author =   {Seng, Jia-Lang and Kong, I. L.},
   title =    {A schema and ontology-aided intelligent information integration},
@@ -1551,6 +1567,13 @@ year={1986},
   year =   {2016},
   note =   {Accessed: April 09, 2016},
   url =    {http://cic.vtt.fi/inframodel/}
+}
+
+@book{walton15,
+  title={Implementing the freight transportation data architecture: Data element dictionary},
+  author={Walton, C Michael and Seedah, Dan PK and Choubassi, Carine and Wu, Hui and Ehlert, Andy and Harrison, Robert and Loftus-Otway, Lisa and Harvey, Jim and Meyer, Joel and Calhoun, Jacob and others},
+  number={Project NCFRP-47},
+  year={2015}
 }
 
 @article{Wang03,
