@@ -110,7 +110,7 @@ Hypernym-hyponym & Noun1 Noun2 & vertical alignment isA alignment\\
 \efloatseparator
  
 \begin{table} [t]
-\caption{An example in InfraLex}
+\caption{An example in RoadLex}
 \label{table:term_clustering}
 \centering
 \small
@@ -165,7 +165,7 @@ Hidden layer size &50-\underline{200}-5 &79 &53 &63\\
 \efloatseparator
  
 \begin{table} [b]
-\caption{Comparison of synonym matching performance between Wordnet and InfraLex}
+\caption{Comparison of synonym matching performance between Wordnet and RoadLex}
 \label{table:eval_syn_vs_Wordnet}
 \centering
 \small
@@ -176,7 +176,7 @@ Hidden layer size &50-\underline{200}-5 &79 &53 &63\\
 \textbf{Lexicon} & \textbf{Precision (\%)}  & \textbf{Recall(\%)} & \textbf{F (\%)}\\
 \hline
 Wordnet &76  &40  &52\\
-\textbf{InfraLex} &\textbf{81} &\textbf{54} &\textbf{65}\\
+\textbf{RoadLex} &\textbf{81} &\textbf{54} &\textbf{65}\\
 \hline
 \hline
 \end{tabular}

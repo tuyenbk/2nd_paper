@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  17 AUG 2016 17:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.11)  19 AUG 2016 16:48
 entering extended mode
 **2nd_paper.tex
 (2nd_paper.tex
@@ -30,8 +30,8 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 
 (1) A "Journal" style manuscript will be produced
-(2) Figures and Tables will be placed within the text of the manuscript (change
- with the 'BackFigs' option)
+(2) Figures and Tables will be placed together at the end of the manuscript (ch
+ange with the 'InsideFigs' option)
 (3) Text will be double spaced (change with the 'SingleSpace' option)
 (4) Text will be 12pt (change with the '10pt', '11pt', & '12pt' options)
 (5) Line numbers will be placed alonside the text (change with the 'NoLineNumbe
@@ -462,32 +462,41 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enitdp@description=\count117
 )
 (2nd_paper.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
- (setspace.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+ ("C:\Program Files\MiKTeX 2.9.0\tex\latex\endfloat\endfloat.sty"
+Package: endfloat 2011/12/25 v2.5d LaTeX2e package puts figures and tables at e
+nd (jdm)
+\c@posttable=\count118
+\efloat@postttt=\write3
+\@ef@tttopen=\count119
+\c@postfigure=\count120
+\efloat@postfff=\write4
+\@ef@fffopen=\count121
+) (setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ) (lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count118
+\linenopenalty=\count122
 \output=\toks27
-\linenoprevgraf=\count119
+\linenoprevgraf=\count123
 \linenumbersep=\dimen137
 \linenumberwidth=\dimen138
-\c@linenumber=\count120
-\c@pagewiselinenumber=\count121
-\c@LN@truepage=\count122
-\c@internallinenumber=\count123
-\c@internallinenumbers=\count124
+\c@linenumber=\count124
+\c@pagewiselinenumber=\count125
+\c@LN@truepage=\count126
+\c@internallinenumber=\count127
+\c@internallinenumbers=\count128
 \quotelinenumbersep=\dimen139
 \bframerule=\dimen140
 \bframesep=\dimen141
@@ -496,138 +505,153 @@ LaTeX Info: Redefining \\ on input line 3056.
 )
 ("C:\Program Files\MiKTeX 2.9.0\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count125
+\scratchcounter=\count129
 \scratchdimen=\dimen142
 \scratchbox=\box33
-\nofMPsegments=\count126
-\nofMParguments=\count127
+\nofMPsegments=\count130
+\nofMParguments=\count131
 \everyMPshowfont=\toks28
-\MPscratchCnt=\count128
+\MPscratchCnt=\count132
 \MPscratchDim=\dimen143
-\MPnumerator=\count129
-\makeMPintoPDFobject=\count130
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
 \everyMPtoPDFconversion=\toks29
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 46.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 47.
  ("C:\Program Files\MiKTeX 2.9.0\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [1
 
-{C:/Users/cceegrad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Overfull \hbox (6.72571pt too wide) in paragraph at lines 112--113
-[]\T1/cmr/m/n/12 Terminology trans-parency through do-main knowl-edge re-source
-s like glos-saries, tax-onomies,
- []
+{C:/Users/cceegrad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2] [3] 
+[4] [5] [6]
 
-[3] [4] [5] [6] [7]
+LaTeX Warning: Citation ` lima05' on page 7 undefined on input line 139.
 
-LaTeX Warning: Citation ` lima05' on page 8 undefined on input line 143.
+[7] [8]
 
-[8] [9]
+LaTeX Warning: Citation `navigli10' on page 9 undefined on input line 145.
 
-LaTeX Warning: Citation `navigli10' on page 10 undefined on input line 149.
+[9] (2nd_paper.fff) [10] [11] (2nd_paper.ttt)
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 217.
 
-[10]
-<figures/Figure1_overview_methodology.pdf, id=42, 561.73714pt x 220.09528pt>
-File: figures/Figure1_overview_methodology.pdf Graphic file (type pdf)
 
-<use figures/Figure1_overview_methodology.pdf>
-Package pdftex.def Info: figures/Figure1_overview_methodology.pdf used on input
- line 163.
-(pdftex.def)             Requested size: 446.2658pt x 174.85736pt.
- [11 <./figures/Figure1_overview_methodology.pdf>]
-<figures/Figure2_term_extraction.pdf, id=89, 566.72194pt x 459.94838pt>
-File: figures/Figure2_term_extraction.pdf Graphic file (type pdf)
-
-<use figures/Figure2_term_extraction.pdf>
-Package pdftex.def Info: figures/Figure2_term_extraction.pdf used on input line
- 186.
-(pdftex.def)             Requested size: 211.3883pt x 171.56082pt.
- [12] [13 <./figures/Figure2_term_extraction.pdf>]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 220.
-
- ("C:\Program Files\MiKTeX 2.9.0\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9.0\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 220.
-
-[14] [15]
-<figures/Figure3_term_precision.pdf, id=123, 500.63853pt x 358.72499pt>
-File: figures/Figure3_term_precision.pdf Graphic file (type pdf)
-
-<use figures/Figure3_term_precision.pdf>
-Package pdftex.def Info: figures/Figure3_term_precision.pdf used on input line 
-276.
-(pdftex.def)             Requested size: 234.87749pt x 168.29971pt.
- [16] [17 <./figures/Figure3_term_precision.pdf>]
-<figures/Figure4_skip-gram-model.pdf, id=135, 535.45743pt x 308.79164pt>
-File: figures/Figure4_skip-gram-model.pdf Graphic file (type pdf)
-
-<use figures/Figure4_skip-gram-model.pdf>
-Package pdftex.def Info: figures/Figure4_skip-gram-model.pdf used on input line
- 300.
-(pdftex.def)             Requested size: 211.3883pt x 121.90303pt.
- [18 <./figures/Figure4_skip-gram-model.pdf>] [19]
-
-pdfTeX warning: pdflatex.exe (file ./figures/Figure5_hvsm_space.pdf): PDF inclu
-sion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/Figure5_hvsm_space.pdf, id=161, 694.595pt x 472.76625pt>
-File: figures/Figure5_hvsm_space.pdf Graphic file (type pdf)
-
-<use figures/Figure5_hvsm_space.pdf>
-Package pdftex.def Info: figures/Figure5_hvsm_space.pdf used on input line 341.
-
-(pdftex.def)             Requested size: 446.2658pt x 303.75243pt.
- [20] [21 <./figures/Figure5_hvsm_space.pdf>]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 217.
+ [12] [13] [14]
+[15] [16] [17]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[22] [23] [24] [25] [26] [27] (2nd_paper.bbl
+[18] [19] [20] [21] [22] (2nd_paper.bbl
 Overfull \hbox (30.92737pt too wide) in paragraph at lines 18--21
 []\T1/cmr/m/n/12 Apache.org (2016). ``Ma-chine learn-ing li-brary (ml-lib), $\O
 ML/cmm/m/it/12 <$\T1/cmr/m/n/12 https://spark.apache.org/docs/1.1.0/mllib-
  []
 
-[28] [29] [30] [31] [32]) [33] (2nd_paper.aux) ) 
+[23] [24] [25] [26] [27]) AED endfloat: Processing end Figures and Tables
+[28] (2nd_paper.lot)
+\tf@lot=\write5
+ [29
+
+
+] (2nd_paper.ttt [30] [31] [32] [33] [34] [35] [36]
+[37]) (2nd_paper.lof)
+\tf@lof=\write6
+ [38
+
+
+
+
+
+
+
+
+
+
+] (2nd_paper.fff
+<figures/Figure1_overview_methodology.pdf, id=143, 561.73714pt x 220.09528pt>
+File: figures/Figure1_overview_methodology.pdf Graphic file (type pdf)
+
+<use figures/Figure1_overview_methodology.pdf>
+Package pdftex.def Info: figures/Figure1_overview_methodology.pdf used on input
+ line 3.
+(pdftex.def)             Requested size: 446.2658pt x 174.85736pt.
+ [39 <./figures/Figure1_overview_methodology.pdf>]
+<figures/Figure2_term_extraction.pdf, id=190, 566.72194pt x 459.94838pt>
+File: figures/Figure2_term_extraction.pdf Graphic file (type pdf)
+
+<use figures/Figure2_term_extraction.pdf>
+Package pdftex.def Info: figures/Figure2_term_extraction.pdf used on input line
+ 11.
+(pdftex.def)             Requested size: 211.3883pt x 171.56082pt.
+ [40 <./figures/Figure2_term_extraction.pdf>]
+<figures/Figure3_term_precision.pdf, id=203, 500.63853pt x 358.72499pt>
+File: figures/Figure3_term_precision.pdf Graphic file (type pdf)
+
+<use figures/Figure3_term_precision.pdf>
+Package pdftex.def Info: figures/Figure3_term_precision.pdf used on input line 
+19.
+(pdftex.def)             Requested size: 234.87749pt x 168.29971pt.
+ [41 <./figures/Figure3_term_precision.pdf>] <figures/Figure4_skip-gram-model.p
+df, id=212, 535.45743pt x 308.79164pt>
+File: figures/Figure4_skip-gram-model.pdf Graphic file (type pdf)
+
+<use figures/Figure4_skip-gram-model.pdf>
+Package pdftex.def Info: figures/Figure4_skip-gram-model.pdf used on input line
+ 27.
+(pdftex.def)             Requested size: 211.3883pt x 121.90303pt.
+ [42 <./figures/Figure4_skip-gram-model.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./figures/Figure5_hvsm_space.pdf): PDF inclu
+sion: found PDF version <1.6>, but at most version <1.5> allowed
+<figures/Figure5_hvsm_space.pdf, id=234, 694.595pt x 472.76625pt>
+File: figures/Figure5_hvsm_space.pdf Graphic file (type pdf)
+
+<use figures/Figure5_hvsm_space.pdf>
+Package pdftex.def Info: figures/Figure5_hvsm_space.pdf used on input line 35.
+(pdftex.def)             Requested size: 446.2658pt x 303.75243pt.
+ [43 <./figures/Figure5_hvsm_space.pdf>])
+(2nd_paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4767 strings out of 493673
- 67641 string characters out of 3143140
- 139246 words of memory out of 3000000
- 8044 multiletter control sequences out of 15000+200000
+ 4944 strings out of 493673
+ 70200 string characters out of 3143140
+ 137198 words of memory out of 3000000
+ 8205 multiletter control sequences out of 15000+200000
  22074 words of font info for 50 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,11n,38p,2785b,432s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\cceegrad\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\cceegra
-d\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1095.pk> <C:\
-Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm
-1095.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx1095.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
-ur\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk> <C:\Users\cceegrad\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\cceegrad
-\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\U
-sers\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1
-200.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\ecrm0800.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\f
-onts\pk\ljfour\jknappen\ec\dpi600\ecss0600.pk> <C:\Users\cceegrad\AppData\Local
-\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk><C:/Program Files/Mi
-KTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2
-.9.0/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9.0/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/ty
-pe1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/pub
-lic/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy8
-.pfb>
-Output written on 2nd_paper.pdf (33 pages, 420816 bytes).
+ 36i,11n,38p,2597b,400s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecti1095.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\cceegrad\AppData\Local\Mi
+KTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1095.pk> <C:\Users\cceegrad\App
+Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users
+\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.
+pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi
+600\ecti1200.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jk
+nappen\ec\dpi600\ecrm1000.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ecrm0700.pk> <C:\Users\cceegrad\AppData\Local\MiK
+TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1200.pk> <C:\Users\cceegrad\AppD
+ata\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\
+cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.p
+k> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
+00\ecss0600.pk> <C:\Users\cceegrad\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
+appen\ec\dpi600\ecbx1440.pk><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/a
+msfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmmi8.pf
+b><C:/Program Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/P
+rogram Files/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program F
+iles/MiKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/M
+iKTeX 2.9.0/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on 2nd_paper.pdf (43 pages, 426511 bytes).
 PDF statistics:
- 737 PDF objects out of 1000 (max. 8388607)
+ 779 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
