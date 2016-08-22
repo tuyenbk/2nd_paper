@@ -1,9 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[\protect\citeauthoryear{}{bs6}{2008}]{bs6100-08}
- (2008).
-\newblock ``Building and civil engineering vocabulary - part 4: Transportation.
-
 \bibitem[\protect\citeauthoryear{}{Abuzir and Abuzir}{2002}]{abuzir02}
 Abuzir, Y. and Abuzir, M.~O. (2002).
 \newblock ``Constructing the civil engineering thesaurus (cet) using the
@@ -24,12 +20,6 @@ buildingSMART (2016).
 \newblock ``buildingsmart data dictionary,
   $<$http://bsdd.buildingsmart.org/$>$.
 \newblock Accessed: March 15, 2016.
-
-\bibitem[\protect\citeauthoryear{}{Buitelaar et~al.\@}{2008}]{buitelaar08}
-Buitelaar, P., Cimiano, P., Frank, A., Hartung, M., and Racioppa, S. (2008).
-\newblock ``Ontology-based information extraction and integration from
-  heterogeneous data sources.''\ {\em International Journal of Human-Computer
-  Studies}, 66(11), 759--788.
 
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
@@ -114,16 +104,15 @@ Hill, F., Reichart, R., and Korhonen, A. (2015).
 \newblock ``Simlex-999: Evaluating semantic models with (genuine) similarity
   estimation.''\ {\em Computational Linguistics}, 41(4), 665--695.
 
-\bibitem[\protect\citeauthoryear{}{Hsieh et~al.\@}{2011}]{hsieh11}
-Hsieh, S.-H., Lin, H.-T., Chi, N.-W., Chou, K.-W., and Lin, K.-Y. (2011).
-\newblock ``Enabling the development of base domain ontology through extraction
-  of knowledge from engineering domain handbooks.''\ {\em Advanced Engineering
-  Informatics}, 25(2), 288--296.
-
 \bibitem[\protect\citeauthoryear{}{Hsu}{2013}]{hsu13}
 Hsu, J.-y. (2013).
 \newblock ``Content-based text mining technique for retrieval of cad
   documents.''\ {\em Automation in Construction}, 31, 65--74.
+
+\bibitem[\protect\citeauthoryear{}{{IFD Library Group}}{2008}]{IFDgroup08}
+{IFD Library Group} (2008).
+\newblock ``Ifd library white paper.
+\newblock Accessed: 2015-07-06.
 
 \bibitem[\protect\citeauthoryear{}{Jiang and Conrath}{1997}]{jiang1997semantic}
 Jiang, J.~J. and Conrath, D.~W. (1997).
@@ -169,6 +158,11 @@ Levy, O., Goldberg, Y., and Dagan, I. (2015).
   embeddings.''\ {\em Transactions of the Association for Computational
   Linguistics}, 3, 211--225.
 
+\bibitem[\protect\citeauthoryear{}{Lima et~al.\@}{2005}]{lima05}
+Lima, C., El-Diraby, T., and Stephens, J. (2005).
+\newblock ``Ontology-based optimization of knowledge management in
+  e-construction.''\ {\em Journal of IT in Construction}, 10, 305--327.
+
 \bibitem[\protect\citeauthoryear{}{Lossio-Ventura et~al.\@}{2013}]{lossio13}
 Lossio-Ventura, J.~A., Jonquet, C., Roche, M., and Teisseire, M. (2013).
 \newblock ``Combining c-value and keyword extraction methods for biomedical
@@ -213,6 +207,13 @@ Mounce, S., Brewster, C., Ashley, R., and Hurley, L. (2010).
 Navigli, R. (2009).
 \newblock ``Word sense disambiguation: A survey.''\ {\em ACM Computing Surveys
   (CSUR)}, 41(2), 10.
+
+\bibitem[\protect\citeauthoryear{}{Navigli and Velardi}{2010}]{navigli10}
+Navigli, R. and Velardi, P. (2010).
+\newblock ``Learning word-class lattices for definition and hypernym
+  extraction.''\ {\em Proceedings of the 48th Annual Meeting of the Association
+  for Computational Linguistics}, Association for Computational Linguistics,
+  1318--1327.
 
 \bibitem[\protect\citeauthoryear{}{Nenadić et~al.\@}{2002}]{nenadic02}
 Nenadić, G., Spasić, I., and Ananiadou, S. (2002).
@@ -282,11 +283,6 @@ Seedah, D.~P., Sankaran, B., and O?Brien, W.~J. (2015b).
   sources.''\ {\em Transportation Research Record: Journal of the
   Transportation Research Board}, (2529), 56--65.
 
-\bibitem[\protect\citeauthoryear{}{Seng and Kong}{2009}]{seng09}
-Seng, J.-L. and Kong, I.~L. (2009).
-\newblock ``A schema and ontology-aided intelligent information integration.''\
-  {\em Expert Systems with Applications}, 36(7), 10538--10550.
-
 \bibitem[\protect\citeauthoryear{}{Sparck~Jones}{1972}]{sparck72}
 Sparck~Jones, K. (1972).
 \newblock ``A statistical interpretation of term specificity and its
@@ -339,6 +335,12 @@ Yarowsky, D. (1995).
   methods.''\ {\em Proceedings of the 33rd annual meeting on Association for
   Computational Linguistics}, Association for Computational Linguistics,
   189--196.
+
+\bibitem[\protect\citeauthoryear{}{Zhang and El-Gohary}{2016}]{zhang16}
+Zhang, J. and El-Gohary, N. (2016).
+\newblock ``Extending building information models semiautomatically using
+  semantic natural language processing techniques.''\ {\em Journal of Computing
+  in Civil Engineering},  C4016004.
 
 \bibitem[\protect\citeauthoryear{}{Zhang et~al.\@}{2008}]{zhang08}
 Zhang, Z., Iria, J., Brewster, C., and Ciravegna, F. (2008).
