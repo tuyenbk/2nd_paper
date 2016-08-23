@@ -33,7 +33,7 @@
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.95\textwidth]{Figure5_hvsm_space}
-\caption{Highway term space model (H-VSM)}
+\caption{Highway term space model (Rd-VSM)}
 \label{fig:hvsm}
 \end{figure}
 \efloatseparator
