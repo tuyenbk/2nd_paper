@@ -80,13 +80,13 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %---adj03: nonhierarchical, superior, well-defined; foreseeable; disparate, isolated,, proprietary, integrated, shared, sharable, inefficient,  consistent,  intuitive solutions,  transformative impact,
 %---adj04: inexpensive, easy-to-use, time and cost-efficient,  laborious and resource-intensive, labour extensive, rigorous, ad-hoc, time-consuming, laborious, prone error, human effort, 
 %---adj05: empirical work, automated, 
-%---adj06: rigig, flexible
+%---adj06: rigid, flexible
 %---adj07: proper, precise, right, 
 %---adj08: specialized, special, typical
 %---adj09: inconsistent (inconsistency)
 %---adj10: effective (effectiveness)
 %---adj11: advanced (advancement, advantages)
-%---adj12: consise (consisely)
+%---adj12: concise (concisely)
 
 %--------------------************************---------------------------------------
 
@@ -103,11 +103,11 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %--------------------************************---------------------------------------
 
 %---verb1: tackle, resolve, handle, address, foster, amplified; simplified; detect; aggregate; encompass, manifest, envision,  is divided into two, share (shared),  derive, extract
-%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpining) 
+%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning) 
 %---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration)
 %---verb4: employ, deploy, implement, use, utilize, 
 %---verb5: guide, drive, trend, 
-%---verb6: involve, constitute (funtions constituting the process), include, encompass, participate (participation), contribute, 
+%---verb6: involve, constitute (functions constituting the process), include, encompass, participate (participation), contribute, 
 %---verb7: require
 %---verb8: refer, relate, mention, enumerate, 
 
@@ -118,7 +118,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %--------------------************************---------------------------------------
 
 %---linking1: thereby, only those concepts that, whereby, lastly, subsequently, accordingly
-%---linking2: technically, basically, theoritically, 
+%---linking2: technically, basically, theoretically, 
 
 %--------------------************************---------------------------------------
 
@@ -200,7 +200,7 @@ As shown in the literature review, there is a numerous research efforts in devel
 	\label{fig:framework}
 \end{figure}
 %
-The goal of this research is proposed an automated methodology to construct an American-English lexicon of roadway terms named RoadLex. As shown in Figure \ref{fig:framework}, the proposed methodology consists of three major modules that are to: (1) utilize NLP techniques to extract multi-word roadway technical terms from a collected text corpus, (2) train the data obtained form text corpus to develop a Roadway Vector Space Model (Rd-VSM) that presents the semantics of highway terms, and (3) develop an algorithm integrating Rd-VSM and various linguistic patterns to classify relations among technical terms (synonym, hyponym an functional association) which are then used to construct the RoadLex network of roadway terms. Specifically, the procedure followed to compile the RoadLex dictionary is comprised of the following steps: (a) collect highway technical documents to compose a domain corpus; (b) extract the multi-word terms from the highway corpus; (c) prepare the training dataset for training the Rd-VSM model; (d) select appropriate values for the training parameters and perform the training of the Rd-VSM model; and (e) design an algorithm to classify related terms into groups of lexical relations. The below sections discuss these steps in detail.
+The goal of this research is proposed an NLP-based methodology to automate the process of knowledge gathering from text and constructing an American-English lexicon of roadway terms named RoadLex. As shown in Figure \ref{fig:framework}, the proposed methodology consists of three major modules that are to: (1) utilize NLP techniques to extract multi-word roadway technical terms from a collected text corpus, (2) train the data obtained form text corpus to develop a Roadway Vector Space Model (Rd-VSM) that presents the semantics of highway terms, and (3) develop an algorithm integrating Rd-VSM and various linguistic patterns to classify relations among technical terms (synonym, hyponym and functional association) which are then used to construct the RoadLex network of roadway terms. Specifically, the procedure followed to compile the RoadLex dictionary is comprised of the following steps: (a) collecting roadway technical documents to compose a domain corpus; (b) extracting multi-word terms from the roadway corpus; (c) prepare the training dataset for training the Rd-VSM model; (d) specifying the parameters of the machine learning model and perform the training task to develop the Rd-VSM model; and (e) designing an algorithm to classify related terms into groups of lexical relations. The below sections discuss these steps in detail.
 
 %TODO: The preliminary result is presented by. In this paper, the model is extended with larger training datasets and post-processing to reorganize terms in categories which improves the semantic data searching algorithm.
 %\section{Highway term space model development} \label{sec:vector-space}
@@ -209,10 +209,10 @@ The goal of this research is proposed an automated methodology to construct an A
 %TODO: This section presents the extension of the Rd-VSM developed by the authors' previous work with the extending of training datasets and post-processing of the vector space model.
 %
 \subsection{Data collection}
-%how to collect data, how to clean data to get them readay for training model
+%how to collect data, how to clean data to get them ready for training model
 %aim text folow remained, flow direction. bottom down, 
 %remove heading (chapter, section, subsection), footnote, numerbing, bullets, hyperlink, url, 
-As mentioned earlier, Rd-VSM is trained using a machine learning model which requires a text corpus as the source of the training dataset. The input text corpus was built upon a plethora of highway engineering manuals from the Federal Department of Transportation (DOT) and from 22 State DOTs. These documents are written in American-English. The technical terms in a guidance document in the engineering field are organized in various formats such as plain text, tables, and equations. Since words in tables and equations are not yet supported by the state-of-the-art NLP techniques, they were removed from the text corpus. The removal of these features would reduce corpus size, but it is necessary since words in tables and equations are not organized in a regular sentence structure and therefore the NLP algorithm may extract unreal noun phrases. The final outcome of this phase is a plain text corpus consisting of 16 million words. This dataset is utilized to extract highway related technical terms which are then trained and converted into representation vectors.
+In order to develop a domain text corpus of the highway sector, the authors collected a plethora of highway engineering manuals and guidelines from the Federal Department of Transportation (DOT) and from 22 State DOTs. The content of a written guidance document in the engineering field is commonly presented in various formats such as plain text, tables, and equations. Since structure of words in tables and equations are not yet supported by the state-of-the-art NLP techniques, they were removed from the text corpus. The removal of these features would slightly reduce the corpus size, and accordingly affect the training dataset; however, it is necessary since words in tables and equations are not organized in the formal structure of a sentence and therefore the NLP algorithm may extract unreal noun phrases. The final outcome of this phase is a plain text corpus consisting of 16 million words. This dataset is utilized to extract multiple-word technical terms which are then trained and transformed into representation vectors.
 %
 \subsection{Multi-word terms extraction}
 %
@@ -223,12 +223,15 @@ As mentioned earlier, Rd-VSM is trained using a machine learning model which req
 	\label{fig:np_detect}
 \end{figure}
 %
-A technical term can be a noun (e.g., roadway, lane, etc.) or be a noun phrase composed of multiple words (e.g., right of way, at grade intersection, etc.). The meaning of multi-word terms may not be directly interpreted from the meanings of their single words. In order for the Skip-gram model to learn the semantics of multi-word terms, every occurrence of multi-word terms in the corpus needs to be detected and replaced with connected blocks of word members so that they can be treated as single words. This research utilizes OpenNLP, NLP package, to process the collected corpus and detect sequences of words that match pre-defined noun phrase patterns. Figure \ref{fig:np_detect} presents the process of detecting technical terms from the set of highway technical documents. The process includes the following steps. 
-\par
+A technical term can be a noun (e.g., roadway, lane, etc.) or be a noun phrase composed of multiple words (e.g., right of way, at grade intersection, etc.). For multi-word terms, what they mean may not be directly interpreted from the meanings of their single words. In order for the Skip-gram model to learn the semantics of multi-word terms, they must be treated as single-word terms by replacing them with connected blocks of word members. As mentioned, a multiple-word terms must be a noun phrase; therefore, noun-phrases will be good term candidate. To detect multiple-word terms, the corpus is first scanned to look for noun phrases and their occurrence frequencies data. This statistical data is then analyzed to assess the importance of these noun phrases to the sector of highway. The process of extracting multi-word terms is discussed in detail in the following sections.  %
+\subsubsection{Noun phrase extraction}
+%
+This research implements the Apache OpenNLP package to process the collected corpus find sequences of words that match pre-defined noun phrase patterns. Figure \ref{fig:np_detect} illustrates how noun phrases is extracted from the set of highway technical documents. This process includes the following steps. %
+%todo: revised figure 2 (the ouput)
 \begin{enumerate} [label=\roman*]
-	\item \textbf{Word tokenizing:} In this step, the text corpus is broken down into individual units (also called tokens) using OpenNLP Tokenizer.
-	\item \textbf{Part of Speed (POS) tagging:} The purpose of this step is to determine the Part of Speech (POS) tag (e.g., noun, adjective, verb, etc.) for each token of the tokenized corpus obtained from the previous step. A set of POS tags can be found in the Penn Treebank \cite{marcus93}.
-	\item \textbf{Noun phrase detection:} Linguists argue that a technical term is either a noun (e.g., road) or a noun phrase (NP) (e.g., right of way) that frequently occurs in domain text documents \cite{justeson95}. Thus, NPs are good multi-word term candidates. Table \ref{table:term_filter} presents the proposed extraction patterns which are modified from the filters suggested by \citeN{justeson95} to extract NPs. The tagged corpus is thoroughly scanned, and sequences matching to the noun phrase patterns is collected. 
+\item Word tokenizing: In this step, the text corpus is broken down into individual units (also called tokens) using OpenNLP Tokenizer.
+\item Part of Speed (POS) tagging: The purpose of this step is to determine the Part of Speech (POS) tag (e.g., noun, adjective, verb, etc.) for each token of the tokenized corpus obtained from the previous step. A set of POS tags can be found in the Penn Treebank \cite{marcus93}.
+\item Noun phrase detection: Linguists argue that a technical term is either a noun (e.g., road) or a noun phrase (NP) (e.g., right of way) that frequently occurs in domain text documents \cite{justeson95}. Thus, NPs are good multi-word term candidates. Table \ref{table:term_filter} presents the proposed extraction patterns which are modified from the filters suggested by \citeN{justeson95} to extract NPs. The tagged corpus is thoroughly scanned, and sequences matching to the noun phrase patterns is collected. 
 	%
 	In addition, in order to avoid discrimination among the syntactic variants of the same term, for example `roadway' and `roadways', the collected NPs need to be normalized. The following are two types of syntactic variants and the proposed normalization methods.
 	\begin{table} [t]
@@ -252,13 +255,17 @@ A technical term can be a noun (e.g., roadway, lane, etc.) or be a noun phrase c
 	\end{table}
 	%
 	\begin{itemize}
-		\item \textbf{Type 1} - Plural forms, for example `roadways' and `roadway'. The Porter stemming algorithm \cite{porter80}, which can allow for automated removal of suffixes, is applied on the extracted noun phrases to normalize plural nouns (NNS) into single nouns (NN). Since the stemming algorithm affects only on the NNS token of a Noun phrase, the issue of over and under stemming can be minimized/eliminated. %todo: update algorithm so that stemming only occur in the the noun phrase extraction phase, not for the entire corpus.
-		\item \textbf{Type 2} - Preposition noun phrases, for example `roadway type' and `type of roadway'. In order to normalize this type of variant, the form with preposition is converted into the non-preposition form by removing the preposition and reversing the order of the remaining portions. For instance, `type of roadway' will become `roadway type'.
+		\item Type 1 - Plural forms, for example `roadways' and `roadway'. The Porter stemming algorithm \cite{porter80}, which can allow for automated removal of suffixes, is applied on the extracted noun phrases to normalize plural nouns (NNS) into single nouns (NN). Since the stemming algorithm affects only on the NNS token of a Noun phrase, the issue of over and under stemming can be minimized/eliminated. %todo: update algorithm so that stemming only occur in the the noun phrase extraction phase, not for the entire corpus.
+		\item Type 2 - Preposition noun phrases, for example `roadway type' and `type of roadway'. In order to normalize this type of variant, the form with preposition is converted into the non-preposition form by removing the preposition and reversing the order of the remaining portions. For instance, `type of roadway' will become `roadway type'.
 	\end{itemize}
 	%
 	Since NPs with low occurrence frequencies that are unlikely to be technical terms should be automatically eliminated. With the frequency threshold of 2, the list consists of 112,024  terms. The list size drops to 8,922 when a threshold of 50 is used. In this research we used a threshold of 50.
 	%
-	\item \textbf{Multi-word term candidate ranking and selection:} Multi-word term definition varies between authors, and there is a lack of formal and widely accepted rules to define if a NP is a multi-word term \cite{frantzi20}. There are a number of methods proposed for estimating termhood (the degree that a linguistic unit is a domain-technical concept), such as TF-IDF  \cite{sparck72,salton88}, C-Value \cite{frantzi20}, Termex  \cite{sclano07}. These methods are based on the occurrence frequencies of NPs in the corpus. Among these methods, Termex outperformed other methods on the Wikipedia corpus, and C-Value was the best on the GENIA medical corpus \cite{zhang08}. This result indicates that the C-value method is more suitable for term extraction from a domain corpus rather than a generic corpus. For this reason, the C-value has been widely used to extract domain terms in the biomedical field, for instance studies performed by \citeN{ananiadou20}, \citeN{lossio13}, and \citeN{nenadic02}. Since the corpus used in this study was mainly collected from technical domain documents, C-value would be the most suitable for the termhood determination task. The C-value measure, as formulated in Equation \ref{eq:cvalue}, suggests that the longer a NP is, the more likely that is a term; and the more frequently it appears in the domain corpus, the more likely it will be a domain term.
+\end{enumerate}
+	
+\subsubsection{Multi-word term candidate ranking and selection} 
+%
+Multi-word term definition varies between authors, and there is a lack of formal and widely accepted rules to define if a NP is a multi-word term \cite{frantzi20}. There are a number of methods proposed for estimating termhood (the degree that a linguistic unit is a domain-technical concept), such as TF-IDF  \cite{sparck72,salton88}, C-Value \cite{frantzi20}, Termex  \cite{sclano07}. These methods are based on the occurrence frequencies of NPs in the corpus. Among these methods, Termex outperformed other methods on the Wikipedia corpus, and C-Value was the best on the GENIA medical corpus \cite{zhang08}. This result indicates that the C-value method is more suitable for term extraction from a domain corpus rather than a generic corpus. For this reason, the C-value has been widely used to extract domain terms in the biomedical field, for instance studies performed by \citeN{ananiadou20}, \citeN{lossio13}, and \citeN{nenadic02}. Since the corpus used in this study was mainly collected from technical domain documents, C-value would be the most suitable for the termhood determination task. The C-value measure, as formulated in Equation \ref{eq:cvalue}, suggests that the longer a NP is, the more likely that is a term; and the more frequently it appears in the domain corpus, the more likely it will be a domain term.
 	% 
 	\begin{equation}
 	C-value(a)=
@@ -277,7 +284,7 @@ A technical term can be a noun (e.g., roadway, lane, etc.) or be a noun phrase c
 		\item[Ta] is the set of extracted noun phrases that contain \textit{a}
 		\item[P(Ta)] is the size of Ta set.
 	\end{description}
-\end{enumerate}
+
 %
 \par
 The term extraction process above results in a dataset containing the detected terms along with their c-value termhood scores. These term candidates are ranked by C-value, and the ones that have negative C-values are discarded. %todo: add a picture of excerpt of detected term dataset, 3-column table with the following column names: term, frequency, termhood c-value.
