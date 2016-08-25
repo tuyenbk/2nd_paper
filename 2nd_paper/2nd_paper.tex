@@ -76,7 +76,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %--------------------************************---------------------------------------
 
 %---adj01: many, plenty, a plethora, a few, very few, various, variety of , large body of research on, very little of st, a lack of, shortcoming, 
-%---adj02: main, key, major, principle, primary, secondary, minor, critical, strategic, insightful, enabling technologies,  popular, mature, play a central role, notable, 
+%---adj02: main, key, major, principle, primary, secondary, minor, critical, strategic, insightful, enabling technologies,  popular, mature, play a central role, notable, cutting-edge, 
 %---adj03: nonhierarchical, superior, well-defined; foreseeable; disparate, isolated,, proprietary, integrated, shared, sharable, inefficient,  consistent,  intuitive solutions,  transformative impact,
 %---adj04: inexpensive, easy-to-use, time and cost-efficient,  laborious and resource-intensive, labour extensive, rigorous, ad-hoc, time-consuming, laborious, prone error, human effort, 
 %---adj05: empirical work, automated, 
@@ -95,7 +95,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %---noun3: human effort
 %---noun4: outcome, deliverable, result, 
 %---noun5: discipline, agency, organization, stakeholder, partner
-%---noun6: staff, personnel, industry expert, practitioner, academic community, reseachers, 
+%---noun6: staff, personnel, industry expert, practitioner, academic community, reseachers, professionals, 
 %---noun7: stage, phase, 
 %---noun8: process, timeframe, procedure, 
 %---noun9: technology, tool, technique, product, engine, 
@@ -103,13 +103,14 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %--------------------************************---------------------------------------
 
 %---verb1: tackle, resolve, handle, address, foster, amplified; simplified; detect; aggregate; encompass, manifest, envision,  is divided into two, share (shared),  derive, extract
-%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning) 
+%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning), adjust, tailor, accomodate, modify, change, redefine
 %---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration)
-%---verb4: employ, deploy, implement, use, utilize, 
+%---verb4: use, employ, deploy, implement (implementation), utilize, apply (application)
 %---verb5: guide, drive, trend, 
 %---verb6: involve, constitute (functions constituting the process), include, encompass, participate (participation), contribute, 
 %---verb7: require
 %---verb8: refer, relate, mention, enumerate, 
+%---verb9: 
 
 %--------------------************************---------------------------------------
 
@@ -119,6 +120,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 
 %---linking1: thereby, only those concepts that, whereby, lastly, subsequently, accordingly
 %---linking2: technically, basically, theoretically, 
+%---linking3: as reported by the FAA, 
 
 %--------------------************************---------------------------------------
 
@@ -133,7 +135,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 \section{Introduction}%900 words
 %what is this?-Topic introduction, territory: centrality--> general background information 
 %the background of data interoperability
-The implementation of advanced computerized technologies such as 3D modeling and Geographic Information System (GIS) throughout the life cycle of a civil infrastructure project has allowed a large portion of project data to be available in digital format. The efficiency improvement in sharing these data between project participants and stages, will in turn, translate into increased productivity, efficiency in project delivery and accountability. However, a highway asset as a whole has not yet fully benefited from the potentials of digital datasets as an accessible, reusable and reliable information source for life-cycle decision making due to the interoperability issue. A study by the National Institute of Standard and Technology (NIST) reported an estimated inadequate interoperability cost of over \$15.8 billion per year in the U.S. capital facility industry \cite{Gallaher04}. This study also revealed that two-third of those cost occurs during the operation and maintenance stage, and the largest cost item is the labor work for finding, verifying, and transferring facility and project information into a useful format. This finding indicates that the lack of readiness for downstream phases to directly use the transferred digital project data generated from upstream design and construction stages results in high operational costs. Since the roadway sector, which is one of the key domains in the construction industry, has not yet successfully facilitated a high degree of interoperability \cite{lefler14}; huge cost savings would be achieved if roadway data is seamlessly shared through the project life cycle and among state and local agencies.
+The implementation of advanced computerized technologies such as 3D modeling and Geographic Information System (GIS) throughout the life cycle of a civil infrastructure project has allowed a large portion of project data to be available in digital format. The efficiency improvement in sharing these data between project participants and stages, will in turn, translate into increased productivity, efficiency in project delivery and accountability. The interoperability issue has been widely recognized as the key obstacle blocking the flow of digital data through the entire project life cycle. The inadequate interoperability is estimated of over \$15.8 billion per year in the U.S. capital facility industry as reported by the National Institute of Standard and Technology (NIST); and the largest cost item is the laborious work for finding, verifying, and transferring facility and project information into a useful format during the operation and maintenance stage \cite{Gallaher04}. This finding indicates that the lack of readiness for downstream phases to directly use the transferred digital project data generated from upstream design and construction stages results in high operational costs. Since the roadway sector, which is one of the key domains in the construction industry, has not yet successfully facilitated a high degree of interoperability \cite{lefler14}; huge cost savings would be achieved if roadway data is seamlessly shared through the project life cycle and among state and local agencies.
 %Problem need to be solved and why it is important- Since the highway industry, especial state dots, are facing the same issue with the capital sector, addressing this issue would help better manage infrastructure assets. 
 \par
 Semantic interoperability, which relates to the issue whereby two computer systems may not have the same understanding to the same piece of data, is a radical barrier to computer-to-computer data exchange. Due to the fragmented nature of the infrastructure domain, data representation/terminology differs between phases, stakeholders, or geographic regions (counties, states, etc.). Retrieving right pieces of data in such a heterogeneous environment becomes increasingly complex \cite{karimi2003semantic}. Polysemy and synonymy are two major linguistic obstacles to semantic integration and use of a multitude of data sources \cite{noy04}. Polysemy refers to cases when a unique term has several distinct meanings. For example, \textit{roadway type} can either mean the classification of roadways by materials or functions. \citeN{walton15} suggests the following three reasons for the semantic heterogeneity: (1) isolation in definitions among separate sources, (2) temporary of definitions and (3) variety of data collection methods. Synonymy, in contrast, is associated with the heterogeneity of terms used to represent the same concept. For instance, the longitudinal centerline of a roadway has various representative terms including `profile', `crest', `grade-line' and `vertical alignment'. Simply mapping of data names will likely lead to the failure of data extraction, or use of wrong data. Thus, addressing the terminology ambiguity due to the semantic inconsistency issue becomes crucial to ensure the common understanding to the same dataset by all software applications and guarantee the extraction of right data and proper integration of data from multiple sources. 
