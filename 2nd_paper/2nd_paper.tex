@@ -102,15 +102,15 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 
 %--------------------************************---------------------------------------
 
-%---verb1: tackle, resolve, handle, address, foster, amplified; simplified; detect; aggregate; encompass, manifest, envision,  is divided into two, share (shared),  derive, extract
-%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning), adjust, tailor, accomodate, modify, change, redefine
-%---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration)
+%---verb1: tackle, resolve, handle, address, foster, amplified; simplified; detect; aggregate; encompass, manifest, envision,  is divided into two, share (shared),  
+%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning), adjust, tailor, accomodate, modify, change, redefine, lead to, cause, 
+%---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration), recognize (recognition)
 %---verb4: use, employ, deploy, implement (implementation), utilize, apply (application)
 %---verb5: guide, drive, trend, 
-%---verb6: involve, constitute (functions constituting the process), include, encompass, participate (participation), contribute, 
+%---verb6: involve, constitute (functions constituting the process), include, encompass, participate (participation), contribute, exclude, limit, cut
 %---verb7: require
 %---verb8: refer, relate, mention, enumerate, 
-%---verb9: 
+%---verb9: derive, extract
 
 %--------------------************************---------------------------------------
 
@@ -121,6 +121,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %---linking1: thereby, only those concepts that, whereby, lastly, subsequently, accordingly
 %---linking2: technically, basically, theoretically, 
 %---linking3: as reported by the FAA, 
+%---linling4: therefore, thus, as a result, 
 
 %--------------------************************---------------------------------------
 
@@ -128,7 +129,7 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 
 %--------------------************************---------------------------------------
 
-%---sentence structure:  this is evidenced by the accelerating emergence of ...; 
+%---sentence structure:  this is evidenced by the accelerating emergence of ...; there is recogintion that 
 
 %********************************************************
 
@@ -210,7 +211,7 @@ The goal of this research is proposed an NLP-based methodology to automate the p
 %introduction to the distributional vector model, fundamental theory,  the overall process to translate technical terms into vectors representations. the role of vector space allow measure the similarity between 
 %TODO: This section presents the extension of the Rd-VSM developed by the authors' previous work with the extending of training datasets and post-processing of the vector space model.
 %
-\subsection{Data collection}
+\subsection{Text corpus collection}
 %how to collect data, how to clean data to get them ready for training model
 %aim text folow remained, flow direction. bottom down, 
 %remove heading (chapter, section, subsection), footnote, numerbing, bullets, hyperlink, url, 
@@ -235,8 +236,8 @@ This research implements the Apache OpenNLP package to process the collected cor
 \item Part of Speed (POS) tagging: The purpose of this step is to determine the Part of Speech (POS) tag (e.g., noun, adjective, verb, etc.) for each token of the tokenized corpus obtained from the previous step. A set of POS tags can be found in the Penn Treebank \cite{marcus93}.
 \item Noun phrase detection: Linguists argue that a technical term is either a noun (e.g., road) or a noun phrase (NP) (e.g., right of way) that frequently occurs in domain text documents \cite{justeson95}. Thus, NPs are good multi-word term candidates. Table \ref{table:term_filter} presents the proposed extraction patterns which are modified from the filters suggested by \citeN{justeson95} to extract NPs. The tagged corpus is thoroughly scanned, and sequences matching to the noun phrase patterns is collected. 
 	%
-	In addition, in order to avoid discrimination among the syntactic variants of the same term, for example `roadway' and `roadways', the collected NPs need to be normalized. The following are two types of syntactic variants and the proposed normalization methods.
-	\begin{table} [t]
+In addition, in order to avoid discrimination among the syntactic variants of the same term, for example `roadway' and `roadways', the collected NPs need to be normalized. The following are two types of syntactic variants and the proposed normalization methods.
+\begin{table} [t]
 		\caption{Term candidate filters}
 		\label{table:term_filter}
 		\centering
@@ -254,14 +255,14 @@ This research implements the Apache OpenNLP package to process the collected cor
 			\hline
 		\end{tabular}
 		\normalsize
-	\end{table}
+\end{table}
 	%
-	\begin{itemize}
+\begin{itemize}
 		\item Type 1 - Plural forms, for example `roadways' and `roadway'. The Porter stemming algorithm \cite{porter80}, which can allow for automated removal of suffixes, is applied on the extracted noun phrases to normalize plural nouns (NNS) into single nouns (NN). Since the stemming algorithm affects only on the NNS token of a Noun phrase, the issue of over and under stemming can be minimized/eliminated. %todo: update algorithm so that stemming only occur in the the noun phrase extraction phase, not for the entire corpus.
 		\item Type 2 - Preposition noun phrases, for example `roadway type' and `type of roadway'. In order to normalize this type of variant, the form with preposition is converted into the non-preposition form by removing the preposition and reversing the order of the remaining portions. For instance, `type of roadway' will become `roadway type'.
-	\end{itemize}
+\end{itemize}
 	%
-	Since NPs with low occurrence frequencies that are unlikely to be technical terms should be automatically eliminated. With the frequency threshold of 2, the list consists of 112,024  terms. The list size drops to 8,922 when a threshold of 50 is used. In this research we used a threshold of 50.
+The first column in Table \ref{table:term_evaluation} represents several examples of the NP list retrieved from this phase. Since a NP is not certainly a technical term, ones that are clearly unlike to be terms should be excluded from the candidate list. A basic indicator is the occurrence frequencies as technical terms would repeatedly occur in the domain text documents. To eliminate unlikely candidates, a threshold of frequency can be applied. If the user choose a high threshold, rare terms would not be captured. This issue can be addressed when the corpus size is extended. In our experiment, with a frequency threshold of 2, the final list of NPs consists of 112,024 items; and it drops to 8,922 when a threshold of 50 is used. Since this research is to extract common technical terms, the authors used a threshold of 50 to remove possibly meaningless term candidates. 
 	%
 \end{enumerate}
 	
@@ -291,7 +292,7 @@ Multi-word term definition varies between authors, and there is a lack of formal
 \par
 The term extraction process above results in a dataset containing the detected terms along with their c-value termhood scores. These term candidates are ranked by C-value, and the ones that have negative C-values are discarded. %todo: add a picture of excerpt of detected term dataset, 3-column table with the following column names: term, frequency, termhood c-value.
 \par
-To remove candidates that are unlikely to be real terms, a threshold C-value can be used or the entire candidate list should be manually evaluated by industry experts. Manual evaluation would avoid the removal of real terms but have low C-values. To minimize both laborious work and the number of true terms wrongly discarded, the ranked list of candidate were divided into groups of 100 items. A graduate student with civil engineering background was asked to utilize a bottom-up approach to evaluate group by group and stop at which has a precision of 80 percent. Table \ref{table:term_evaluation} illustrates the evaluation results for several excerpts of the extracted term candidates. The precision values, which represent the percentage of real terms in these groups, are presented in Figure \ref{fig:term_precision}. As shown in the figure, precision values are relatively low for groups with c-values less than 70. To balance between human effort and precision of the final term list, this research applied a manual review on the set of XX automatically extracted terms with c-values less than the threshold of 70 at the bottom of the list.
+To remove candidates that are unlikely to be real terms, a threshold C-value can be used or the entire candidate list should be manually evaluated by industry experts. Manual evaluation would avoid the removal of real terms with low C-values. To minimize both laborious work and the number of true terms wrongly discarded, a threshold can be applied. The authors suggest the following method to identify this limit value. The ranked list of candidate were first divided into groups of 100 items. A graduate student with civil engineering background was asked to utilize a bottom-up approach to evaluate group by group and stop at which the percentage of real-term achieved 80 percent. Users can choose a higher percentage in cases that extracting of rare terms is critical. Table \ref{table:term_evaluation} illustrates the evaluation results for several excerpts of the extracted term candidates. The precision values, which represent the percentages of real terms in these groups, are presented in Figure \ref{fig:term_precision}. As shown in the figure, precision values are less than 80 percent for groups with c-values less than 70. This value is set as the threshold for the acceptance of term candidates.
 %To calculate the recall value, expert is required to final all true terms from the corpus \cite{frantzi20}. with the large corpus in this research, it is impossible to do this task. 
 %
 \begin{table} [t]
@@ -302,7 +303,7 @@ To remove candidates that are unlikely to be real terms, a threshold C-value can
 	\renewcommand{\arraystretch}{1.25}
 	\begin{tabular}{l l l}
 		\hline
-		\textbf{Term} & \textbf{Termhood} & \textbf{real term?}\\
+		\textbf{Term candidate} & \textbf{Termhood} & \textbf{real term?}\\
 		\hline
 		sight distance		& 9435.314 & yes\\
 		design speed & 9052.556 & yes \\
@@ -346,13 +347,13 @@ The number of context words to be collected is dependent on the window size that
 	\label{fig:skip-gram}
 \end{figure}
 %
-The semantic similarity is trained using the Word2vec module in the Apache Spark MLlib package \cite{apache16}, an emerging open-source engine, which is based on the Skip-gram neural network model \cite{mikolov13a}. Figure \ref{fig:skip-gram} shows the learning network when the context set includes only one word, where \textit{V} and \textit{N} respectively denote the corpus vocabulary and hidden layer size. In this model, a word in the corpus vocabulary is encoded as a 'one-hot' vector which is a vector in which only one elements at the index of the word in the vocabulary is set one, and all other items are zero. For example, the one-hot vector of $k^{th}$ word in the vocabulary with the size of V will be {x1=0, x2=0, ...,xk=1,...xV=0}. The outcome of this machine learning process is a set of term representation vectors  in an N-dimension coordinate system. as we can see, the similarity among predicted context vectors are decided by the similarity of the corresponding \textit{representation vectors}. each row of the W matrix which is the output of the learning process, is a representation vector of a word in the corpus vocabulary. The similarity among these vectors represent the similarity of the context of the corresponding words. 
+The semantic similarity is trained using the Word2vec module in the Apache Spark MLlib package \cite{apache16}, an emerging open-source engine, which is based on the Skip-gram neural network model \cite{mikolov13a}. Figure \ref{fig:skip-gram} shows the learning network when the context set includes only one word, where \textit{V} and \textit{N} respectively denote the corpus vocabulary and hidden layer size. In this model, a word in the corpus vocabulary is encoded as a 'one-hot' vector which is a vector in which only one elements at the index of the word in the vocabulary is set one, and all other items are zero. For example, the one-hot vector of $k^{th}$ word in the vocabulary with the size of V will be ${x_1=0, x_2=0, ...,x_k=1,...x_V=0}$. The outcome of this machine learning process is a set of term representation vectors  in an N-dimension coordinate system. as we can see, the similarity among predicted context vectors are decided by the similarity of the corresponding \textit{representation vectors}. each row of the W matrix which is the output of the learning process, is a representation vector of a word in the corpus vocabulary. The similarity among these vectors represent the similarity of the context of the corresponding words. The bullets below explains how the context vector of an input word is predicted using the the parameter matrices resulted from the learning process. As we can see, the similarity between two predicted context vectors depends only the similarity between the input representation vectors; thus, these vectors are used to represent the semantics of  words. 
 %
-\begin{enumerate}
+\begin{itemize}
 	\item $k^{th}$ input word : $[x_k]_{1.V} = [x_1=0, x_2=0,...,x_k=1,..., x_V=0]$ which is an one-hot vector.
-	\item Hidden vector:$[h]_{1.N} = [x_k]_{1.V}.W_{V.N} = [w_{k1},w_{k2},..., w_{kN}]= v_{wk}$ which is equivalent to the $k^{th}$ row of the W matrix since the input vector is a 'one-hot' vector. The $v_{wk}$ vector is called the input \textit{representation vector} of the input word $k^{th}$.
+	\item Hidden vector:$[h]_{1.N} = [x_k]_{1.V}.W_{V.N} = [w_{k1},w_{k2},..., w_{kN}]= v_{wk}$ which is equivalent to the $k^{th}$ row of the W matrix since the input vector is a `one-hot' vector. The $v_{wk}$ vector is called the input \textit{representation vector} of the input word $k^{th}$.
 	\item Predicted context vector: $[y_k]_{1.V} = v_{wk}.W'_{N.V}$. 
-\end{enumerate}
+\end{itemize}
 %
 \par
 The model includes three major parameters that are \textit{frequency threshold}, \textit{hidden layer size} and \textit{window size} (see Table \ref{table:nn-parameters}). To eliminate those data points with low frequencies of occurrence that are unlikely to be technical terms, Word2vec allows for the use of \textit{frequency threshold}. Any word with the rate lower than the limit will be ignored. \citeN{rehurek14} suggests a range of (0-100) depending on the data set size. Setting this parameter high will enhance the accuracy, but many true technical terms would be out of vocabulary. A preliminary study based on the preliminary corpus with only several millions of words shows that with the frequency of 20, there are very few non-technical terms involved in the training dataset. Hence, with the larger dataset to be collected, this parameter can be higher and up to around 50. The second important parameter is \textit{layer size} which determines the number of nodes in the hidden layer. This parameter highly affects the training accuracy and processing time. A larger layer size is better in terms of accuracy, but this will be paid off by the running time. The reasonable values for this parameter are from ten to hundreds \cite{rehurek14}. The final major parameter, \textit{context window size}, decides how many context words to be considered. Google recommends the size of 10 for the Skip-gram model \cite{google2016}. These parameters are subject to be changed so that the best model can be achieved. The effects of these parameters on the model performance are discussed in Section \ref{sec:eval_RoadLex}.
@@ -400,7 +401,7 @@ dis\_similarity =\sqrt{(xA_1-xB_1)^2+(xA_2-xB_2)^2+...+(xA_n-xB_n)^2}
 Where: n is the hidden layer size.
 %
 \begin{table} [t]
-	\caption{Examples of top nearest terms}
+	\caption{Examples of top nearest words}
 	\label{table:nearest_example}
 	\centering
 	\small
@@ -542,7 +543,7 @@ This section presents a performance evaluation of RoadLex on the ability to iden
 \end{align}
 %results
 \begin{table} [b] 
-	\caption{Effects of training parameters on performance of synonym matching}
+	\caption{Performance of the synonym matching task with various training settings}
 	\label{table:eval_syn_par_effect}
 	\centering
 	\small
@@ -550,7 +551,7 @@ This section presents a performance evaluation of RoadLex on the ability to iden
 	\begin{tabular}{l l l l l }
 		\hline
 		\hline
-		\textbf{Parameter} & \textbf{Model} & \textbf{Precision (\%)}  & \textbf{Recall(\%)} & \textbf{F (\%)}\\
+		\textbf{Parameter changed} & \textbf{Model} & \textbf{Precision (\%)}  & \textbf{Recall(\%)} & \textbf{F (\%)}\\
 		\hline
 		Baseline	&	50-100-5	&79		&53		&63\\
 		\hline
@@ -568,7 +569,7 @@ This section presents a performance evaluation of RoadLex on the ability to iden
 \end{table}
 %
 %synonym matching peformance result
-Table \ref{table:eval_syn_par_effect} shows the performance with various training model settings. The parameters of the baseline model are 50, 100 and 5 respectively for frequency threshold, hidden layer and window size. The authors changed these parameters one by one and kept the other ones unchanged to evaluate their effects to the model performance. As presented in the table, the increase of window size to 10 or 15 resulted in the best model which has a precision of 81\% and an F-measure of 65\%. The change of other parameters did not improve the performance. Especially, the increase of frequency threshold value has negative impact. 
+Table \ref{table:eval_syn_par_effect} shows the performance with various training model settings. The parameters of the baseline model are 50, 100 and 5 respectively for frequency threshold, hidden layer and window size. The authors changed these parameters one by one and kept the other ones unchanged to evaluate their effects to the model performance. As presented in the table, the model performance is not significantly sensitive to the changes of training parameters. The increase of window size to 10 or 15 resulted in the best model which has a precision of 81\% and an F-measure of 65\%. The change of other parameters did not improve the performance. Especially, the increase of frequency threshold value has negative impact. This result confirms the reasonable selection of the frequency threshold to eliminate unlikely term candidate in the NP extraction phase.
 %compared to the previous publication by the authors, this algorithm has been improved with significantly higher accuracy. the post-processing is one reason for the out-performance of the proposed method.  
 %
 %result

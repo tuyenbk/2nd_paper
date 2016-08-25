@@ -1,13 +1,5 @@
-This is BibTeX, Version 0.99d (TeX Live 2014)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: 2nd_paper.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: 2nd_paper.aux
 The style file: ascelike.bst
-Case mismatch error between cite keys Zhang16 and zhang16
----line 52 of file 2nd_paper.aux
- : \citation{Zhang16
- :                  }
-I'm skipping whatever remains of this command
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: mybib.bib
 Repeated entry---line 340 of file mybib.bib
  : @article{el-diraby05
@@ -28,45 +20,4 @@ Warning--there's a number but no series in walton15
 Warning--empty publisher in walton15
 Warning--empty journal in wetherill02
 Warning--empty journal in wikipedia16
-You've used 63 entries,
-            2831 wiz_defined-function locations,
-            963 strings with 15103 characters,
-and the built_in function-call counts, 34193 in all, are:
-= -- 3431
-> -- 1101
-< -- 174
-+ -- 307
-- -- 298
-* -- 2880
-:= -- 4663
-add.period$ -- 133
-call.type$ -- 63
-change.case$ -- 461
-chr.to.int$ -- 62
-cite$ -- 74
-duplicate$ -- 1672
-empty$ -- 2546
-format.name$ -- 693
-if$ -- 7111
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 58
-newline$ -- 262
-num.names$ -- 377
-pop$ -- 527
-preamble$ -- 1
-purify$ -- 839
-quote$ -- 0
-skip$ -- 1473
-stack$ -- 0
-substring$ -- 2246
-swap$ -- 473
-text.length$ -- 18
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 1226
-warning$ -- 11
-while$ -- 188
-width$ -- 0
-write$ -- 823
-(There were 3 error messages)
+(There were 2 error messages)
