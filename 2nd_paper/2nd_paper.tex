@@ -87,6 +87,8 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %---adj10: effective (effectiveness)
 %---adj11: advanced (advancement, advantages)
 %---adj12: concise (concisely)
+%---adj13: broad, narrow, specific, typical, particular
+%---adj14: aim (aim), target, is to, 
 
 %--------------------************************---------------------------------------
 
@@ -95,22 +97,25 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 %---noun3: human effort
 %---noun4: outcome, deliverable, result, 
 %---noun5: discipline, agency, organization, stakeholder, partner
-%---noun6: staff, personnel, industry expert, practitioner, academic community, reseachers, professionals, 
+%---noun6: staff, personnel, industry expert, practitioner, academic community, researchers, professionals, 
 %---noun7: stage, phase, 
 %---noun8: process, timeframe, procedure, 
 %---noun9: technology, tool, technique, product, engine, 
+%---noun10: goal, purpose, target, aim, finding, result, 
 
 %--------------------************************---------------------------------------
 
 %---verb1: tackle, resolve, handle, address, foster, amplified; simplified; detect; aggregate; encompass, manifest, envision,  is divided into two, share (shared),  
-%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning), adjust, tailor, accomodate, modify, change, redefine, lead to, cause, 
-%---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration), recognize (recognition)
+%---verb2: affect, impact, influence, trigger, create, transform (transformative), enable (enabler, enabling), allow, support (supporting), ensure, generate (generation), result in, improve, facilitate, underpin (underpinning), adjust, tailor, accommodate, modify, change, redefine, lead to, cause, implicate (implication)
+%---verb3: suggest (suggestion), argue, show, explain (explanation), propose, develop (development), examine (examination), investigate (investigation), infer (inference), interpret (interpretation), deliver (deliverable), indicate (indicator, indication), present, find (finding), explore (exploration), recognize (recognition), recommend (recommendation)
 %---verb4: use, employ, deploy, implement (implementation), utilize, apply (application)
 %---verb5: guide, drive, trend, 
-%---verb6: involve, constitute (functions constituting the process), include, encompass, participate (participation), contribute, exclude, limit, cut
+%---verb6: involve (involvement), constitute (functions constituting the process), include, encompass, participate (participation), contribute, exclude, limit, cut
 %---verb7: require
-%---verb8: refer, relate, mention, enumerate, 
-%---verb9: derive, extract
+%---verb8: refer, relate, mention, enumerate, define, 
+%---verb9: derive, extract (extraction)
+%---verb10: expect, help, 
+%---verb11: divide, classify, 
 
 %--------------------************************---------------------------------------
 
@@ -120,8 +125,9 @@ The proposed methodology was evaluated by conducting an experiment comparing the
 
 %---linking1: thereby, only those concepts that, whereby, lastly, subsequently, accordingly
 %---linking2: technically, basically, theoretically, 
-%---linking3: as reported by the FAA, 
-%---linling4: therefore, thus, as a result, 
+%---linking3: as reported by the FAA, Regarding X, As regards X, In terms of X, In the case of X, With regard to X, With respect to X, In addition, it is important to, From the previous discussion, A comparison of the two results reveals that, This section has reviewed, 
+%---linking4: therefore, thus, as a result, 
+%---linking5: An notable/important example of this, Examples of this include, For example, X is a good illustration for, This can be illustrated by, By way of illustration, Le (2016), 
 
 %--------------------************************---------------------------------------
 
@@ -194,7 +200,7 @@ As shown in the literature review, there is a numerous research efforts in devel
 %Although several automated and semi-automated approaches have been developed, recent knowledge resources are still relied on the manual approach which is mainly hand-coded, laborious/tedious, time-consuming and, and become a bottleneck therefore, still cover only a small portion of the civil infrastructure related concepts and synonyms are not yet included. state of the art for automated classification of construction data have some limitation such as.  But the civil infrastructure are complex with various domain areas, manual process is not able to handle all of these. In addition, ontology These ontologies were developed by manually review domain knowledge and select representation terms for the concepts and assign relations for each pair of terms. some software applications such as Portege can assist in constructing ontology in digital, but mostly all of task performed by developers. As discussed above, since the manual process of dictionary development, the domain dictionaries are currently far below the required scope of vocabularies and achieving the desired size is challenging. Thus, an automated approach that can allow for fast development of highway lexicon instead of relying on hand-coded resources is needed. while the construction projects, especially the civil infrastructure projects, there enormous of process during the life cycle of the project, with the involvement of various project stake holders and organizations, and disciplines, the current process is ad-hoc, developing an extensive taxonomy for the whole project life cycle for different types of assets with consideration the heterogeneity of terms between organizations become challenging. there is demand for a more rigorous method to classify these terms in a formal manner in which both computer and human readable. ontology based on the interact with domain experts of a specific regions the name of concepts is from that regions, thus, equivalent terms are not addressed. 
 %
 \section{Proposed Methodology to Automated Classification of Highway Terms} \label{sec:RoadLex}
-\subsection{Overview of the proposed methodology} \label{sec:proposed_method} %4000 words
+%\subsection{Overview of the proposed methodology} \label{sec:proposed_method} %4000 words
 %todo: revise this figure in respect to a 3 phase process
 \begin{figure}[t]
 	\centering
@@ -437,7 +443,7 @@ The specific objective of this task is to detect the semantic relations among te
 %
 \begin{algorithm}[h]
 	
-	\caption{Near term classification algorithm}\label{alg:term_class}
+	\caption{Semantic relation classification algorithm}\label{alg:term_class}
 	\begin{algorithmic}[1]
 		\State \textbf{Inputs}: term \textit{t}, list of nearest terms \textit{N}, full list of terms \textit{F}
 		\State \textbf{Output:}: Classified list of terms \textit{C}
@@ -599,18 +605,19 @@ The proposed model was also compared with the generic Wordnet database. Table \r
 %
 \section{Discussions} \label{sec:dis}
 %contribution of the research
-the proposed method to construct lexicon for the construction industry enable a quick translation of text documents to lexicon. The application of the method for roadway domain, a large dataset of terminology with more than 6000 terms have been quickly capture and the relations between terms are be able extracted as well. the research is expected to leverage the and scale up the whole infrastructure level to developed a comprehensive machine readable dictionary for the industry which data integrating and sharing systems can eliminate any terminology mismatches when integrating data from multiple sources. 
+This paper proposes an NLP based methodology to assist professionals in extracting roadway terms and their semantic relations from text documents. The proposed method has been applied on a roadway corpus with over 16 million words generates a lexical dataset of more than 6000 terms. The proposed method is expected to become a enabling tool that can help researchers in the domain in developing ontologies and other forms of semantic resources for specific use cases. With respects to the facilitation of semantic interoperability and ambiguous data sharing for the infrastructure sector, the developed platform would help accelerating the process of removing the current bottleneck in extensive machine readable dictionaries which are required for an unambiguous data sharing, integration or exchange. 
 %potential application
 %todo: refer two research related to NLP in which the first step is to develop lexicon, or other semantic similarity algorithm.
+\par
 The lexicon dataset developed in this study is expected to become a fundamental resource for a variety of NLP related studies in the civil infrastructure domains. RoadLex can serve as a machine-readable dictionary of domain technical terms. NLP based platforms can utilize this resource for term sense analysis which is crucial for text mining to extract meaningful information from text documents, information retrieval, or natural language based human-machine interaction. Some specific examples of these potential applications are as follows. First, information retrieval systems can use the semantic relations provided by RoadLex to classify project documents by relevant topics by analyzing the keywords in the documents. Second, questionnaire designers can utilize RoadLex to search for synonyms so that appropriate terms can be selected for specific groups of potential respondents who might be from multiple disciplines or regions. Another application is that the query systems for extracting data from 3D engineered models would be able to find alternative ways to query data when users' keywords do not match any entity in the database. Since users have different ways and keywords to query data, the ability to recognize synonyms and related concepts of a query system would provide flexibility to the end user. Also, the developed RoadLex lexicon would enable the matching data items such as (e.g., cost, productivity, etc.) when integrating data from distinct departments or states to develop a national database. This study is also expected to fundamentally transform the way human interacts with machine as technical terms which are a basic unit of human language can be precisely understood by computer systems. Instead of using computer languages, the end user can use natural language to communicate with computer systems.
 %add discussions
-In order to enable computer to understand human language, a machine-readable dictionary which defines meanings of relevant vocabulary is required. therefore, the developed lexicon can be used by NLP applications for the domain of infrastructure. 
+%In order to enable computer to understand human language, a machine-readable dictionary which defines meanings of relevant vocabulary is required. therefore, the developed lexicon can be used by NLP applications for the domain of infrastructure. 
 \par
 %
 %limitation and potential direction for improvement
-The current study has some limitations that may contribute the low overall performance. First, the highway corpus is still relatively small with only 16 million words, compared to the corpus sizes in other domains with billions of words. Since the recall value largely depends on the corpus size, the expansion of the highway corpus would enable more technical terms to be covered in RoadLex. Future research is needed to enhance the performance of RoadLex by enlarging the data training set in both size and the number of disciplines involved throughout the life cycle of a highway project, such as asset management, project programming, construction management. The corpus also needs to cover other types of transportation assets like bridge, tunnel, railway, culvert, etc. Another work that can potentially improve the model performance is to distinguish synonym and sibling which are still in the same group in the RoadLex system. When these two lexical relations are separated, the possibility of recognizing a wrong synonym will be reduced; and consequently, the precision value would be enhanced.
+The current study has a number of limitations. First, the highway corpus is still relatively small with only 16 million words, compared to the corpus sizes in other domains with billions of words. Since the recall value largely depends on the corpus size, the expansion of the highway corpus would enable more technical terms to be covered in RoadLex. Further work is needed to enhance the performance of RoadLex by enlarging the data training set in both size and the number of disciplines involved throughout the life cycle of a highway project, such as asset management, project programming, construction management. The corpus also needs to cover other types of transportation assets like bridge, tunnel, railway, culvert, etc. Another work that can potentially improve the model performance is to distinguish synonym and sibling which are still in the same group in the RoadLex system. When these two lexical relations are separated, the possibility of recognizing a wrong synonym will be reduced; and consequently, the precision value would be enhanced.
 %
-American-English corpus, 
+%American-English corpus, 
 %add limitation
 %todo: discussion on what is a good precision and f-measure
 %todo: the issue of tow polysymy has not been addressed. synonymy has been addressed. 

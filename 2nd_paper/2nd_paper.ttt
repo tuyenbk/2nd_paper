@@ -27,7 +27,7 @@
 \renewcommand{\arraystretch}{1.25}
 \begin{tabular}{l l l}
 \hline
-\textbf{Term} & \textbf{Termhood} & \textbf{real term?}\\
+\textbf{Term candidate} & \textbf{Termhood} & \textbf{real term?}\\
 \hline
 sight distance & 9435.314 & yes\\
 design speed & 9052.556 & yes \\
@@ -61,7 +61,7 @@ Context window size & 5,10,15\\
 \efloatseparator
  
 \begin{table} [t]
-\caption{Examples of top nearest terms}
+\caption{Examples of top nearest words}
 \label{table:nearest_example}
 \centering
 \small
@@ -138,7 +138,7 @@ roadway &Synonym & highway & 0.588 & 1\\
 \efloatseparator
  
 \begin{table} [b]
-\caption{Effects of training parameters on performance of synonym matching}
+\caption{Performance of the synonym matching task with various training settings}
 \label{table:eval_syn_par_effect}
 \centering
 \small
@@ -146,7 +146,7 @@ roadway &Synonym & highway & 0.588 & 1\\
 \begin{tabular}{l l l l l }
 \hline
 \hline
-\textbf{Parameter} & \textbf{Model} & \textbf{Precision (\%)}  & \textbf{Recall(\%)} & \textbf{F (\%)}\\
+\textbf{Parameter changed} & \textbf{Model} & \textbf{Precision (\%)}  & \textbf{Recall(\%)} & \textbf{F (\%)}\\
 \hline
 Baseline & 50-100-5 &79 &53 &63\\
 \hline
