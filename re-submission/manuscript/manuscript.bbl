@@ -119,6 +119,11 @@ Jiang, J.~J. and Conrath, D.~W. (1997).
 \newblock ``Semantic similarity based on corpus statistics and lexical
   taxonomy.''\ {\em arXiv preprint cmp-lg/9709008}.
 
+\bibitem[\protect\citeauthoryear{}{Jivani et~al.\@}{2011}]{jivani2011stemmer}
+Jivani, A.~G. et~al.\@ (2011).
+\newblock ``A comparative study of stemming algorithms.''\ {\em Int. J. Comp.
+  Tech. Appl}, 2(6), 1930--1938.
+
 \bibitem[\protect\citeauthoryear{}{Justeson and Katz}{1995}]{justeson95}
 Justeson, J.~S. and Katz, S.~M. (1995).
 \newblock ``Technical terminology: some linguistic properties and an algorithm
@@ -244,11 +249,6 @@ Pennington, J., Socher, R., and Manning, C.~D. (2014).
   Methods in Natural Language Processing (EMNLP)},  1532--1543,
   $<$http://www.aclweb.org/anthology/D14-1162$>$.
 
-\bibitem[\protect\citeauthoryear{}{Porter}{1980}]{porter80}
-Porter, M.~F. (1980).
-\newblock ``An algorithm for suffix stripping.''\ {\em Program}, 14(3),
-  130--137.
-
 \bibitem[\protect\citeauthoryear{}{Radim}{2014}]{rehurek14}
 Radim, R. (2014).
 \newblock ``Word2vec tutorial,
@@ -287,6 +287,13 @@ Seedah, D.~P., Sankaran, B., and O?Brien, W.~J. (2015b).
 Sparck~Jones, K. (1972).
 \newblock ``A statistical interpretation of term specificity and its
   application in retrieval.''\ {\em Journal of documentation}, 28(1), 11--21.
+
+\bibitem[\protect\citeauthoryear{}{Suchanek
+  et~al.\@}{2006}]{suchanek2006stemmer}
+Suchanek, F.~M., Ifrim, G., and Weikum, G. (2006).
+\newblock ``Leila: Learning to extract information by linguistic analysis.''\
+  {\em Proceedings of the 2nd Workshop on Ontology Learning and Population:
+  Bridging the Gap between Text and Knowledge},  18--25.
 
 \bibitem[\protect\citeauthoryear{}{Toutanova et~al.\@}{2003}]{Toutanova03}
 Toutanova, K., Klein, D., Manning, C.~D., and Singer, Y. (2003).

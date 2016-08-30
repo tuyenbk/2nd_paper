@@ -6,16 +6,7 @@
 	Publisher = {AASHTO},
 	Title = {Pavement management guide},
 	Year = {2001}}
-	
-@article{jivani2011stemmer,
-  title={A comparative study of stemming algorithms},
-  author={Jivani, Anjali Ganesh and others},
-  journal={Int. J. Comp. Tech. Appl},
-  volume={2},
-  number={6},
-  pages={1930--1938},
-  year={2011}
-}
+
 @Article{abuzir02,
   author =  {Abuzir, Yousef and Abuzir, Moh'D Osama},
   title =   {Constructing the Civil Engineering Thesaurus (CET) Using the ThesWB},
@@ -1848,13 +1839,7 @@ year={1992}
   year =      {2015}
 }
 
-@article{zhang16,
-   author = {Zhang, J. and El-Gohary, N.},
-   title = {Extending Building Information Models Semiautomatically Using Semantic Natural Language Processing Techniques},
-   journal = {Journal of Computing in Civil Engineering},
-   pages = {C4016004},
-   year = {2016}
-}
+@article{zhang16,   author = {Zhang, J. and El-Gohary, N.},   title = {Extending Building Information Models Semiautomatically Using Semantic Natural Language Processing Techniques},   journal = {Journal of Computing in Civil Engineering},   pages = {C4016004},   year = {2016}}
 
 @article{Zhao11,
    author = {Zhao, Hai and Kit, Chunyu},

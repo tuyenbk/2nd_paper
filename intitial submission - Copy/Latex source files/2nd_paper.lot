@@ -1,8 +1,0 @@
-\contentsline {table}{\numberline {1}{\ignorespaces Term candidate filters\relax }}{27}
-\contentsline {table}{\numberline {2}{\ignorespaces Excerpts of the extracted candidate terms\relax }}{28}
-\contentsline {table}{\numberline {3}{\ignorespaces Skip-gram model parameters\relax }}{29}
-\contentsline {table}{\numberline {4}{\ignorespaces Examples of top nearest terms\relax }}{30}
-\contentsline {table}{\numberline {5}{\ignorespaces Patterns to extract attributes and hyponyms\relax }}{31}
-\contentsline {table}{\numberline {6}{\ignorespaces An example in InfraLex\relax }}{32}
-\contentsline {table}{\numberline {7}{\ignorespaces Effects of training parameters on performance of synonym matching\relax }}{33}
-\contentsline {table}{\numberline {8}{\ignorespaces Comparison of synonym matching performance between Wordnet and InfraLex\relax }}{34}
