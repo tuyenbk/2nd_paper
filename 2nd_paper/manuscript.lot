@@ -1,8 +1,8 @@
-\contentsline {table}{\numberline {1}{\ignorespaces Term candidate filters\relax }}{31}
-\contentsline {table}{\numberline {2}{\ignorespaces Excerpts of the extracted candidate terms\relax }}{32}
-\contentsline {table}{\numberline {3}{\ignorespaces Skip-gram model parameters\relax }}{33}
-\contentsline {table}{\numberline {4}{\ignorespaces Examples of top nearest words\relax }}{34}
-\contentsline {table}{\numberline {5}{\ignorespaces Patterns to extract attributes and hyponyms\relax }}{35}
-\contentsline {table}{\numberline {6}{\ignorespaces An example in RoadLex\relax }}{36}
-\contentsline {table}{\numberline {7}{\ignorespaces Performance of the synonym matching task with various training settings\relax }}{37}
-\contentsline {table}{\numberline {8}{\ignorespaces Comparison of synonym matching performance between WordNet and RoadLex\relax }}{38}
+\contentsline {table}{\numberline {1}{\ignorespaces Term candidate filters\relax }}{32}
+\contentsline {table}{\numberline {2}{\ignorespaces Excerpts of the extracted candidate terms\relax }}{33}
+\contentsline {table}{\numberline {3}{\ignorespaces Skip-gram model parameters\relax }}{34}
+\contentsline {table}{\numberline {4}{\ignorespaces Examples of top nearest words\relax }}{35}
+\contentsline {table}{\numberline {5}{\ignorespaces Patterns to extract attributes and hyponyms\relax }}{36}
+\contentsline {table}{\numberline {6}{\ignorespaces An example in RoadLex\relax }}{37}
+\contentsline {table}{\numberline {7}{\ignorespaces Performance of the synonym matching task with various training settings\relax }}{38}
+\contentsline {table}{\numberline {8}{\ignorespaces Comparison of synonym matching performance between WordNet and RoadLex\relax }}{39}

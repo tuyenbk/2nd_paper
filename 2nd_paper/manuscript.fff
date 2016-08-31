@@ -8,8 +8,8 @@
  
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.45\textwidth]{Figure2_term_extraction}
-\caption{Linguistic processing procedure to detect technical terms}
+\includegraphics[width=0.45\textwidth]{Figure2_NP_extraction}
+\caption{Linguistic processing procedure to detect NPs}
 \label{fig:np_detect}
 \end{figure}
 \efloatseparator

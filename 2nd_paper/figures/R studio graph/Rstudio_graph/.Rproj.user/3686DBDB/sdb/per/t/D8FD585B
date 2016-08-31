@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "read.csv('term extraction evaluation.csv')\ndata=read.csv('term extraction evaluation.csv')\nsdata=data[1:6,c('Cvalue','precision')]\nshow(sdata)\nx=data[c(1,2,3,4,5,6,7),1]\nshow(x)\nbarplot(sdata$precision,names=sdata$Cvalue, xlab=\"Cvalue\", ylab=\"Precision(%)\",ylim = c(0,100), las=2, mgp=c(3.1,1,0), cex.lab=1.2, cex.axis = 1.1, cex.names = 1.1)\n\n",
+    "created" : 1472523422697.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1230629501",
+    "id" : "D8FD585B",
+    "lastKnownWriteTime" : 1472531138,
+    "last_content_update" : 1472531138667,
+    "path" : "C:/Users/cceegrad/Google Drive/05. Work/ISU/03.PhD/05.Papers/2nd_paper/2nd_paper/figures/R studio graph/Rstudio_graph/term extraction precision.R",
+    "project_path" : "term extraction precision.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
