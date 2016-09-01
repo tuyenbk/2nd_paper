@@ -110,7 +110,7 @@ Hypernym-hyponym & Noun1 Noun2 & vertical alignment isA alignment\\
 \efloatseparator
  
 \begin{table} [t]
-\caption{An example in RoadLex}
+\caption{An example classified list of nearest terms}
 \label{table:term_clustering}
 \centering
 \small
