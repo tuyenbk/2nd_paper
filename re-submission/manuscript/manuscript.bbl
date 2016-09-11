@@ -13,13 +13,13 @@ Ananiadou, S., Albert, S., and Schuhmann, D. (2000).
 \bibitem[\protect\citeauthoryear{}{Apache.org}{2016}]{apache16}
 Apache.org (2016).
 \newblock ``Machine learning library (mllib),
-  $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$\ (March).
+  $<$https://spark.apache.org/docs/1.1.0/mllib-guide.html$>$.
 
 \bibitem[\protect\citeauthoryear{}{buildingSMART}{2016}]{buildingsmartData}
 buildingSMART (2016).
 \newblock ``buildingsmart data dictionary,
   $<$http://bsdd.buildingsmart.org/$>$.
-\newblock Accessed: March 15, 2016.
+\newblock (Accessed: March 15, 2016).
 
 \bibitem[\protect\citeauthoryear{}{Cambria and White}{2014}]{Cambria14}
 Cambria, E. and White, B. (2014).
@@ -148,8 +148,8 @@ Lee, T., Wang, Z., Wang, H., and Hwang, S.-w. (2013).
 
 \bibitem[\protect\citeauthoryear{}{Lefler}{2014}]{lefler14}
 Lefler, N.~X. (2014).
-\newblock ``Roadway safety data interoperability between local and state
-  agencies.''\ {\em Report no.}
+\newblock ``Nchrp synthesis 458: Roadway safety data interoperability between
+  local and state agencies.''\ {\em Report no.}, Transportation Research Board.
 
 \bibitem[\protect\citeauthoryear{}{Lesk}{1986}]{Lesk86}
 Lesk, M. (1986).
@@ -323,7 +323,8 @@ Webster, J.~J. and Kit, C. (1992).
 \bibitem[\protect\citeauthoryear{}{Wetherill et~al.\@}{2002}]{wetherill02}
 Wetherill, M., Rezgui, Y., Lima, C., and Zarli, A. (2002).
 \newblock ``Knowledge management for the construction industry: the e-cognos
-  project.
+  project.''\ {\em Journal of Information Technology in Construction (ITCon)},
+  7, 183--196.
 
 \bibitem[\protect\citeauthoryear{}{Wikipedia}{2016}]{wikipedia16}
 Wikipedia (2016).

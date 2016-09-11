@@ -165,7 +165,7 @@ Hidden layer size &50-\underline{200}-5 &79 &53 &63\\
 \efloatseparator
  
 \begin{table} [b]
-\caption{Comparison of synonym matching performance between WordNet and RoadLex}
+\caption{Comparison of synonym matching performance between WordNet and proposed system}
 \label{table:eval_syn_vs_Wordnet}
 \centering
 \small

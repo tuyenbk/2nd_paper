@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "data <- read.csv(\"term extraction evaluation.csv\")\n",
+    "created" : 1472523381334.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2496245482",
+    "id" : "687DBC4A",
+    "lastKnownWriteTime" : 1472523413,
+    "last_content_update" : 1472523413145,
+    "path" : "C:/Users/cceegrad/Google Drive/05. Work/ISU/03.PhD/05.Papers/2nd_paper/2nd_paper/figures/R studio graph/Rstudio_graph/Term extraction evaluation.R",
+    "project_path" : "Term extraction evaluation.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
